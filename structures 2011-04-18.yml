@@ -1,0 +1,141 @@
+- :name: :zio
+  :branches:
+    - :id: 1
+      :type: :task
+      :name: "Разработка РКД"        
+    - :id: 2
+      :type: :task
+      :name: "Разработка ТД"
+    - :id: 3
+      :type: :milestone
+      :name: "Выпуск ПМЗ"
+    - :id: 4
+      :type: :milestone
+      :name: "Разработка технологической оснастки"
+    - :id: 5
+      :type: :milestone
+      :name: "Выпуск МС на технологическую оснастку"
+    - :id: 6
+      :type: :milestone
+      :name: "Выпуск МС на детальную опись"
+    - :id: 7
+      :type: :task
+      :name: "Выдача спецификации материалов в производство"
+    - :id: 8
+      :type: :task
+      :name: "Выдача материалов для производства оснастки"
+    - :id: 9
+      :type: :task
+      :name: "Выдача основных материалов в поризводство"
+    - :id: 10
+      :type: :task
+      :name: "Изготовление технологической оснастки"
+    - :id: 11
+      :type: :task
+      :name: "Специфические работы"
+    - :id: 12
+      :type: :task
+      :name: "Изготовление"
+    - :id: 13
+      :type: :task
+      :name: "Транспортировка"
+    - :id: 14
+      :type: :task
+      :name: "Акт сдачи-приемки"
+  :relationships:
+    - :id_start: 1
+      :id_finish: 2
+      :type: :FS
+    - :id_start: 2
+      :id_finish: 3
+      :type: :SF
+    - :id_start: 2
+      :id_finish: 4
+      :type: :FS
+    - :id_start: 2
+      :id_finish: 6
+      :type: :FS
+    - :id_start: 2
+      :id_finish: 7
+      :type: :FS
+      :delay: 30
+    - :id_start: 2
+      :id_finish: 9
+      :type: :FS
+      :delay: 30
+    - :id_start: 4
+      :id_finish: 5
+      :type: :FS
+    - :id_start: 4
+      :id_finish: 8
+      :type: :FS
+      :delay: 22
+    - :id_start: 7
+      :id_finish: 11
+      :type: :FS
+    - :id_start: 8
+      :id_finish: 10
+      :type: :FS
+    - :id_start: 9
+      :id_finish: 12
+      :type: :FS
+    - :id_start: 10
+      :id_finish: 12
+      :type: :FS
+    - :id_start: 12
+      :id_finish: 13
+      :type: :FS
+    - :id_start: 13
+      :id_finish: 14
+      :type: :FS
+- :name: :other
+  :branches:
+    - :id: 1
+      :type: :task
+      :name: "Разработка КМ (или РКД, ТЗ)"
+    - :id: 2
+      :type: :task
+      :name: "Выпуск МС (на давальческое сырье)"
+    - :id: 3
+      :type: :task
+      :name: "Выдача в производство материалов для изготовления \"заготовок\""
+    - :id: 4
+      :type: :task
+      :name: "Изготовление \"заготовок\""
+    - :id: 5
+      :type: :task
+      :name: "Процедура закупки на пордукцию"
+    - :id: 6
+      :type: :task
+      :name: "Согласование, заключение договора"
+    - :id: 7
+      :type: :task
+      :name: "Поставка продукции"
+    - :id: 8
+      :type: :task
+      :name: "Акт сдачи-приемки"
+  :relationships:
+    - :id_start: 1
+      :id_finish: 2
+      :type: :SS
+    - :id_start: 1
+      :id_finish: 5
+      :type: :FS
+    - :id_start: 5
+      :id_finish: 6
+      :type: :FS
+    - :id_start: 6
+      :id_finish: 3
+      :type: :FS
+    - :id_start: 3
+      :id_finish: 4
+      :type: :FS
+    - :id_start: 4
+      :id_finish: 7
+      :type: :FS
+    - :id_start: 6
+      :id_finish: 7
+      :type: :FS
+    - :id_start: 7
+      :id_finish: 8
+      :type: :FS

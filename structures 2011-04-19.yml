@@ -1,0 +1,91 @@
+- :name: :zio
+  :branches:
+    - :id: 1
+      :type: :task
+      :name: "Разработка РКД"  
+      :duration: 1440      
+    - :id: 2
+      :type: :task
+      :name: "Разработка ТД"
+      :duration: 336
+    - :id: 3
+      :type: :task
+      :name: "Выпуск ПМЗ"    
+      :duration: 168
+    - :id: 6
+      :type: :milestone
+      :name: "Выпуск МС"
+    - :id: 9
+      :type: :task
+      :name: "Выдача основных материалов в поризводство"
+      :duration: 168
+    - :id: 12
+      :type: :task
+      :name: "Изготовление"
+      :duration: 1440
+    - :id: 13
+      :type: :task
+      :name: "Транспортировка"
+      :duration: 24
+    - :id: 14
+      :type: :task
+      :name: "Акт сдачи-приемки"
+      :duration: 24
+  :relationships:
+    - :id_start: 1
+      :id_finish: 2
+      :type: :FS
+    - :id_start: 1
+      :id_finish: 3
+      :type: :SS
+    - :id_start: 2
+      :id_finish: 6
+      :type: :FS
+    - :id_start: 6
+      :id_finish: 9
+      :type: :FS
+      :delay: 1080
+    - :id_start: 9
+      :id_finish: 12
+      :type: :FS
+    - :id_start: 12
+      :id_finish: 13
+      :type: :FS
+    - :id_start: 13
+      :id_finish: 14
+      :type: :FS
+- :name: :other
+  :branches:
+    - :id: 1
+      :type: :task
+      :name: "Разработка КМ (или РКД, ТЗ)"
+      :duration: 528
+    - :id: 5
+      :type: :task
+      :name: "Конкурсная процедура"
+      :duration: 24
+    - :id: 6
+      :type: :task
+      :name: "Согласование, заключение договора"
+      :duration: 24
+    - :id: 7
+      :type: :task
+      :name: "Поставка продукции"
+      :duration: 24
+    - :id: 8
+      :type: :task
+      :name: "Акт сдачи-приемки"
+      :duration: 24
+  :relationships:
+    - :id_start: 1
+      :id_finish: 5
+      :type: :FS
+    - :id_start: 5
+      :id_finish: 6
+      :type: :FS
+    - :id_start: 6
+      :id_finish: 7
+      :type: :FS
+    - :id_start: 7
+      :id_finish: 8
+      :type: :FS
