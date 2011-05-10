@@ -6,33 +6,16 @@ require 'rubygems'
 require 'rexml/document'  # http://ruby.inuse.ru/article/obrabotka-xml-xpath-i-xsl-transformacii-v-ruby
 require 'yaml'
 
+require_relative 'environment.rb'
+
+require_relative 'active_record/project.rb'
+require_relative 'active_record/task.rb'
+require_relative 'active_record/code_type.rb'
+require_relative 'active_record/code.rb'
+require_relative 'active_record/task_code.rb'
+
 include REXML
 
-# загружаем файл environment.rb настройки и соединение с БД
-require File.join( File.dirname(__FILE__), 'config/environment.rb' )
-
-class Project < ActiveRecord::Base
-    has_many :tasks
-end
-
-class Task < ActiveRecord::Base
-    belongs_to :project
-    has_many :codes, :through => :task_codes
-end
-
-class CodeType < ActiveRecord::Base
-    has_many :codes   
-end
-
-class Code < ActiveRecord::Base
-    belongs_to :code_type
-    has_many :tasks, :through => :task_codes
-end
-
-class TaskCode < ActiveRecord::Base
-    belongs_to :task
-    belongs_to :code
-end
 
 xmlfile = File.new( "../input/91.2711.xml" ) 
 xmldoc = Document.new( xmlfile )

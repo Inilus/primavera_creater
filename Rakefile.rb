@@ -1,4 +1,4 @@
-require_relative 'lib/config/environment.rb'
+require_relative 'lib/environment.rb'
  
 # Документация по rake docs.rubyrake.org/
 # namespace -- rake.rubyforge.org/classes/Rake/NameSpace.html
