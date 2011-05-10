@@ -6,6 +6,8 @@ require 'rubygems'
 require 'rexml/document'  # http://ruby.inuse.ru/article/obrabotka-xml-xpath-i-xsl-transformacii-v-ruby
 require 'yaml'
 
+include REXML
+
 # загружаем файл environment.rb настройки и соединение с БД
 require File.join( File.dirname(__FILE__), 'config/environment.rb' )
 
