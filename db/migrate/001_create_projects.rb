@@ -7,6 +7,7 @@ class CreateProjects < ActiveRecord::Migration
       table.column :short_name, :string
       table.column :name, :string
       table.column :start_date, :string
+      table.column :type, :string
     end
   end
  

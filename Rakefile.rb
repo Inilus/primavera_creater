@@ -1,4 +1,4 @@
-require_relative 'lib/environment.rb'
+require_relative 'app/environment.rb'
  
 # Документация по rake docs.rubyrake.org/
 # namespace -- rake.rubyforge.org/classes/Rake/NameSpace.html
@@ -12,6 +12,6 @@ namespace :db do
     # migrations_path = lib/db/migrate
     # target_version =  ENV["VERSION"] ? ENV["VERSION"].to_i : nil
     # миграция запускается как rake db:migrate VERSION=номер_версии
-    ActiveRecord::Migrator.migrate('lib/db/migrate', ENV["VERSION"] ? ENV["VERSION"].to_i : nil )
+    ActiveRecord::Migrator.migrate('db/migrate', ENV["VERSION"] ? ENV["VERSION"].to_i : nil )
   end
 end

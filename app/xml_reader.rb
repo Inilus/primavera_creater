@@ -17,8 +17,8 @@ require_relative 'active_record/task_code.rb'
 
 
 @xmldoc = Nokogiri::XML(File.open("input/91.2711-dev.xml"))
-root = @xmldoc.xpath("//PRODUCTS")
-puts "Root element : " + root.attribute("type")
+
+puts "Root element : " + @xmldoc.xpath("//PRODUCTS").attribute("type")
 
 @xmldoc.xpath("//PRODUCTS/PRODUCT").each do |product|
   puts product.attribute("name")
