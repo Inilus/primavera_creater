@@ -1,0 +1,3449 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PRODUCTS type="PVD">
+	<PRODUCT structure="" id="100000425000063" id_parent="-1" name="Подогреватель высокого давления ПВД-К-7" do="91.2711" plot="91.2711СБ" qty="1" route_full="7-7Т-7-7Т-7-3-7">
+		<ROUTES>
+			<ROUTE num="1" name="07 " num_operations="5-10.1-10.2-15-20.1-20.2-25-30.1-30.2-35-45-50-55-60-65-70.1-70.2-75-80-85-90-95-100.1-100.2-105-110.1-110.2-115-120-125-130-135-140-145-150-155-160-165-170.1-170.2-175-180-185-190-195.1-195.2-200.1-200.2-205-210-215-220-221" labor_units="0" duration="" shrm="805      -530      -805      -530      -530      -535      -043      -805      -311      -804      -530      -530      -311      -805      -530      -535      -530      -336      -812      -805      -871      -805      -805      -530      -861      -336      -530      -542      -805      -133      -336      " labor_units_shrm="0-25-15-0-4-0,5-0-2-4-10-10-0-3-0-0-2-0,5-0-2,5-4-0-0-2-0,5-0-0,4-6-2-0-0-0,1-0-6-0-16-0-16-0-20-15-4-12-0-0-40-160-28-20-30-0-0-0-0"/>
+			<ROUTE num="2" name="07Т"/>
+			<ROUTE num="3" name="07 " num_operations="225-230-235-240.1-240.2-245-250.1-250.2-255-260-265-270.1-270.2-275-280.1-280.2-285-290-295-300-305-310-315-320-325-330-335-340-345-350-355-360-365-370-375-380-385.1-385.2-390-395-400" labor_units="0" duration="0" shrm="804      -805      -530      -530      -541      -336      -805      -530      -530      -535      -336      -805      -871      -043      -953      -804      -805      -805      -891      -804      -805      -535      -805      " labor_units_shrm="40-0-0-8-5-0-30-60-15-0-0-3-0-0-1,8-5-4-0-0-6-0-48-25-12,5-0-0-9,66666666666666-0-8-0-6-0-15-0-8-0-6-1,5-0-15-0"/>
+			<ROUTE num="4" name="07Т"/>
+			<ROUTE num="5" name="07 "/>
+			<ROUTE num="6" name="03 "/>
+			<ROUTE num="7" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00190" id="100000336900063" id_parent="100000425000063" name="Прокладка" do="91.2711" plot="91.0871.006" qty="4" route_full="ОСК-7-26-7">
+		<ROUTES>
+			<ROUTE num="1" name="ОСК"/>
+			<ROUTE num="2" name="07 "/>
+			<ROUTE num="3" name="26 " num_operations="5-40-45-50-55" labor_units="0" duration="" shrm="012      -801      " labor_units_shrm="0-0,86444444444444-0-0,43222222222222-0"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00190" id="100000559200024" id_parent="100000425000063" name="Скоба" do="91.2711" plot="91.2525.003" qty="1" route_full="25-5Ш-26-7">
+		<MATERIAL id="100001019400001" name="ЛИСТ Б-ПН-О-10 ГОСТ 19903-74/СТ3СП5-СВ ГОСТ 14637-89" weight="5,2"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="05Ш"/>
+			<ROUTE num="3" name="26 "/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00190" id="100000559100024" id_parent="100000425000063" name="ШПИЛЬКА М42" do="91.2711" plot="91.2525.002" qty="20" route_full="26-8Т-26-7">
+		<MATERIAL id="100000096100029" name="КРУГ В1-III-45 ГОСТ 2590-2006/38ХН3МФА-2-Т ГОСТ 4543-71" weight="62"/>
+		<ROUTES>
+			<ROUTE num="1" name="26 "/>
+			<ROUTE num="2" name="08Т"/>
+			<ROUTE num="3" name="26 "/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00190" id="100000562000024" id_parent="100000425000063" name="ШАЙБА 42" do="91.2711" plot="91.2525.016" qty="20" route_full="26-7">
+		<MATERIAL id="100000075000029" name="КРУГ В1-III-90 ГОСТ 2590-2006/20-2ГП-М1-ГС-ТО ГОСТ 1050-88" weight="17"/>
+		<ROUTES>
+			<ROUTE num="1" name="26 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00190" id="100000560900024" id_parent="100000425000063" name="ГАЙКА М42" do="91.2711" plot="91.2525.015" qty="20" route_full="26-8Т-26-7">
+		<MATERIAL id="100000096700029" name="КРУГ В1-III-75 ГОСТ 2590-2006/38ХН3МФА-2-Т ГОСТ 4543-71" weight="38"/>
+		<ROUTES>
+			<ROUTE num="1" name="26 "/>
+			<ROUTE num="2" name="08Т"/>
+			<ROUTE num="3" name="26 "/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	<PRODUCT structure="00190" id="100000559200024" id_parent="100000425000063" name="Скоба" do="91.2711" plot="91.2525.003" qty="1" route_full="25-5Ш-26-7">
+		<MATERIAL id="100001019400001" name="ЛИСТ Б-ПН-О-10 ГОСТ 19903-74/СТ3СП5-СВ ГОСТ 14637-89" weight="5,2"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="05Ш"/>
+			<ROUTE num="3" name="26 "/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT></PRODUCT>
+	<PRODUCT structure="00190" id="100000559400024" id_parent="100000425000063" name="Штуцер" do="91.2711" plot="91.2525.005" qty="1" route_full="26-8Т-26-7">
+		<MATERIAL id="100000074000029" name="КРУГ В1-III-36 ГОСТ 2590-2006/20-2ГП-М1-ГС-ТО ГОСТ 1050-88" weight="1,64"/>
+		<ROUTES>
+			<ROUTE num="1" name="26 "/>
+			<ROUTE num="2" name="08Т"/>
+			<ROUTE num="3" name="26 "/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00190" id="100000565300024" id_parent="100000425000063" name="Кронштейн" do="91.2711" plot="91.2525.020" qty="1" route_full="14-8П-14-8Т-8П-14-26-7">
+		<MATERIAL id="100000074700029" name="КРУГ В1-III-70 ГОСТ 2590-2006/20-2ГП-М1-ГС-ТО ГОСТ 1050-88" weight="66,46"/>
+		<ROUTES>
+			<ROUTE num="1" name="14 "/>
+			<ROUTE num="2" name="08П"/>
+			<ROUTE num="3" name="14 "/>
+			<ROUTE num="4" name="08Т"/>
+			<ROUTE num="5" name="08П"/>
+			<ROUTE num="6" name="14 "/>
+			<ROUTE num="7" name="26 "/>
+			<ROUTE num="8" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00190" id="100000565400024" id_parent="100000425000063" name="Хомут" do="91.2711" plot="91.2525.021" qty="1" route_full="8-8П-7">
+		<MATERIAL id="100000073100029" name="КРУГ В1-II-16 ГОСТ 2590-2006/20-2ГП-М1-ГС-ТО ГОСТ 1050-88" weight="0,3"/>
+		<ROUTES>
+			<ROUTE num="1" name="08 "/>
+			<ROUTE num="2" name="08П"/>
+			<ROUTE num="3" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00190" id="100000565500024" id_parent="100000425000063" name="Серьга" do="91.2711" plot="91.2525.022" qty="1" route_full="8-8Т-8П-26-7">
+		<MATERIAL id="100000073100029" name="КРУГ В1-II-16 ГОСТ 2590-2006/20-2ГП-М1-ГС-ТО ГОСТ 1050-88" weight="0,25"/>
+		<ROUTES>
+			<ROUTE num="1" name="08 "/>
+			<ROUTE num="2" name="08Т"/>
+			<ROUTE num="3" name="08П"/>
+			<ROUTE num="4" name="26 "/>
+			<ROUTE num="5" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00190" id="100000565600024" id_parent="100000425000063" name="Втулка" do="91.2711" plot="91.2525.023" qty="1" route_full="25-26-7">
+		<MATERIAL id="100003194900001" name="ЛИСТ ПН-О-16 ГОСТ 19903-74/СТ3СП5-СВ ГОСТ 14637-89" weight="0,9"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="26 "/>
+			<ROUTE num="3" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00190" id="100000566000024" id_parent="100000425000063" name="Труба" do="91.2711" plot="91.2525.024" qty="1" route_full="2К-26-7">
+		<MATERIAL id="100003957400001" name="ТРУБА Г 89*6 /20 ТУ 14-3Р-55-2001" weight="3"/>
+		<ROUTES>
+			<ROUTE num="1" name="02К"/>
+			<ROUTE num="2" name="26 "/>
+			<ROUTE num="3" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00190" id="100000566100024" id_parent="100000425000063" name="Шпилька" do="91.2711" plot="91.2525.025" qty="1" route_full="26-7">
+		<MATERIAL id="100000073100029" name="КРУГ В1-II-16 ГОСТ 2590-2006/20-2ГП-М1-ГС-ТО ГОСТ 1050-88" weight="0,35"/>
+		<ROUTES>
+			<ROUTE num="1" name="26 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00200" id="100000545400024" id_parent="100000425000063" name="Крышка люка" do="91.2711" plot="91.2525.05СБ" qty="1" route_full="7">
+		<ROUTES>
+			<ROUTE num="1" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00190" id="100000545500024" id_parent="100000545400024" name="Крышка" do="91.2711" plot="91.2525.05.001" qty="1" route_full="ОМ-26-7">
+		<ROUTES>
+			<ROUTE num="1" name="26 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00190" id="100000545600024" id_parent="100000545400024" name="Ручка" do="91.2711" plot="91.2525.05.002" qty="2" route_full="8-8П-7">
+		<MATERIAL id="100000073000029" name="КРУГ В1-II-12 ГОСТ 2590-2006/20-2ГП-М1-ГС-ТО ГОСТ 1050-88" weight="0,71"/>
+		<ROUTES>
+			<ROUTE num="1" name="08 "/>
+			<ROUTE num="2" name="08П"/>
+			<ROUTE num="3" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00150" id="-100000335700063" id_parent="100000425000063" name="Днище в сборе" do="91.2711" plot="91.0871 Ч.3" qty="1" route_full="ОМ-35-26-25-ЦЗЛ-8Т-8П-ОСК-33-3-7">
+		<ROUTES>
+			<ROUTE num="1" name="35 "/>
+			<ROUTE num="2" name="26 "/>
+			<ROUTE num="3" name="25 "/>
+			<ROUTE num="4" name="ЦЗЛ"/>
+			<ROUTE num="5" name="08Т"/>
+			<ROUTE num="6" name="08П"/>
+			<ROUTE num="7" name="ОСК"/>
+			<ROUTE num="8" name="33 "/>
+			<ROUTE num="9" name="03 "/>
+			<ROUTE num="10" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00150" id="100000335700063" id_parent="-100000335700063" name="Днище в сборе" do="91.2711" plot="91.0871.03СБ" qty="1" route_full="3-7;ОМ-7">
+		<ROUTES>
+			<ROUTE num="1" name="03 "/>
+			<ROUTE num="2" name="07 "/>
+			<ROUTE num="3" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00140" id="100000343000063" id_parent="100000335700063" name="Штуцер" do="91.2711" plot="91.0871.03.002" qty="1" route_full="26-8т-26-3">
+		<MATERIAL id="100000074400029" name="КРУГ В1-III-56 ГОСТ 2590-2006/20-2ГП-М1-ГС-ТО ГОСТ 1050-88" weight="3,1177"/>
+		<ROUTES>
+			<ROUTE num="1" name="26 "/>
+			<ROUTE num="2" name="08Т"/>
+			<ROUTE num="3" name="26 "/>
+			<ROUTE num="4" name="03 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000341000063" id_parent="100000335700063" name="Прочие детали и материалы" do="91.2711" plot="" qty="1" route_full=""/>
+	<PRODUCT structure="" id="100000341100063" id_parent="100000341000063" name="Материалы для использования на монтаже" do="91.2711" plot="" qty="1" route_full=""/>
+	<PRODUCT structure="" id="100000341300063" id_parent="100000341000063" name="Материалы для гидроиспытаний" do="91.2711" plot="" qty="1" route_full=""/>
+	<PRODUCT structure="" id="100000341400063" id_parent="100000341000063" name="Материалы для технологических целей" do="91.2711" plot="" qty="1" route_full=""/>
+	<PRODUCT structure="" id="100000343100063" id_parent="100000341400063" name="Бирка 63х63" do="91.2711" plot="91.0871.03.301" qty="1" route_full="25-3">
+		<MATERIAL id="100003481600001" name="ЛИСТ БТ-ПН-О-1 ГОСТ 19904-90/08КП-II-Г ГОСТ 24244-80" weight="0,33"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="03 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000341500063" id_parent="100000341000063" name="Материалы для упаковки" do="91.2711" plot="" qty="1" route_full=""/>
+	<PRODUCT structure="" id="100000341600063" id_parent="100000341000063" name="Вспомогательные материалы" do="91.2711" plot="" qty="1" route_full=""/>
+	<PRODUCT structure="" id="100000341200063" id_parent="100000341000063" name="Материалы для контрольных проб и образцов" do="91.2711" plot="" qty="1" route_full=""/>
+	<PRODUCT structure="" id="100000251800026" id_parent="100000341200063" name="Круг (L=100мм)" do="91.2711" plot="91.0871.03.300" qty="1" route_full="26-8Т-ЦЗЛ">
+		<MATERIAL id="100000074400029" name="КРУГ В1-III-56 ГОСТ 2590-2006/20-2ГП-М1-ГС-ТО ГОСТ 1050-88" weight="2,0347"/>
+		<ROUTES>
+			<ROUTE num="1" name="26 "/>
+			<ROUTE num="2" name="08Т"/>
+			<ROUTE num="3" name="ЦЗЛ"/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000341700063" id_parent="100000341000063" name="Материалы для запчастей" do="91.2711" plot="" qty="1" route_full=""/>
+	<PRODUCT structure="" id="100000341800063" id_parent="100000341000063" name="Материалы не входящие в поставку ЗИО" do="91.2711" plot="" qty="1" route_full=""/>
+	<PRODUCT structure="00140" id="100000342900063" id_parent="100000335700063" name="Днище" do="91.2711" plot="91.0871.03.001" qty="1" route_full="ОМ-3-33-3-33-3-33-3-8Т-8П-33-3-33-3">
+		<MATERIAL id="100001383200029" name="ПОКОВКА 22К КП215 ГР.III 270С ТКО&lt;=20С УЗК ТУ 302.02.092-90" weight="13272"/>
+		<ROUTES>
+			<ROUTE num="1" name="03 " num_operations="5-10-15-20-21" labor_units="0" duration="" shrm="804      -530      " labor_units_shrm="12-0-152-0-0"/>
+			<ROUTE num="2" name="33 " num_operations="5-10-15-20-25-30-35-37" labor_units="0" duration="" shrm="032      -812      -811      " labor_units_shrm="0-0-40-0,5-0-0,035-0-0"/>
+			<ROUTE num="3" name="03 " num_operations="25-30-35.1-35.2-40-45-50-51" labor_units="0" duration="" shrm="530      -804      -032      " labor_units_shrm="2-0-22-20-0-0-0-0"/>
+			<ROUTE num="4" name="33 " num_operations="40-45-50-55-57" labor_units="0" duration="" shrm="032      -812      " labor_units_shrm="0-22-0,5-0-0"/>
+			<ROUTE num="5" name="03 " num_operations="55-60" labor_units="0" duration="0" shrm="" labor_units_shrm="0-0"/>
+			<ROUTE num="6" name="33 " num_operations="60-65-70-71" labor_units="0" duration="" shrm="032      " labor_units_shrm="0-16-0-0"/>
+			<ROUTE num="7" name="03 "/>
+			<ROUTE num="8" name="08Т"/>
+			<ROUTE num="9" name="08П"/>
+			<ROUTE num="10" name="33 " num_operations="100-105-110-111" labor_units="0" duration="" shrm="032      " labor_units_shrm="0-12-0-0"/>
+			<ROUTE num="11" name="03 "/>
+			<ROUTE num="12" name="33 " num_operations="135-140-145" labor_units="0" duration="0" shrm="032      " labor_units_shrm="0-40-0"/>
+			<ROUTE num="13" name="03 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00120" id="-100000170000026" id_parent="100000425000063" name="Корпус" do="91.2711" plot="91.1650 Ч.3" qty="1" route_full="14-33-35-ОСК-3-8Т-8П-7-26-ОМ-25-25Г-5Ш-8">
+		<ROUTES>
+			<ROUTE num="1" name="14 "/>
+			<ROUTE num="2" name="33 "/>
+			<ROUTE num="3" name="35 "/>
+			<ROUTE num="4" name="ОСК"/>
+			<ROUTE num="5" name="03 "/>
+			<ROUTE num="6" name="08Т"/>
+			<ROUTE num="7" name="08П"/>
+			<ROUTE num="8" name="07 "/>
+			<ROUTE num="9" name="26 "/>
+			<ROUTE num="10" name="25 "/>
+			<ROUTE num="11" name="25Г"/>
+			<ROUTE num="12" name="05Ш"/>
+			<ROUTE num="13" name="08 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00120" id="100000170000026" id_parent="-100000170000026" name="Корпус" do="91.2711" plot="91.1650.02СБ" qty="1" route_full="7-3-7-3-8Т-8П-7;30-3-30-3-8Т-8П-30">
+		<ROUTES>
+			<ROUTE num="1" name="07 "/>
+			<ROUTE num="2" name="03 "/>
+			<ROUTE num="3" name="07 "/>
+			<ROUTE num="4" name="03 "/>
+			<ROUTE num="5" name="08Т"/>
+			<ROUTE num="6" name="08П"/>
+			<ROUTE num="7" name="07 "/>
+			<ROUTE num="8" name="30 "/>
+			<ROUTE num="9" name="03 "/>
+			<ROUTE num="10" name="30 "/>
+			<ROUTE num="11" name="03 "/>
+			<ROUTE num="12" name="08Т"/>
+			<ROUTE num="13" name="08П"/>
+			<ROUTE num="14" name="30 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00110" id="100000328400063" id_parent="100000170000026" name="Штуцер" do="91.2711" plot="91.0871.02.006" qty="1" route_full="26-8Т-26-7;26-8Т-26-30">
+		<MATERIAL id="100000074400029" name="КРУГ В1-III-56 ГОСТ 2590-2006/20-2ГП-М1-ГС-ТО ГОСТ 1050-88" weight="3,0846"/>
+		<ROUTES>
+			<ROUTE num="1" name="26 " num_operations="5-5-5-5-5-5-5-5-15-15-15-15-15-15-15-15-20-20-20-20-20-20-20-20-25-25-25-25-25-25-25-25-40-40-40-40-40-40-40-40-41-41-41-41-41-41-41-41" labor_units="0" duration="" shrm="222      -222      -222      -222      -222      -222      -222      -222      -811      -811      -811      -811      -811      -811      -811      -811      " labor_units_shrm="0-0-0-0-0-0-0-0-0,03194444444444-0,03194444444444-0,03194444444444-0,03194444444444-0,03194444444444-0,03194444444444-0,03194444444444-0,03194444444444-0-0-0-0-0-0-0-0-0,02-0,02-0,02-0,02-0,02-0,02-0,02-0,02-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0"/>
+			<ROUTE num="2" name="08Т"/>
+			<ROUTE num="3" name="26 " num_operations="45-45-45-45-45-45-45-45-50-50-50-50-50-50-50-50-55-55-55-55-55-55-55-55-60-60-60-60-60-60-60-60-70-70-70-70-70-70-70-70-75-75-75-75-75-75-75-75-90-90-90-90-90-90-90-90-95-95-95-95-95-95-95-95" labor_units="0" duration="0" shrm="013      -013      -013      -013      -013      -013      -013      -013      -811      -811      -811      -811      -811      -811      -811      -811      -013      -013      -013      -013      -013      -013      -013      -013      " labor_units_shrm="0-0-0-0-0-0-0-0-0,27-0,27-0,27-0,27-0,27-0,27-0,27-0,27-0-0-0-0-0-0-0-0-0,035-0,035-0,035-0,035-0,035-0,035-0,035-0,035-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0,55-0,55-0,55-0,55-0,55-0,55-0,55-0,55-0-0-0-0-0-0-0-0"/>
+			<ROUTE num="4" name="07 "/>
+			<ROUTE num="5" name="26 "/>
+			<ROUTE num="6" name="08Т"/>
+			<ROUTE num="7" name="26 "/>
+			<ROUTE num="8" name="30 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00110" id="100000328600063" id_parent="100000170000026" name="Бобышка" do="91.2711" plot="91.0871.02.010" qty="4" route_full="26-8Т-26-7;26-8Т-26-30">
+		<MATERIAL id="100000075000029" name="КРУГ В1-III-90 ГОСТ 2590-2006/20-2ГП-М1-ГС-ТО ГОСТ 1050-88" weight="23,13"/>
+		<ROUTES>
+			<ROUTE num="1" name="26 " num_operations="5-5-15-15-20-20-25-25-27-27" labor_units="0" duration="" shrm="222      -222      -811      -811      " labor_units_shrm="0-0-0,84777777777777-0,84777777777777-0,32-0,32-0-0-0-0"/>
+			<ROUTE num="2" name="08Т"/>
+			<ROUTE num="3" name="26 " num_operations="30-30-35-35-40-40-50-50-55-55-60-60-65-65" labor_units="0" duration="0" shrm="013      -013      -013      -013      -811      -811      " labor_units_shrm="0-0-4,8-4,8-0-0-8-8-0-0-0,56-0,56-0-0"/>
+			<ROUTE num="4" name="07 "/>
+			<ROUTE num="5" name="26 "/>
+			<ROUTE num="6" name="08Т"/>
+			<ROUTE num="7" name="26 "/>
+			<ROUTE num="8" name="30 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00110" id="100000172200026" id_parent="100000170000026" name="Обечайка" do="91.2711" plot="91.1650.02.003" qty="1" route_full="25-26-7;25-26-30">
+		<MATERIAL id="100003287400001" name="ЛИСТ 22К-40-КП215-ГР.III-270С,ТКО&lt;=40С,УЗК ТУ 302.02.092-90" weight="9570"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="26 "/>
+			<ROUTE num="3" name="07 "/>
+			<ROUTE num="4" name="25 "/>
+			<ROUTE num="5" name="26 "/>
+			<ROUTE num="6" name="30 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00110" id="100000172300026" id_parent="100000170000026" name="Обечайка" do="91.2711" plot="91.1650.02.004" qty="1" route_full="25-26-7;25-26-30">
+		<MATERIAL id="100003287400001" name="ЛИСТ 22К-40-КП215-ГР.III-270С,ТКО&lt;=40С,УЗК ТУ 302.02.092-90" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="26 "/>
+			<ROUTE num="3" name="07 "/>
+			<ROUTE num="4" name="25 "/>
+			<ROUTE num="5" name="26 "/>
+			<ROUTE num="6" name="30 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00110" id="100000172400026" id_parent="100000170000026" name="Обечайка" do="91.2711" plot="91.1650.02.005" qty="1" route_full="25-26-7;25-26-30">
+		<MATERIAL id="100003287500001" name="ЛИСТ 22К-45-КП215-ГР.III-270С,ТКО&lt;=40С,УЗК ТУ 302.02.092-90" weight="13321"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="26 "/>
+			<ROUTE num="3" name="07 "/>
+			<ROUTE num="4" name="25 "/>
+			<ROUTE num="5" name="26 "/>
+			<ROUTE num="6" name="30 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00110" id="100000329700063" id_parent="100000170000026" name="Кольцо" do="91.2711" plot="91.1085.02.013" qty="1" route_full="25-25Г-25-26-25-26-7;25-25Г-25-26-25-26-30">
+		<MATERIAL id="100003600800001" name="ЛИСТ Б-ПН-О-12 ГОСТ 19903-74/08Х18Н10Т-М3Б ГОСТ 7350-77" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="25Г"/>
+			<ROUTE num="3" name="25 "/>
+			<ROUTE num="4" name="26 "/>
+			<ROUTE num="5" name="25 "/>
+			<ROUTE num="6" name="26 "/>
+			<ROUTE num="7" name="07 "/>
+			<ROUTE num="8" name="25 "/>
+			<ROUTE num="9" name="25Г"/>
+			<ROUTE num="10" name="25 "/>
+			<ROUTE num="11" name="26 "/>
+			<ROUTE num="12" name="25 "/>
+			<ROUTE num="13" name="26 "/>
+			<ROUTE num="14" name="30 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00110" id="100000329800063" id_parent="100000170000026" name="Штуцер" do="91.2711" plot="91.1085.02.014" qty="1" route_full="26-7;26-30">
+		<MATERIAL id="100003960000001" name="ТРУБА Г 159*25 /20 ТУ 14-3Р-55-2001" weight="16,57"/>
+		<ROUTES>
+			<ROUTE num="1" name="26 " num_operations="5-10-15-20-21" labor_units="0" duration="" shrm="222      -811      " labor_units_shrm="0-0,07194444444444-0,02-0-0"/>
+			<ROUTE num="2" name="07 "/>
+			<ROUTE num="3" name="26 "/>
+			<ROUTE num="4" name="30 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00110" id="100000331300063" id_parent="100000170000026" name="Кольцо подкладное" do="91.2711" plot="91.1085.02.015" qty="1" route_full="26-7;26-30">
+		<MATERIAL id="100003746300001" name="ТРУБА Г 121*8 /20 ТУ 14-3-190-2004" weight="1,2"/>
+		<ROUTES>
+			<ROUTE num="1" name="26 " num_operations="5-10-30-35-40-45-50-55-60" labor_units="0" duration="" shrm="222      -811      -013      -811      " labor_units_shrm="0-0-0,07194444444444-0,02-0-0,15-0-0,035-0"/>
+			<ROUTE num="2" name="07 "/>
+			<ROUTE num="3" name="26 "/>
+			<ROUTE num="4" name="30 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00110" id="100000172500026" id_parent="100000170000026" name="Обечайка" do="91.2711" plot="91.1650.02.006" qty="1" route_full="25-26-7;25-26-30">
+		<MATERIAL id="100003287500001" name="ЛИСТ 22К-45-КП215-ГР.III-270С,ТКО&lt;=40С,УЗК ТУ 302.02.092-90" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="26 "/>
+			<ROUTE num="3" name="07 "/>
+			<ROUTE num="4" name="25 "/>
+			<ROUTE num="5" name="26 "/>
+			<ROUTE num="6" name="30 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00110" id="100001079000024" id_parent="100000170000026" name="Штуцер" do="91.2711" plot="91.2525.02.017" qty="1" route_full="26-8Т-26-7;26-8Т-26-30">
+		<MATERIAL id="100000074000029" name="КРУГ В1-III-36 ГОСТ 2590-2006/20-2ГП-М1-ГС-ТО ГОСТ 1050-88" weight="1,7"/>
+		<ROUTES>
+			<ROUTE num="1" name="26 "/>
+			<ROUTE num="2" name="08Т"/>
+			<ROUTE num="3" name="26 "/>
+			<ROUTE num="4" name="07 "/>
+			<ROUTE num="5" name="26 "/>
+			<ROUTE num="6" name="08Т"/>
+			<ROUTE num="7" name="26 "/>
+			<ROUTE num="8" name="30 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000170600026" id_parent="100000170000026" name="Прочие детали и материалы " do="91.2711" plot="" qty="1" route_full=""/>
+	<PRODUCT structure="" id="100000171000026" id_parent="100000170600026" name="Материалы для упаковки" do="91.2711" plot="" qty="1" route_full=""/>
+	<PRODUCT structure="" id="100000170800026" id_parent="100000170600026" name="Материалы для контрольных проб и образцов" do="91.2711" plot="" qty="1" route_full=""/>
+	<PRODUCT structure="" id="100000173600026" id_parent="100000170800026" name="ЛИСТ (150Х350)" do="91.2711" plot="91.1650.309" qty="1" route_full="25-7;25-30">
+		<MATERIAL id="100003601000001" name="ЛИСТ ПН-О-16 ГОСТ 19903-74/08Х18Н10Т-М3Б ГОСТ 7350-77" weight="8,1"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="07 "/>
+			<ROUTE num="3" name="25 "/>
+			<ROUTE num="4" name="30 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000252000026" id_parent="100000170800026" name="Круг (L=100мм)" do="91.2711" plot="91.1650.02.300" qty="2" route_full="26-8Т-ЦЗЛ">
+		<MATERIAL id="100000074400029" name="КРУГ В1-III-56 ГОСТ 2590-2006/20-2ГП-М1-ГС-ТО ГОСТ 1050-88" weight="4,5"/>
+		<ROUTES>
+			<ROUTE num="1" name="26 " num_operations="5-15-20-25-30" labor_units="0" duration="" shrm="222      -811      " labor_units_shrm="0-0,12-0-0,14-0"/>
+			<ROUTE num="2" name="08Т"/>
+			<ROUTE num="3" name="ЦЗЛ"/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000252100026" id_parent="100000170800026" name="Круг (L=200мм)" do="91.2711" plot="91.1650.02.301" qty="2" route_full="26-8Т-ЦЗЛ">
+		<MATERIAL id="100000074000029" name="КРУГ В1-III-36 ГОСТ 2590-2006/20-2ГП-М1-ГС-ТО ГОСТ 1050-88" weight="3,5324"/>
+		<ROUTES>
+			<ROUTE num="1" name="26 " num_operations="5-15-20-25-30" labor_units="0" duration="" shrm="222      -811      " labor_units_shrm="0-0,08-0-0,14-0"/>
+			<ROUTE num="2" name="08Т"/>
+			<ROUTE num="3" name="ЦЗЛ"/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000252200026" id_parent="100000170800026" name="Круг (L=100мм)" do="91.2711" plot="91.1650.02.302" qty="2" route_full="26-8Т-ЦЗЛ">
+		<MATERIAL id="100000075000029" name="КРУГ В1-III-90 ГОСТ 2590-2006/20-2ГП-М1-ГС-ТО ГОСТ 1050-88" weight="11,6"/>
+		<ROUTES>
+			<ROUTE num="1" name="26 " num_operations="5-15-20-25-30" labor_units="0" duration="" shrm="222      -811      " labor_units_shrm="0-0,21222222222222-0-0,14-0"/>
+			<ROUTE num="2" name="08Т"/>
+			<ROUTE num="3" name="ЦЗЛ"/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000252300026" id_parent="100000170800026" name="ЛИСТ (150Х200)" do="91.2711" plot="91.1650.02.304" qty="1" route_full="25-8Т-ЦЗЛ">
+		<MATERIAL id="100003287400001" name="ЛИСТ 22К-40-КП215-ГР.III-270С,ТКО&lt;=40С,УЗК ТУ 302.02.092-90" weight="13"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="08Т"/>
+			<ROUTE num="3" name="ЦЗЛ"/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000252400026" id_parent="100000170800026" name="ЛИСТ (150Х200)" do="91.2711" plot="91.1650.02.305" qty="1" route_full="25-8Т-ЦЗЛ">
+		<MATERIAL id="100003287500001" name="ЛИСТ 22К-45-КП215-ГР.III-270С,ТКО&lt;=40С,УЗК ТУ 302.02.092-90" weight="14,6"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="08Т"/>
+			<ROUTE num="3" name="ЦЗЛ"/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000252500026" id_parent="100000170800026" name="ЛИСТ (150Х200)" do="91.2711" plot="91.1650.02.306" qty="1" route_full="25-5Ш-8Т-ЦЗЛ">
+		<MATERIAL id="100003287600001" name="ЛИСТ 22К-50-КП215-ГР.III-270С,ТКО&lt;=40С,УЗК ТУ 302.02.092-90" weight="16,3"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="05Ш"/>
+			<ROUTE num="3" name="08Т"/>
+			<ROUTE num="4" name="ЦЗЛ"/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000252700026" id_parent="100000170800026" name="Труба (L200мм)" do="91.2711" plot="91.1650.02.308" qty="1" route_full="26-8Т-ЦЗЛ">
+		<MATERIAL id="100003915800001" name="ТРУБА Г 219*36 /20 ТУ 14-3Р-55-2001" weight="38,9"/>
+		<ROUTES>
+			<ROUTE num="1" name="26 " num_operations="5-15-20-25-30" labor_units="0" duration="" shrm="222      -811      " labor_units_shrm="0-0,23-0-0,035-0"/>
+			<ROUTE num="2" name="08Т"/>
+			<ROUTE num="3" name="ЦЗЛ"/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000252600026" id_parent="100000170800026" name="Труба (L=200мм)" do="91.2711" plot="91.1650.02.307" qty="1" route_full="26-8Т-ЦЗЛ">
+		<MATERIAL id="100003960000001" name="ТРУБА Г 159*25 /20 ТУ 14-3Р-55-2001" weight="19,8"/>
+		<ROUTES>
+			<ROUTE num="1" name="26 " num_operations="5-15-20-25-30" labor_units="0" duration="" shrm="222      -811      " labor_units_shrm="0-0,09194444444444-0-0,035-0"/>
+			<ROUTE num="2" name="08Т"/>
+			<ROUTE num="3" name="ЦЗЛ"/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000176000026" id_parent="100000170800026" name="ЛИСТ (150Х500)" do="91.2711" plot="91.1650.310" qty="1" route_full="25-7;25-30">
+		<MATERIAL id="100003233000001" name="ЛИСТ ПН-О-32 ГОСТ 19903-74/09Г2С-18-ТО ГОСТ 5520-79" weight="22,8"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="07 "/>
+			<ROUTE num="3" name="25 "/>
+			<ROUTE num="4" name="30 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000176100026" id_parent="100000170800026" name="ЛИСТ (150Х500)" do="91.2711" plot="91.1650.311" qty="1" route_full="25">
+		<MATERIAL id="100003287200001" name="ЛИСТ 22К-32-КП215-ГР.III-270С,ТКО&lt;=40С,УЗК ТУ 302.02.092-90" weight="22,8"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000170700026" id_parent="100000170600026" name="Материалы для гидроиспытаний" do="91.2711" plot="" qty="1" route_full=""/>
+	<PRODUCT structure="" id="100000170900026" id_parent="100000170600026" name="Материалы для использования на монтаже" do="91.2711" plot="" qty="1" route_full=""/>
+	<PRODUCT structure="" id="100000171100026" id_parent="100000170600026" name="Материалы для технологических целей" do="91.2711" plot="" qty="1" route_full=""/>
+	<PRODUCT structure="" id="100000176200026" id_parent="100000171100026" name="Кольцо подкладное" do="91.2711" plot="91.1650.02.01.004" qty="2" route_full="26-7;26-30">
+		<MATERIAL id="100000759891001" name="ТРУБА Г 159*8 /20 ТУ 14-3Р-55-2001" weight="6,3"/>
+		<ROUTES>
+			<ROUTE num="1" name="26 " num_operations="5-15-20-25-30-35-40-65-70" labor_units="0" duration="" shrm="222      -811      -012      -811      " labor_units_shrm="0-0,36777777777777-0-0,08-0-1-0-0,14-0"/>
+			<ROUTE num="2" name="07 "/>
+			<ROUTE num="3" name="26 "/>
+			<ROUTE num="4" name="30 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000179090024" id_parent="100000171100026" name="Планка технологическая 300х150" do="91.2711" plot="91.1650.02.102" qty="20" route_full="25-7;25-30">
+		<MATERIAL id="100003202200001" name="ЛИСТ ПН-О-30 ГОСТ 19903-74/СТ3ГСП5-СВ ГОСТ 14637-89" weight="250"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="07 "/>
+			<ROUTE num="3" name="25 "/>
+			<ROUTE num="4" name="30 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000173700026" id_parent="100000171100026" name="Бирка 63х63" do="91.2711" plot="91.1650.02.100" qty="10" route_full="25-26">
+		<MATERIAL id="100003481600001" name="ЛИСТ БТ-ПН-О-1 ГОСТ 19904-90/08КП-II-Г ГОСТ 24244-80" weight="0,35"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="26 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000171200026" id_parent="100000170600026" name="Вспомогательные материалы" do="91.2711" plot="" qty="1" route_full=""/>
+	<PRODUCT structure="" id="100000171300026" id_parent="100000170600026" name="Материалы для запчастей" do="91.2711" plot="" qty="1" route_full=""/>
+	<PRODUCT structure="" id="100000171400026" id_parent="100000170600026" name="Материалы, не входящие в поставку ЗИО" do="91.2711" plot="" qty="1" route_full=""/>
+	<PRODUCT structure="00110" id="100000172100026" id_parent="100000170000026" name="Штуцер в сборе" do="91.2711" plot="91.1650.02.02СБ" qty="1" route_full="7;30">
+		<ROUTES>
+			<ROUTE num="1" name="07 "/>
+			<ROUTE num="2" name="30 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00110" id="100000174400026" id_parent="100000172100026" name="Обечайка" do="91.2711" plot="91.1650.02.02.004" qty="1" route_full="8-8П-14-8-8Т-26-7;8-8П-14-8-8Т-26-30">
+		<MATERIAL id="100000057000029" name="КВАДРАТ В1-III-200 ГОСТ 2591-2006/08Х18Н10Т-А-Т ГОСТ 5949-75" weight="94"/>
+		<ROUTES>
+			<ROUTE num="1" name="08 "/>
+			<ROUTE num="2" name="08П"/>
+			<ROUTE num="3" name="14 " num_operations="5-5-15-15-20-20-30-30" labor_units="0.47194444" duration="0.47194444" shrm="804      -804      -815      -815      -815      -815      -222      -222      " labor_units_shrm="0,11305555555555-0,11305555555555-0,16-0,16-0,11-0,11-0,47194444444444-0,47194444444444"/>
+			<ROUTE num="4" name="08 "/>
+			<ROUTE num="5" name="08Т"/>
+			<ROUTE num="6" name="26 " num_operations="5-5-7-7-10-10-35-35-40-40-45-45-50-50-55-55-60-60" labor_units="0" duration="" shrm="014      -014      -811      -811      -014      -014      " labor_units_shrm="0-0-0-0-0-0-2-2-0,035-0,035-0-0-0-0-2,5-2,5-0-0"/>
+			<ROUTE num="7" name="07 "/>
+			<ROUTE num="8" name="08 "/>
+			<ROUTE num="9" name="08П"/>
+			<ROUTE num="10" name="14 "/>
+			<ROUTE num="11" name="08 "/>
+			<ROUTE num="12" name="08Т"/>
+			<ROUTE num="13" name="26 "/>
+			<ROUTE num="14" name="30 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00110" id="100000174500026" id_parent="100000172100026" name="Труба" do="91.2711" plot="91.1650.02.02.005" qty="1" route_full="26-7;26-30">
+		<MATERIAL id="100003860700001" name="ТРУБА Г 273Х20 /08Х18Н10Т ТУ 14-3Р-197-2001" weight="34,372"/>
+		<ROUTES>
+			<ROUTE num="1" name="26 " num_operations="5-10-15-20-25-30-35-40-45-50-55-60-65-70-75-80-85" labor_units="0" duration="0" shrm="222      -811      -014      -812      -062      -142      -801      -811      " labor_units_shrm="0-0-0-0,6-0,035-0-1,8-0-2-0-6-0-32-0,5-0-0,035-0"/>
+			<ROUTE num="2" name="07 "/>
+			<ROUTE num="3" name="26 "/>
+			<ROUTE num="4" name="30 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00110" id="100000174600026" id_parent="100000172100026" name="Заглушка" do="91.2711" plot="91.1650.02.02.006" qty="1" route_full="25-25Г-25-33-7;25-25Г-25-33-30">
+		<MATERIAL id="100003601000001" name="ЛИСТ ПН-О-16 ГОСТ 19903-74/08Х18Н10Т-М3Б ГОСТ 7350-77" weight="11,5"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="25Г"/>
+			<ROUTE num="3" name="25 "/>
+			<ROUTE num="4" name="33 "/>
+			<ROUTE num="5" name="07 "/>
+			<ROUTE num="6" name="25 "/>
+			<ROUTE num="7" name="25Г"/>
+			<ROUTE num="8" name="25 "/>
+			<ROUTE num="9" name="33 "/>
+			<ROUTE num="10" name="30 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00110" id="100000174100026" id_parent="100000172100026" name="Донышко" do="91.2711" plot="91.1650.02.02.001" qty="1" route_full="8-8П-14-8-8Т-26-7;8-8П-14-8-8Т-26-30">
+		<MATERIAL id="100001393100001" name="КВАДРАТ 250-08Х18Н10Т ТУ 14-1-748-73" weight="240"/>
+		<ROUTES>
+			<ROUTE num="1" name="08 "/>
+			<ROUTE num="2" name="08П"/>
+			<ROUTE num="3" name="14 " num_operations="5-5-15-15-20-20-30-30" labor_units="0.67194444" duration="0.67194444" shrm="804      -804      -815      -815      -815      -815      -222      -222      " labor_units_shrm="0,11305555555555-0,11305555555555-0,16-0,16-0,11-0,11-0,67194444444444-0,67194444444444"/>
+			<ROUTE num="4" name="08 "/>
+			<ROUTE num="5" name="08Т"/>
+			<ROUTE num="6" name="26 " num_operations="5-5-10-10-15-15-20-20-25-25-30-30-35-35-40-40-45-45" labor_units="0" duration="" shrm="014      -014      -811      -811      -014      -014      " labor_units_shrm="0-0-0-0-0-0-3,5-3,5-0,035-0,035-0-0-0-0-2-2-0-0"/>
+			<ROUTE num="7" name="07 "/>
+			<ROUTE num="8" name="08 "/>
+			<ROUTE num="9" name="08П"/>
+			<ROUTE num="10" name="14 "/>
+			<ROUTE num="11" name="08 "/>
+			<ROUTE num="12" name="08Т"/>
+			<ROUTE num="13" name="26 "/>
+			<ROUTE num="14" name="30 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00110" id="100000174200026" id_parent="100000172100026" name="Обечайка" do="91.2711" plot="91.1650.02.02.002" qty="1" route_full="8-8П-14-8-8Т-26-7;8-8П-14-8-8Т-26-30">
+		<MATERIAL id="100000057000029" name="КВАДРАТ В1-III-200 ГОСТ 2591-2006/08Х18Н10Т-А-Т ГОСТ 5949-75" weight="156"/>
+		<ROUTES>
+			<ROUTE num="1" name="08 "/>
+			<ROUTE num="2" name="08П"/>
+			<ROUTE num="3" name="14 " num_operations="5-5-15-15-20-20-30-30" labor_units="0.47194444" duration="0.47194444" shrm="804      -804      -815      -815      -815      -815      -222      -222      " labor_units_shrm="0,11305555555555-0,11305555555555-0,16-0,16-0,11-0,11-0,47194444444444-0,47194444444444"/>
+			<ROUTE num="4" name="08 "/>
+			<ROUTE num="5" name="08Т"/>
+			<ROUTE num="6" name="26 " num_operations="5-5-7-7-10-10-35-35-40-40-45-45-50-50-55-55-60-60" labor_units="0" duration="" shrm="014      -014      -811      -811      -014      -014      " labor_units_shrm="0-0-0-0-0-0-3,5-3,5-0,035-0,035-0-0-0-0-0,7-0,7-0-0"/>
+			<ROUTE num="7" name="07 "/>
+			<ROUTE num="8" name="08 "/>
+			<ROUTE num="9" name="08П"/>
+			<ROUTE num="10" name="14 "/>
+			<ROUTE num="11" name="08 "/>
+			<ROUTE num="12" name="08Т"/>
+			<ROUTE num="13" name="26 "/>
+			<ROUTE num="14" name="30 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00110" id="100000174300026" id_parent="100000172100026" name="Труба" do="91.2711" plot="91.1650.02.02.003" qty="1" route_full="26-25-26-7-26-7-26-7-26-7-26-7;26-25-26-30-26-30-26-30-26-30-26-30">
+		<MATERIAL id="100000753491001" name="ТРУБА Г 325*48 /20 ТУ 14-3Р-55-2001" weight="51,7"/>
+		<ROUTES>
+			<ROUTE num="1" name="26 "/>
+			<ROUTE num="2" name="25 "/>
+			<ROUTE num="3" name="26 "/>
+			<ROUTE num="4" name="07 " num_operations="5-5-10-10-15-15-20-20-25.1-25.1-25.2-25.2-30-30-35-35-40.1-40.1-40.2-40.2-45-45-50-50-55-55-60-60-65-65-70-70-75-75-80-80-85-85" labor_units="0" duration="0" shrm="804      -804      -804      -804      -530      -530      -804      -804      -336      -336      -530      -530      -336      -336      -804      -804      -815      -815      " labor_units_shrm="0,1-0,1-0-0-0,2-0,2-0-0-2,5-2,5-1-1-0,75-0,75-0-0-5-5-1-1-0-0-0-0-0-0-0-0-0,2-0,2-0-0-0-0-0,05-0,05-0-0"/>
+			<ROUTE num="5" name="26 "/>
+			<ROUTE num="6" name="07 "/>
+			<ROUTE num="7" name="26 "/>
+			<ROUTE num="8" name="07 "/>
+			<ROUTE num="9" name="26 "/>
+			<ROUTE num="10" name="07 "/>
+			<ROUTE num="11" name="26 "/>
+			<ROUTE num="12" name="07 "/>
+			<ROUTE num="13" name="26 "/>
+			<ROUTE num="14" name="25 "/>
+			<ROUTE num="15" name="26 "/>
+			<ROUTE num="16" name="30 "/>
+			<ROUTE num="17" name="26 "/>
+			<ROUTE num="18" name="30 "/>
+			<ROUTE num="19" name="26 "/>
+			<ROUTE num="20" name="30 "/>
+			<ROUTE num="21" name="26 "/>
+			<ROUTE num="22" name="30 "/>
+			<ROUTE num="23" name="26 "/>
+			<ROUTE num="24" name="30 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00110" id="100000329500063" id_parent="100000170000026" name="Гильза" do="91.2711" plot="91.1085.02.011" qty="1" route_full="25-25Г-25-7;25-25Г-25-30">
+		<MATERIAL id="100003600800001" name="ЛИСТ Б-ПН-О-12 ГОСТ 19903-74/08Х18Н10Т-М3Б ГОСТ 7350-77" weight="237"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="25Г"/>
+			<ROUTE num="3" name="25 "/>
+			<ROUTE num="4" name="07 "/>
+			<ROUTE num="5" name="25 "/>
+			<ROUTE num="6" name="25Г"/>
+			<ROUTE num="7" name="25 "/>
+			<ROUTE num="8" name="30 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00110" id="100000328000063" id_parent="100000170000026" name="Цапфа" do="91.2711" plot="91.0871.02.01СБ" qty="2" route_full="7;30">
+		<ROUTES>
+			<ROUTE num="1" name="07 "/>
+			<ROUTE num="2" name="30 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00110" id="100000331500063" id_parent="100000328000063" name="Обечайка" do="91.2711" plot="91.0871.02.01.001" qty="2" route_full="25-26-7;25-26-30">
+		<MATERIAL id="100001020300001" name="ЛИСТ ПН-О-14 ГОСТ 19903-74/СТ3СП5-СВ ГОСТ 14637-89" weight="370,4"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="26 "/>
+			<ROUTE num="3" name="07 "/>
+			<ROUTE num="4" name="25 "/>
+			<ROUTE num="5" name="26 "/>
+			<ROUTE num="6" name="30 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00110" id="100000331600063" id_parent="100000328000063" name="Фланец" do="91.2711" plot="91.0871.02.01.002" qty="2" route_full="25-26-7;25-26-30">
+		<MATERIAL id="100003202000001" name="ЛИСТ ПН-О-30 ГОСТ 19903-74/СТ3ГПС5-СВ ГОСТ 14637-89" weight="422"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="26 "/>
+			<ROUTE num="3" name="07 "/>
+			<ROUTE num="4" name="25 "/>
+			<ROUTE num="5" name="26 "/>
+			<ROUTE num="6" name="30 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00110" id="100000331700063" id_parent="100000328000063" name="Косынка" do="91.2711" plot="91.0871.02.01.003" qty="16" route_full="25-7;25-30">
+		<MATERIAL id="100003194500001" name="ЛИСТ Б-ПН-О-12 ГОСТ 19903-74/СТ3СП5-СВ ГОСТ 14637-89" weight="1824"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="07 "/>
+			<ROUTE num="3" name="25 "/>
+			<ROUTE num="4" name="30 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00110" id="100000331800063" id_parent="100000328000063" name="Ребро" do="91.2711" plot="91.0871.02.01.004" qty="4" route_full="25-26-7;25-26-30">
+		<MATERIAL id="100003194500001" name="ЛИСТ Б-ПН-О-12 ГОСТ 19903-74/СТ3СП5-СВ ГОСТ 14637-89" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="26 "/>
+			<ROUTE num="3" name="07 "/>
+			<ROUTE num="4" name="25 "/>
+			<ROUTE num="5" name="26 "/>
+			<ROUTE num="6" name="30 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00110" id="100000172000026" id_parent="100000170000026" name="Днище в сборе" do="91.2711" plot="91.1650.02.01СБ" qty="1" route_full="7-26-7;30-26-30">
+		<ROUTES>
+			<ROUTE num="1" name="07 "/>
+			<ROUTE num="2" name="26 "/>
+			<ROUTE num="3" name="07 "/>
+			<ROUTE num="4" name="30 "/>
+			<ROUTE num="5" name="26 "/>
+			<ROUTE num="6" name="30 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00110" id="100000173900026" id_parent="100000172000026" name="Днище" do="91.2711" plot="91.1650.02.01.001" qty="1" route_full="25-5Ш-25-5Ш-25-26-8Т-8П-25-26-25-26-7;25-5Ш-25-5Ш-25-26-8Т-8П-25-26-25-26-30">
+		<MATERIAL id="100003287600001" name="ЛИСТ 22К-50-КП215-ГР.III-270С,ТКО&lt;=40С,УЗК ТУ 302.02.092-90" weight="5457,3"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="05Ш"/>
+			<ROUTE num="3" name="25 "/>
+			<ROUTE num="4" name="05Ш"/>
+			<ROUTE num="5" name="25 "/>
+			<ROUTE num="6" name="26 "/>
+			<ROUTE num="7" name="08Т"/>
+			<ROUTE num="8" name="08П"/>
+			<ROUTE num="9" name="25 "/>
+			<ROUTE num="10" name="26 "/>
+			<ROUTE num="11" name="25 "/>
+			<ROUTE num="12" name="26 "/>
+			<ROUTE num="13" name="07 "/>
+			<ROUTE num="14" name="25 "/>
+			<ROUTE num="15" name="05Ш"/>
+			<ROUTE num="16" name="25 "/>
+			<ROUTE num="17" name="05Ш"/>
+			<ROUTE num="18" name="25 "/>
+			<ROUTE num="19" name="26 "/>
+			<ROUTE num="20" name="08Т"/>
+			<ROUTE num="21" name="08П"/>
+			<ROUTE num="22" name="25 "/>
+			<ROUTE num="23" name="26 "/>
+			<ROUTE num="24" name="25 "/>
+			<ROUTE num="25" name="26 "/>
+			<ROUTE num="26" name="30 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00110" id="100000174000026" id_parent="100000172000026" name="Штуцер" do="91.2711" plot="91.1650.02.01.003" qty="2" route_full="26-7;26-30">
+		<MATERIAL id="100003915800001" name="ТРУБА Г 219*36 /20 ТУ 14-3Р-55-2001" weight="97,8"/>
+		<ROUTES>
+			<ROUTE num="1" name="26 " num_operations="5-15-20-25-30-55-60-65-70-100-105-110-115-120" labor_units="0" duration="" shrm="222      -811      -012      -811      -812      -142      -801      " labor_units_shrm="0-0,6-0-0,08-0-8,4-0-0,14-0-1,1-0-11,6-1,2-0"/>
+			<ROUTE num="2" name="07 "/>
+			<ROUTE num="3" name="26 "/>
+			<ROUTE num="4" name="30 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00110" id="100000333100063" id_parent="100000172000026" name="Патрубок" do="91.2711" plot="91.1085.02.03.002" qty="1" route_full="ОМ-26-7;ОМ-26-30">
+		<MATERIAL id="100000739100006" name="Поковка 22К КП215 ГР.III 270С ТКО&lt;=40С УЗК ТУ 302.02.092-90" weight="118,4"/>
+		<ROUTES>
+			<ROUTE num="1" name="26 "/>
+			<ROUTE num="2" name="07 "/>
+			<ROUTE num="3" name="26 "/>
+			<ROUTE num="4" name="30 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00110" id="100000329300063" id_parent="100000170000026" name="Патрубок" do="91.2711" plot="91.1085.02.009" qty="1" route_full="ОМ-26-7-26-7-26-7-26-7;ОМ-26-30-26-30-26-30-26-30">
+		<MATERIAL id="100000739100006" name="Поковка 22К КП215 ГР.III 270С ТКО&lt;=40С УЗК ТУ 302.02.092-90" weight="108,4"/>
+		<ROUTES>
+			<ROUTE num="1" name="26 " num_operations="5-5-10-10-15-15-20-20-25-25-27-27" labor_units="0" duration="" shrm="014      -014      -811      -811      " labor_units_shrm="0-0-0-0-6-6-0,05-0,05-0-0-0-0"/>
+			<ROUTE num="2" name="07 "/>
+			<ROUTE num="3" name="26 " num_operations="30-30-35-35-40-40-41-41" labor_units="0" duration="" shrm="014      -014      " labor_units_shrm="0-0-2,8-2,8-0-0-0-0"/>
+			<ROUTE num="4" name="07 "/>
+			<ROUTE num="5" name="26 " num_operations="45-45-50-50-55-55-57-57" labor_units="0" duration="" shrm="014      -014      " labor_units_shrm="0-0-6,8-6,8-0-0-0-0"/>
+			<ROUTE num="6" name="07 "/>
+			<ROUTE num="7" name="26 " num_operations="60-60-65-65-70-70-75-75-80-80-85-85" labor_units="0" duration="0" shrm="812      -812      -142      -142      -801      -801      " labor_units_shrm="0-0-1-1-0-0-8,8-8,8-0,3-0,3-0-0"/>
+			<ROUTE num="8" name="07 "/>
+			<ROUTE num="9" name="26 "/>
+			<ROUTE num="10" name="30 "/>
+			<ROUTE num="11" name="26 "/>
+			<ROUTE num="12" name="30 "/>
+			<ROUTE num="13" name="26 "/>
+			<ROUTE num="14" name="30 "/>
+			<ROUTE num="15" name="26 "/>
+			<ROUTE num="16" name="30 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00200" id="100000073100079" id_parent="100000425000063" name="Табличка фирменная" do="91.2711" plot="91.2300.07СБ" qty="1" route_full="7">
+		<ROUTES>
+			<ROUTE num="1" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00190" id="100000145100047" id_parent="100000073100079" name="ЗАКЛЁПКА 3Х10 АД1 ГОСТ 14838-78" do="91.2711" plot="ГОСТ 10299-80" qty="6" route_full="ОСК-7">
+		<ROUTES>
+			<ROUTE num="1" name="ОСК"/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00190" id="100000082300079" id_parent="100000073100079" name="Табличка" do="91.2711" plot="91.2300.07.001" qty="1" route_full="25-26-7">
+		<MATERIAL id="100003623800001" name="ЛИСТ БТ-ПН-О-3 ГОСТ 19904-90/08Х18Н10Т-М2А ГОСТ 5582-75" weight="1,19"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="26 "/>
+			<ROUTE num="3" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00190" id="100000082400079" id_parent="100000073100079" name="Основание" do="91.2711" plot="91.2300.07.002" qty="1" route_full="25-5Ш-26-7">
+		<MATERIAL id="100003318100001" name="ЛИСТ Б-ПН-О-3 ГОСТ 19903-74/ОК370В-5-III-СТ3СП-СВ ГОСТ 16523-97" weight="2,75"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="05Ш"/>
+			<ROUTE num="3" name="26 "/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00180" id="100000335500063" id_parent="100000425000063" name="Опора" do="91.2711" plot="91.0401.04СБ" qty="1" route_full="7-8Т-8П-26-7">
+		<ROUTES>
+			<ROUTE num="1" name="07 " num_operations="5-10-15-20.1-20.2-25-30.1-30.2-35-40-45.1-45.2-50-55.1-55.2-60-65-70-75-80" labor_units="0" duration="" shrm="805      -805      -530      -536      -530      -311      -805      -530      -530      -536      -311      -812      " labor_units_shrm="0-1-0-2-1,5-0-16-6-1-0-4-2-0-8-20-3-0-0,05-0-0"/>
+			<ROUTE num="2" name="08Т"/>
+			<ROUTE num="3" name="08П" num_operations="5" labor_units="1.26333333" duration="0.42111111" shrm="692      " labor_units_shrm="1,26333333333333"/>
+			<ROUTE num="4" name="26 " num_operations="1-5-10" labor_units="0" duration="" shrm="032      " labor_units_shrm="0-8-0"/>
+			<ROUTE num="5" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00170" id="100000340500063" id_parent="100000335500063" name="Кольцо опорное" do="91.2711" plot="91.0401.04.001" qty="1" route_full="5-5Ш-26-7">
+		<MATERIAL id="100001026200001" name="ЛИСТ ПН-О-60 ГОСТ 19903-74/СТ3СП2-СВ ГОСТ 14637-89" weight="5670"/>
+		<ROUTES>
+			<ROUTE num="1" name="05 " num_operations="10-45-60-85-90-115-120-286-320.1-320.2-325-330-340.1-340.2-350.1-350.2-355-360-405-410" labor_units="0.04805556" duration="0.04805556" shrm="815      -815      -556      -801      -311      -530      -311      -111      -804      -804      -530      -311      -542      -861      -311      -542      -861      -311      -311      -815      " labor_units_shrm="1,79222222222222-0,25555555555555-23,69555555555555-3,83666666666666-1,72777777777777-3,84-3,2-104,52-1,02166666666666-1,02166666666666-0,14555555555555-0,05722222222222-0,90361111111111-0,11833333333333-0,38388888888888-50,99-0,16-0,57611111111111-0,02305555555555-0,04805555555555"/>
+			<ROUTE num="2" name="05Ш" num_operations="5" labor_units="5.4" duration="2.7" shrm="368      " labor_units_shrm="5,4"/>
+			<ROUTE num="3" name="26 " num_operations="1-15-20-25-27-40" labor_units="0" duration="" shrm="812      -063      -801      " labor_units_shrm="0-0,7-0-2,3-0,4-0"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00170" id="100000340600063" id_parent="100000335500063" name="Обечайка" do="91.2711" plot="91.0401.04.002" qty="1" route_full="25-7">
+		<MATERIAL id="100003202200001" name="ЛИСТ ПН-О-30 ГОСТ 19903-74/СТ3ГСП5-СВ ГОСТ 14637-89" weight="1060"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 " num_operations="10-15.1-15.2-26-30-45-50-55-60.1-60.2-70-80.1-80.2-85-90-100-110-120-125-140.1-140.2-145.1-145.2-150.1-150.2-155-160-170-180-190-195-210.1-210.2-220" labor_units="0.6" duration="0.6" shrm="801      -422      -422      -815      -552      -801      -311      -815      -422      -422      -111      -804      -804      -530      -311      -530      -311      -861      -311      -361      -361      -413      -413      -804      -804      -530      -311      -530      -311      -861      -311      -413      -413      -311      " labor_units_shrm="0,2-0,1-0,1-0,05-6,4-0,4-1,6-0,2-0,2-0,2-8-0,1-0,1-0,3-0,3-1,5-1-0,07-0,1-0,15-0,15-0,5-0,5-0,2-0,2-0,3-0,3-1,5-1-0,07-0,1-0,53-0,53-0,6"/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00170" id="100000340700063" id_parent="100000335500063" name="Ребро" do="91.2711" plot="91.0401.04.003" qty="16" route_full="25-7">
+		<MATERIAL id="100001021300001" name="ЛИСТ ПН-О-25 ГОСТ 19903-74/СТ3СП5-СВ ГОСТ 14637-89" weight="450"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 " num_operations="15-20.1-20.2-35-40-45-50-55.1-55.2" labor_units="1.02222222" duration="1.02222222" shrm="801      -422      -422      -552      -801      -311      -815      -422      -422      " labor_units_shrm="0,15-0,08-0,08-46,08-10,24-38,4-12,8-1,02222222222222-1,02222222222222"/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100001201400024" id_parent="100000425000063" name="Прочие детали и материалы " do="91.2711" plot="" qty="1" route_full=""/>
+	<PRODUCT structure="" id="100001202000024" id_parent="100001201400024" name="Вспомогательные материалы" do="91.2711" plot="" qty="1" route_full=""/>
+	<PRODUCT structure="" id="100001202100024" id_parent="100001201400024" name="Материалы для запчастей" do="91.2711" plot="" qty="1" route_full=""/>
+	<PRODUCT structure="" id="100001198400024" id_parent="100001202100024" name="Комплект запасных частей" do="91.2711" plot="91.2710.10" qty="1" route_full="7">
+		<ROUTES>
+			<ROUTE num="1" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000559100024" id_parent="100001198400024" name="ШПИЛЬКА М42" do="91.2711" plot="91.2525.002" qty="2" route_full="26-8Т-26-7">
+		<MATERIAL id="100000096100029" name="КРУГ В1-III-45 ГОСТ 2590-2006/38ХН3МФА-2-Т ГОСТ 4543-71" weight="6,2"/>
+		<ROUTES>
+			<ROUTE num="1" name="26 "/>
+			<ROUTE num="2" name="08Т"/>
+			<ROUTE num="3" name="26 "/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000562000024" id_parent="100001198400024" name="ШАЙБА 42" do="91.2711" plot="91.2525.016" qty="2" route_full="26-7">
+		<MATERIAL id="100000075000029" name="КРУГ В1-III-90 ГОСТ 2590-2006/20-2ГП-М1-ГС-ТО ГОСТ 1050-88" weight="1,7"/>
+		<ROUTES>
+			<ROUTE num="1" name="26 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000560900024" id_parent="100001198400024" name="ГАЙКА М42" do="91.2711" plot="91.2525.015" qty="2" route_full="26-8Т-26-7">
+		<MATERIAL id="100000096700029" name="КРУГ В1-III-75 ГОСТ 2590-2006/38ХН3МФА-2-Т ГОСТ 4543-71" weight="3,8"/>
+		<ROUTES>
+			<ROUTE num="1" name="26 "/>
+			<ROUTE num="2" name="08Т"/>
+			<ROUTE num="3" name="26 "/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000339900063" id_parent="100001198400024" name="Заглушка" do="91.2711" plot="91.1085.10.001" qty="10" route_full="26-8Т-26-7">
+		<MATERIAL id="100000124900029" name="КРУГ В1-II-20 ГОСТ 2590-2006/08Х18Н10Т-А-Т ГОСТ 5949-75" weight="1"/>
+		<ROUTES>
+			<ROUTE num="1" name="26 " num_operations="5-5-15-15-20-20-25-25-35-35-40-40" labor_units="0" duration="" shrm="222      -222      -811      -811      -012      -012      " labor_units_shrm="0-0-7,2-7,2-1-1-0-0-120,1-120,1-0-0"/>
+			<ROUTE num="2" name="08Т"/>
+			<ROUTE num="3" name="26 "/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100001202200024" id_parent="100001201400024" name="Материалы, не входящие в поставку ЗИО" do="91.2711" plot="" qty="1" route_full=""/>
+	<PRODUCT structure="" id="100001201600024" id_parent="100001201400024" name="Материалы для контрольных проб и образцов" do="91.2711" plot="" qty="1" route_full=""/>
+	<PRODUCT structure="" id="100001201700024" id_parent="100001201400024" name="Материалы для использования на монтаже" do="91.2711" plot="" qty="1" route_full=""/>
+	<PRODUCT structure="" id="100001198500024" id_parent="100001201700024" name="КОМПЛЕКТ ДЕТАЛЕЙ ДЛЯ КОНТРОЛЬНЫХ СВАРНЫХ СОЕДИНЕНИЙ" do="91.2711" plot="91.2710.11" qty="1" route_full="ОСК-7">
+		<ROUTES>
+			<ROUTE num="1" name="ОСК"/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000340300063" id_parent="100001198500024" name="Решетка" do="91.2711" plot="91.1085.11.001" qty="1" route_full="25-26-33-7">
+		<MATERIAL id="100003287600001" name="ЛИСТ 22К-50-КП215-ГР.III-270С,ТКО&lt;=40С,УЗК ТУ 302.02.092-90" weight="4,4"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 " num_operations="15-35-40-45-50" labor_units="0.05" duration="0.05" shrm="801      -552      -801      -311      -815      " labor_units_shrm="0,08-0,17-0,01-0,1-0,05"/>
+			<ROUTE num="2" name="26 " num_operations="5-30-35-65-70" labor_units="0" duration="" shrm="012      -811      " labor_units_shrm="0-0,15-0-0,035-0"/>
+			<ROUTE num="3" name="33 " num_operations="5-40-45-50-55-60" labor_units="0" duration="" shrm="812      -062      -801      " labor_units_shrm="0-0,07-0-0,6-0,05-0"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000340400063" id_parent="100001198500024" name="Труба" do="91.2711" plot="91.1085.11.002" qty="14" route_full="7">
+		<MATERIAL id="100003896800001" name="ТРУБА Х 16Х1.4 /08Х18Н10Т ТУ 14-3Р-197-2001" weight="1,54"/>
+		<ROUTES>
+			<ROUTE num="1" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100001201800024" id_parent="100001201400024" name="Материалы для упаковки" do="91.2711" plot="" qty="1" route_full=""/>
+	<PRODUCT structure="" id="100001201500024" id_parent="100001201400024" name="Материалы для гидроиспытаний" do="91.2711" plot="" qty="1" route_full=""/>
+	<PRODUCT structure="" id="100000559900024" id_parent="100001201500024" name="Заглушка" do="91.2711" plot="91.2525.009-01" qty="2" route_full="26-7">
+		<MATERIAL id="100000073900029" name="КРУГ В1-III-32 ГОСТ 2590-2006/20-2ГП-М1-ГС-ТО ГОСТ 1050-88" weight="0,24"/>
+		<ROUTES>
+			<ROUTE num="1" name="26 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000338100063" id_parent="100001201500024" name="Заглушка" do="91.2711" plot="91.0871.022-01" qty="5" route_full="26-7">
+		<MATERIAL id="100000074200029" name="КРУГ В1-III-45 ГОСТ 2590-2006/20-2ГП-М1-ГС-ТО ГОСТ 1050-88" weight="1,2"/>
+		<ROUTES>
+			<ROUTE num="1" name="26 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000338200063" id_parent="100001201500024" name="Заглушка" do="91.2711" plot="91.0871.022-02" qty="3" route_full="26-7">
+		<MATERIAL id="100000074600029" name="КРУГ В1-III-65 ГОСТ 2590-2006/20-2ГП-М1-ГС-ТО ГОСТ 1050-88" weight="1,5"/>
+		<ROUTES>
+			<ROUTE num="1" name="26 " num_operations="5-15-20-25-35-40-45-50" labor_units="0" duration="" shrm="222      -811      -012      -811      " labor_units_shrm="0-0,07666666666666-0,045-0-0,9-0-0,45-0"/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000338500063" id_parent="100001201500024" name="Заглушка" do="91.2711" plot="91.1650.002" qty="1" route_full="25-26-7">
+		<MATERIAL id="100003194000001" name="ЛИСТ Б-ПН-О-8 ГОСТ 19903-74/СТ3СП5-СВ ГОСТ 14637-89" weight="1,7"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 " num_operations="15-20.1-20.2-35-40-45-50-55.1-55.2" labor_units="0.00388889" duration="0.00388889" shrm="801      -422      -422      -552      -801      -311      -815      -422      -422      " labor_units_shrm="0,015-0,04694444444444-0,04694444444444-0,14-0,00805555555555-0,08-0,05-0,00388888888888-0,00388888888888"/>
+			<ROUTE num="2" name="26 " num_operations="5-10-15" labor_units="0" duration="" shrm="012      " labor_units_shrm="0-0,1-0"/>
+			<ROUTE num="3" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000178500026" id_parent="100001201500024" name="Заглушка" do="91.2711" plot="91.1650.003" qty="2" route_full="26-7">
+		<MATERIAL id="100000068900029" name="КРУГ В1-III-200 ГОСТ 2590-2006/20-2ГП-М1-ГС-УЗК-П.2.3.4П.2.3.5-ПРИЛ.5П.12 ГОСТ 1050-88" weight="23,4"/>
+		<ROUTES>
+			<ROUTE num="1" name="26 " num_operations="5-15-20-25-35-40-45-50" labor_units="0" duration="" shrm="222      -811      -012      -811      " labor_units_shrm="0-0,6-0,04-0-2,5-0-0,14-0"/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100001201900024" id_parent="100001201400024" name="Материалы для технологических целей" do="91.2711" plot="" qty="1" route_full=""/>
+	<PRODUCT structure="" id="100001203900024" id_parent="100001201900024" name="Технологическая планка 300х150" do="91.2711" plot="91.2711.402" qty="24" route_full="25-7">
+		<MATERIAL id="100003202200001" name="ЛИСТ ПН-О-30 ГОСТ 19903-74/СТ3ГСП5-СВ ГОСТ 14637-89" weight="311,5008"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 " num_operations="15-20.1-20.2-35-40-45-50-55.1-55.2" labor_units="5.76" duration="5.76" shrm="801      -422      -422      -552      -801      -311      -815      -422      -422      " labor_units_shrm="0,1-0,06-0,06-86,4-11,52-28,8-0,2-5,76-5,76"/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100001204000024" id_parent="100001201900024" name="Труба L=7м" do="91.2711" plot="91.2711.403" qty="1" route_full="7">
+		<MATERIAL id="100003907600001" name="ТРУБА АХ 16Х1.4 /08Х14МФ ТУ 1361-023-..-200" weight="3,507"/>
+		<ROUTES>
+			<ROUTE num="1" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100001203700024" id_parent="100001201900024" name="Бирка 63х63" do="91.2711" plot="91.2711.400" qty="50" route_full="25-7">
+		<MATERIAL id="100003481600001" name="ЛИСТ БТ-ПН-О-1 ГОСТ 19904-90/08КП-II-Г ГОСТ 24244-80" weight="1,735"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 " num_operations="10-15.1-15.2-25-35.1-35.2-40-45-50.1-50.2" labor_units="5" duration="5" shrm="801      -422      -422      -815      -441      -441      -311      -815      -422      -422      " labor_units_shrm="0,05-0,05-0,05-75-12,5-12,5-25-0,05-5-5"/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100001203800024" id_parent="100001201900024" name="Бирка 63х63" do="91.2711" plot="91.2711.401" qty="50" route_full="25-7">
+		<MATERIAL id="100001472700001" name="ЛИСТ Б-ПН-О-1 ГОСТ 19903-74/08Х18Н10Т-М3Б ГОСТ 5582-75" weight="1,74"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 " num_operations="10-15.1-15.2-25-35.1-35.2-40-45-50.1-50.2" labor_units="5" duration="5" shrm="801      -422      -422      -815      -441      -441      -311      -815      -422      -422      " labor_units_shrm="0,05-0,05-0,05-75-12,5-12,5-25-0,05-5-5"/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000339900063" id_parent="100001201900024" name="Заглушка" do="91.2711" plot="91.1085.10.001" qty="10" route_full="26-8Т-26-7">
+		<MATERIAL id="100000124900029" name="КРУГ В1-II-20 ГОСТ 2590-2006/08Х18Н10Т-А-Т ГОСТ 5949-75" weight="1"/>
+		<ROUTES>
+			<ROUTE num="1" name="26 " num_operations="5-5-15-15-20-20-25-25-35-35-40-40" labor_units="0" duration="" shrm="222      -222      -811      -811      -012      -012      " labor_units_shrm="0-0-7,2-7,2-1-1-0-0-120,1-120,1-0-0"/>
+			<ROUTE num="2" name="08Т"/>
+			<ROUTE num="3" name="26 "/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00100" id="-100000425100063" id_parent="100000425000063" name="Пучок трубный в сборе" do="91.2711" plot="91.2711 Ч.1" qty="1" route_full="7-8-8Г-30-25-11-5Ш-33-26-14-11Х-25Г-2к-16-35-3-8Т-8П-7Т-ОМ-11М-ОСК-2">
+		<ROUTES>
+			<ROUTE num="1" name="07 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="30 "/>
+			<ROUTE num="5" name="25 "/>
+			<ROUTE num="6" name="11 "/>
+			<ROUTE num="7" name="05Ш"/>
+			<ROUTE num="8" name="33 "/>
+			<ROUTE num="9" name="26 "/>
+			<ROUTE num="10" name="14 "/>
+			<ROUTE num="11" name="11Х"/>
+			<ROUTE num="12" name="25Г"/>
+			<ROUTE num="13" name="02К"/>
+			<ROUTE num="14" name="16 "/>
+			<ROUTE num="15" name="35 "/>
+			<ROUTE num="16" name="03 "/>
+			<ROUTE num="17" name="08Т"/>
+			<ROUTE num="18" name="08П"/>
+			<ROUTE num="19" name="07Т"/>
+			<ROUTE num="20" name="11М"/>
+			<ROUTE num="21" name="ОСК"/>
+			<ROUTE num="22" name="02 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00100" id="100000425100063" id_parent="-100000425100063" name="Пучок трубный в сборе" do="91.2711" plot="91.1650.01-01СБ" qty="1" route_full="7">
+		<ROUTES>
+			<ROUTE num="1" name="07 " num_operations="5-10-15.1-15.2-20-25.1-25.2-30-35-40-45-50-55.1-55.2-60-65-70-75-80-85.1-85.2-90-95-100-105-110-115.1-115.2-120-125-130-135-140.1-140.2-145-150-155-160-165.1-165.2-170-175-180-185-190.1-190.2-195-200-205-210-215.1-215.2-220-225-230-235-240.1-240.2-245-250-255-260-265.1-265.2-270-275-280-285-290.1-290.2-295-300-305-310.1-310.2-315-320.1-320.2-325-330-335-340-345-350-355-360-365-370.1-370.2-375-380-385-390-395.1-395.2-400-405-410-415-420.1-420.2-425-430-435-440-445.1-445.2-450-455-460-465-470-475-480.1-480.2-485-490.1-490.2-495.1-495.2-500-505-510-515-520-525-530-535-540-545-550-555-560-565-570-575-576-580-585-590-595.1-595.2-600-605-610-615-620.1-620.2-625-630-635-640-645.1-645.2-650-655-660-665-670-675" labor_units="0" duration="0" shrm="805      -804      -804      -804      -530      -530      -804      -805      -530      -530      -311      -805      -530      -530      -336      -805      -530      -530      -311      -805      -530      -530      -311      -804      -530      -530      -311      -805      -530      -530      -311      -805      -530      -530      -311      -805      -530      -530      -311      -804      -530      -530      -311      -804      -530      -530      -311      -805      -535      -535      -530      -805      -805      -805      -535      -805      -805      -530      -530      -311      -805      -530      -530      -311      -805      -530      -530      -311      -804      -530      -530      -311      -805      -805      -530      -530      -542      -311      -311      -804      -872      -805      -805      -805      -804      -805      -805      -805      -805      -530      -530      -311      -805      -530      -530      -311      -805      -530      -530      -311      -812      " labor_units_shrm="0-2-25-41,5-0-12-1-0-0-9-18-0-5-2-0-10-2-0-0-0,5-0,2-0-0,8-0,8-0-0-5-1-0-8-3-0-2-0,6-0-6-0,4-0-2-0,5-0-3-1-0-2-1-0-3-1-0-24-4-0-45-8-0-9-4-0-800-4-0-2-0,6-0-6-2-0-3-0,4-2-0,5-0-105-4-0-12-12-0-527&#160;840,51611111111111-0-40-555&#160;621,16-0-2&#160;611&#160;419,86611111111111-2&#160;778&#160;105,8-0-30-5-0-50-8-0-1,5-0,4-0-4-2-0-2-0,3-0-3-2-0-2,5-0,5-0-5-2-0-15-0-20-15-0-42-65-30-16-0-0-0-20-0-0-0-10-0-2-37,5-0-300-70-0-35-0-1&#160;041&#160;789,675-204-0-2-2-0-28-2-0-4-2-0-28-3-0-6-0,2-0-0,8-0,6-0-0,05-0"/>
+
+
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000425700063" id_parent="100000425100063" name="Прочие детали и материалы " do="91.2711" plot="" qty="1" route_full=""/>
+	<PRODUCT structure="" id="100000425800063" id_parent="100000425700063" name="Материалы для гидроиспытаний" do="91.2711" plot="" qty="1" route_full=""/>
+	<PRODUCT structure="" id="100000425900063" id_parent="100000425700063" name="Материалы для контрольных проб и образцов" do="91.2711" plot="" qty="1" route_full=""/>
+	<PRODUCT structure="" id="100000426200063" id_parent="100000425700063" name="Материалы для технологических целей" do="91.2711" plot="" qty="1" route_full=""/>
+	<PRODUCT structure="" id="100000179800026" id_parent="100000426200063" name="Бирка" do="91.2711" plot="91.1650.101" qty="8" route_full="25-7">
+		<MATERIAL id="100003481500001" name="ЛИСТ БТ-ПН-О-0.8 ГОСТ 19904-90/08КП-II-Г ГОСТ 24244-80" weight="0,2504"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 " num_operations="10-25-35.1-35.2-40-45" labor_units="0.05" duration="0.05" shrm="801      -815      -441      -441      -311      -815      " labor_units_shrm="0,05-1,92-0,32-0,32-1,28-0,05"/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000180000026" id_parent="100000426200063" name="Бирка" do="91.2711" plot="91.1650.102" qty="192" route_full="25-7">
+		<MATERIAL id="100001481900001" name="ЛИСТ Б-ПН-О-1 ГОСТ 19904-74/08Х18Н10Т-М3А ГОСТ 5582-75" weight="6,6048"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 " num_operations="10-25-35.1-35.2-40-45" labor_units="0.05" duration="0.05" shrm="801      -815      -441      -441      -311      -815      " labor_units_shrm="0,05-368,64-184,32-184,32-737,28-0,05"/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000426300063" id_parent="100000425700063" name="Вспомогательные материалы" do="91.2711" plot="" qty="1" route_full=""/>
+	<PRODUCT structure="" id="100000426400063" id_parent="100000425700063" name="Материалы для запчастей" do="91.2711" plot="" qty="1" route_full=""/>
+	<PRODUCT structure="" id="100000426500063" id_parent="100000425700063" name="Материалы, не входящие в поставку ЗИО" do="91.2711" plot="" qty="1" route_full=""/>
+	<PRODUCT structure="" id="100000426100063" id_parent="100000425700063" name="Материалы для упаковки" do="91.2711" plot="" qty="1" route_full=""/>
+	<PRODUCT structure="" id="100000426000063" id_parent="100000425700063" name="Материалы для использования на монтаже" do="91.2711" plot="" qty="1" route_full=""/>
+	<PRODUCT structure="00080" id="100000180200026" id_parent="100000425100063" name="Перегородка" do="91.2711" plot="91.1085.01.02-01СБ" qty="1" route_full="7">
+		<ROUTES>
+			<ROUTE num="1" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000361700063" id_parent="100000180200026" name="Лист" do="91.2711" plot="91.1085.01.02.001" qty="1" route_full="25-7">
+		<MATERIAL id="100003194000001" name="ЛИСТ Б-ПН-О-8 ГОСТ 19903-74/СТ3СП5-СВ ГОСТ 14637-89" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000182700026" id_parent="100000180200026" name="Лист" do="91.2711" plot="91.1085.01.02.006-01" qty="1" route_full="25-26-7">
+		<MATERIAL id="100003194000001" name="ЛИСТ Б-ПН-О-8 ГОСТ 19903-74/СТ3СП5-СВ ГОСТ 14637-89" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="25 " num_operations="15-20.1-20.2-35-40-45-50-55.1-55.2" labor_units="0.01" duration="0.01" shrm="801      -422      -422      -552      -801      -311      -815      -422      -422      " labor_units_shrm="0,1-0,05-0,05-0,15-0,02-0,08-0,05-0,01-0,01"/>
+			<ROUTE num="2" name="26 " num_operations="5-10-15-20-25-30" labor_units="0" duration="" shrm="812      -142      -801      " labor_units_shrm="0-0,1-0-1-0,05-0"/>
+			<ROUTE num="3" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000361800063" id_parent="100000180200026" name="Лист" do="91.2711" plot="91.1085.01.02.002" qty="1" route_full="25-25Г-25-7">
+		<MATERIAL id="100003194000001" name="ЛИСТ Б-ПН-О-8 ГОСТ 19903-74/СТ3СП5-СВ ГОСТ 14637-89" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="25Г"/>
+			<ROUTE num="3" name="25 "/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000182500026" id_parent="100000180200026" name="Лист" do="91.2711" plot="91.1085.01.02.005" qty="1" route_full="25-7">
+		<MATERIAL id="100003194000001" name="ЛИСТ Б-ПН-О-8 ГОСТ 19903-74/СТ3СП5-СВ ГОСТ 14637-89" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="25 " num_operations="10-15.1-15.2-26-30-45-50-55-60.1-60.2-140.1-140.2-145.1-145.2-280-285-290" labor_units="0.08" duration="0.08" shrm="801      -422      -422      -815      -552      -801      -311      -815      -422      -422      -361      -361      -413      -413      -861      -801      -311      " labor_units_shrm="0,1-0,05-0,05-0,05-0,4-0,03-0,25-0,05-0,01-0,01-0,1-0,1-0,25-0,25-0,15-0,01-0,08"/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000182600026" id_parent="100000180200026" name="Лист" do="91.2711" plot="91.1085.01.02.006" qty="1" route_full="25-26-7">
+		<MATERIAL id="100003194000001" name="ЛИСТ Б-ПН-О-8 ГОСТ 19903-74/СТ3СП5-СВ ГОСТ 14637-89" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="25 " num_operations="15-20.1-20.2-35-40-45-50-55.1-55.2" labor_units="0.01" duration="0.01" shrm="801      -422      -422      -552      -801      -311      -815      -422      -422      " labor_units_shrm="0,1-0,05-0,05-0,15-0,02-0,08-0,05-0,01-0,01"/>
+			<ROUTE num="2" name="26 " num_operations="5-10-15-20-25-30" labor_units="0" duration="" shrm="812      -142      -801      " labor_units_shrm="0-0,1-0-1-0,05-0"/>
+			<ROUTE num="3" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000182400026" id_parent="100000425100063" name="Проволока СВ-04Х19Н11М3-3 ГОСТ 2246-70" do="91.2711" plot="91.1650.01.135" qty="1" route_full="7-35-7">
+		<MATERIAL id="100004087400001" name="ПРОВОЛОКА СВ-04Х19Н11М3-3 ГОСТ 2246-70" weight="0,784"/>
+		<ROUTES>
+			<ROUTE num="1" name="07 "/>
+			<ROUTE num="2" name="35 "/>
+			<ROUTE num="3" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000301400063" id_parent="100000425100063" name="Перегородка" do="91.2711" plot="91.0401.01.001" qty="8" route_full="1З-25-33-26-33-7-14-7-14-7">
+		<MATERIAL id="100003278000001" name="ЛИСТ ПН-О-16 ГОСТ 19903-74/20К-18 ГОСТ 5520-79" weight="55864"/>
+		<ROUTES>
+			<ROUTE num="1" name="01З"/>
+			<ROUTE num="2" name="25 "/>
+			<ROUTE num="3" name="33 "/>
+			<ROUTE num="4" name="26 "/>
+			<ROUTE num="5" name="33 "/>
+			<ROUTE num="6" name="07 "/>
+			<ROUTE num="7" name="14 "/>
+			<ROUTE num="8" name="07 "/>
+			<ROUTE num="9" name="14 "/>
+			<ROUTE num="10" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000301800063" id_parent="100000425100063" name="Заглушка" do="91.2711" plot="91.0871.01.012" qty="7" route_full="25-26-7">
+		<MATERIAL id="100003437500001" name="ЛИСТ Б-ПН-О-8 ГОСТ 19903-74/20-М1-КИ-ТО-ДК2-ГС ГОСТ 1577-93" weight="14"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="26 "/>
+			<ROUTE num="3" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000301900063" id_parent="100000425100063" name="Заглушка" do="91.2711" plot="91.0871.01.013" qty="1" route_full="25-26-7">
+		<MATERIAL id="100003437500001" name="ЛИСТ Б-ПН-О-8 ГОСТ 19903-74/20-М1-КИ-ТО-ДК2-ГС ГОСТ 1577-93" weight="2"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="26 "/>
+			<ROUTE num="3" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000302000063" id_parent="100000425100063" name="Перегородка" do="91.2711" plot="91.0871.01.022" qty="1" route_full="25-26-7">
+		<MATERIAL id="100001261900001" name="ЛИСТ ПН-О-25 ГОСТ 19903-74/20-М1-КИ-ТО-ДК2-ГС ГОСТ 1577-93" weight="595"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="26 "/>
+			<ROUTE num="3" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000302100063" id_parent="100000425100063" name="Планка" do="91.2711" plot="91.0871.01.028" qty="16" route_full="25-26-7">
+		<MATERIAL id="100003600800001" name="ЛИСТ Б-ПН-О-12 ГОСТ 19903-74/08Х18Н10Т-М3Б ГОСТ 7350-77" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="26 "/>
+			<ROUTE num="3" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000302200063" id_parent="100000425100063" name="Планка" do="91.2711" plot="91.0871.01.028-01" qty="4" route_full="25-26-7">
+		<MATERIAL id="100003600800001" name="ЛИСТ Б-ПН-О-12 ГОСТ 19903-74/08Х18Н10Т-М3Б ГОСТ 7350-77" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="26 "/>
+			<ROUTE num="3" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000301500063" id_parent="100000425100063" name="Перегородка" do="91.2711" plot="91.0401.01.001-01" qty="1" route_full="1З-25-33-26-7-14-7-14-7">
+		<MATERIAL id="100003278600001" name="ЛИСТ ПН-О-30 ГОСТ 19903-74/20К-18 ГОСТ 5520-79" weight="1188"/>
+		<ROUTES>
+			<ROUTE num="1" name="01З"/>
+			<ROUTE num="2" name="25 "/>
+			<ROUTE num="3" name="33 "/>
+			<ROUTE num="4" name="26 "/>
+			<ROUTE num="5" name="07 "/>
+			<ROUTE num="6" name="14 "/>
+			<ROUTE num="7" name="07 "/>
+			<ROUTE num="8" name="14 "/>
+			<ROUTE num="9" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000301600063" id_parent="100000425100063" name="Перегородка" do="91.2711" plot="91.0401.01.001-02" qty="2" route_full="1З-25-33-26-33-7-14-7-14-7">
+		<MATERIAL id="100003278000001" name="ЛИСТ ПН-О-16 ГОСТ 19903-74/20К-18 ГОСТ 5520-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="01З"/>
+			<ROUTE num="2" name="25 "/>
+			<ROUTE num="3" name="33 "/>
+			<ROUTE num="4" name="26 "/>
+			<ROUTE num="5" name="33 "/>
+			<ROUTE num="6" name="07 "/>
+			<ROUTE num="7" name="14 "/>
+			<ROUTE num="8" name="07 "/>
+			<ROUTE num="9" name="14 "/>
+			<ROUTE num="10" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000301700063" id_parent="100000425100063" name="Планка" do="91.2711" plot="91.0871.01.009" qty="4" route_full="25-7">
+		<MATERIAL id="100003600800001" name="ЛИСТ Б-ПН-О-12 ГОСТ 19903-74/08Х18Н10Т-М3Б ГОСТ 7350-77" weight="532"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000302400063" id_parent="100000425100063" name="Заглушка" do="91.2711" plot="91.0871.01.034" qty="1" route_full="25-26-7">
+		<MATERIAL id="100003437500001" name="ЛИСТ Б-ПН-О-8 ГОСТ 19903-74/20-М1-КИ-ТО-ДК2-ГС ГОСТ 1577-93" weight="8,4"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="26 "/>
+			<ROUTE num="3" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000302800063" id_parent="100000425100063" name="Планка" do="91.2711" plot="91.0871.01.048" qty="4" route_full="25-7">
+		<MATERIAL id="100003600800001" name="ЛИСТ Б-ПН-О-12 ГОСТ 19903-74/08Х18Н10Т-М3Б ГОСТ 7350-77" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000302900063" id_parent="100000425100063" name="Планка" do="91.2711" plot="91.0871.01.052" qty="4" route_full="25-25Г-25-7">
+		<MATERIAL id="100003600800001" name="ЛИСТ Б-ПН-О-12 ГОСТ 19903-74/08Х18Н10Т-М3Б ГОСТ 7350-77" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="25Г"/>
+			<ROUTE num="3" name="25 "/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000303000063" id_parent="100000425100063" name="Планка" do="91.2711" plot="91.0871.01.053" qty="4" route_full="25-7">
+		<MATERIAL id="100003600800001" name="ЛИСТ Б-ПН-О-12 ГОСТ 19903-74/08Х18Н10Т-М3Б ГОСТ 7350-77" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000303100063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054" qty="1" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight="84"/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000302500063" id_parent="100000425100063" name="Кожух" do="91.2711" plot="91.0871.01.045" qty="2" route_full="25-11Х-25-7">
+		<MATERIAL id="100003193300001" name="ЛИСТ Б-ПН-О-5 ГОСТ 19903-74/СТ3СП5-СВ ГОСТ 14637-89" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="11Х"/>
+			<ROUTE num="3" name="25 "/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000302600063" id_parent="100000425100063" name="Кожух" do="91.2711" plot="91.0871.01.045-01" qty="2" route_full="25-11Х-25-7">
+		<MATERIAL id="100003193300001" name="ЛИСТ Б-ПН-О-5 ГОСТ 19903-74/СТ3СП5-СВ ГОСТ 14637-89" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="11Х"/>
+			<ROUTE num="3" name="25 "/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000302700063" id_parent="100000425100063" name="Планка" do="91.2711" plot="91.0871.01.047" qty="2" route_full="25-25Г-25-7">
+		<MATERIAL id="100003600800001" name="ЛИСТ Б-ПН-О-12 ГОСТ 19903-74/08Х18Н10Т-М3Б ГОСТ 7350-77" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="25Г"/>
+			<ROUTE num="3" name="25 "/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000303200063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-01" qty="2" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000303600063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-05" qty="1" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000303700063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-06" qty="4" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000303800063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-07" qty="2" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000303900063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-08" qty="1" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000304000063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-09" qty="1" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000303300063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-02" qty="1" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000303400063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-03" qty="1" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000303500063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-04" qty="1" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000304100063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-10" qty="2" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000304500063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-14" qty="1" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000304600063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-15" qty="3" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000304700063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-16" qty="2" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000304800063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-17" qty="1" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000304900063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-18" qty="3" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000304200063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-11" qty="2" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000304300063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-12" qty="1" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000304400063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-13" qty="2" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000305000063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-19" qty="2" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000305400063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-23" qty="2" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000305500063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-24" qty="1" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000305600063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-25" qty="2" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000305700063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-26" qty="1" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000305800063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-27" qty="2" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000305100063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-20" qty="1" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000305200063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-21" qty="2" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000305300063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-22" qty="1" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000305900063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-28" qty="4" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000306300063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-32" qty="2" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000306400063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-33" qty="1" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000306500063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-34" qty="2" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000306600063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-35" qty="1" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000306700063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-36" qty="2" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000306000063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-29" qty="1" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000306100063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-30" qty="2" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000306200063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-31" qty="1" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000306800063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-37" qty="1" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000307200063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-41" qty="2" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000307300063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-42" qty="2" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000307400063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-43" qty="2" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000307500063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-44" qty="2" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000307600063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-45" qty="2" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000306900063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-38" qty="2" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000307000063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-39" qty="1" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000307100063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-40" qty="2" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000307700063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-46" qty="2" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000308100063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-50" qty="12" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000308200063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-51" qty="4" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000308300063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-52" qty="8" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000308400063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-53" qty="4" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000308500063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-54" qty="8" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000307800063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-47" qty="2" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000307900063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-48" qty="2" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000308000063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-49" qty="8" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000308600063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-55" qty="4" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000309000063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-59" qty="4" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000309100063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-60" qty="16" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000309200063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-61" qty="4" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000309300063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055" qty="1" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight="107"/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000309400063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-01" qty="2" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000308700063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-56" qty="8" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000308800063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-57" qty="4" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000308900063" id_parent="100000425100063" name="Пластина фигурная" do="91.2711" plot="91.0871.01.054-58" qty="8" route_full="5-8-8Г-7">
+		<MATERIAL id="100003695900001" name="ЛЕНТА 1.2*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000309500063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-02" qty="1" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000309900063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-06" qty="4" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000310000063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-07" qty="2" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000310100063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-08" qty="1" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000310200063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-09" qty="1" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000310300063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-10" qty="2" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000309600063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-03" qty="1" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000309700063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-04" qty="1" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000309800063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-05" qty="1" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000310400063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-11" qty="2" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000310800063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-15" qty="3" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000310900063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-16" qty="2" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000311000063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-17" qty="1" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000311100063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-18" qty="3" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000311200063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-19" qty="2" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000310500063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-12" qty="1" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000310600063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-13" qty="2" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000310700063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-14" qty="1" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000311300063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-20" qty="1" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000311700063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-24" qty="1" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000311800063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-25" qty="2" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000311900063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-26" qty="1" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000312000063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-27" qty="2" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000312100063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-28" qty="4" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000311400063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-21" qty="2" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000311500063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-22" qty="1" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000311600063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-23" qty="2" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000312200063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-29" qty="1" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000312600063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-33" qty="1" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000312700063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-34" qty="2" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000312800063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-35" qty="1" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000312900063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-36" qty="2" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000313000063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-37" qty="1" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000312300063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-30" qty="2" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000312400063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-31" qty="1" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000312500063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-32" qty="2" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000313100063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-38" qty="2" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000313500063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-42" qty="1" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000313600063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-43" qty="2" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000313700063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-44" qty="2" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000313800063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-45" qty="2" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000313900063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-46" qty="2" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000313200063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-39" qty="1" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000313300063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-40" qty="2" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000313400063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-41" qty="2" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000314000063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-47" qty="2" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000314400063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-51" qty="2" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000314500063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-52" qty="8" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000314600063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-53" qty="4" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000314700063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-54" qty="8" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000314800063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-55" qty="4" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000314100063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-48" qty="2" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000314200063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-49" qty="8" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000314300063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-50" qty="12" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000314900063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-56" qty="8" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000315300063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-60" qty="8" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000315400063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-61" qty="4" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000180300026" id_parent="100000425100063" name="Перегородка" do="91.2711" plot="91.1085.01.001-06" qty="1" route_full="1З-25-33-7-14-7-14-7">
+		<MATERIAL id="100003278900001" name="ЛИСТ ПН-О-40 ГОСТ 19903-74/20К-18 ГОСТ 5520-79" weight="2382"/>
+		<ROUTES>
+			<ROUTE num="1" name="01З" num_operations="10-56-80-85" labor_units="0.27305556" duration="0.27305556" shrm="815      -556      -801      -311      " labor_units_shrm="0,05-1,89-0,33-0,27305555555555"/>
+			<ROUTE num="2" name="25 " num_operations="55.1-55.2" labor_units="0.01" duration="0.01" shrm="422      -422      " labor_units_shrm="0,01-0,01"/>
+			<ROUTE num="3" name="33 " num_operations="5-10-15-20-30-50-55-60" labor_units="0" duration="" shrm="812      -068      -063      -801      " labor_units_shrm="0-0,3-0-15,3-0-122,5-1,7-0"/>
+			<ROUTE num="4" name="07 "/>
+			<ROUTE num="5" name="14 "/>
+			<ROUTE num="6" name="07 "/>
+			<ROUTE num="7" name="14 "/>
+			<ROUTE num="8" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000316100063" id_parent="100000425100063" name="Перегородка" do="91.2711" plot="91.1085.01.001-07" qty="2" route_full="1З-25-33-26-7-14-7-14-7">
+		<MATERIAL id="100003278000001" name="ЛИСТ ПН-О-16 ГОСТ 19903-74/20К-18 ГОСТ 5520-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="01З"/>
+			<ROUTE num="2" name="25 "/>
+			<ROUTE num="3" name="33 "/>
+			<ROUTE num="4" name="26 "/>
+			<ROUTE num="5" name="07 "/>
+			<ROUTE num="6" name="14 "/>
+			<ROUTE num="7" name="07 "/>
+			<ROUTE num="8" name="14 "/>
+			<ROUTE num="9" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000180400026" id_parent="100000425100063" name="Перегородка" do="91.2711" plot="91.1085.01.001-08" qty="1" route_full="1З-25-33-26-7-14-7-14-7">
+		<MATERIAL id="100003278900001" name="ЛИСТ ПН-О-40 ГОСТ 19903-74/20К-18 ГОСТ 5520-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="01З" num_operations="10-56-80-85" labor_units="0.24305556" duration="0.24305556" shrm="815      -556      -801      -311      " labor_units_shrm="0,05-1,6-0,3-0,24305555555555"/>
+			<ROUTE num="2" name="25 " num_operations="55.1-55.2" labor_units="0.01" duration="0.01" shrm="422      -422      " labor_units_shrm="0,01-0,01"/>
+			<ROUTE num="3" name="33 " num_operations="5-10-15-20-30-50-55-60" labor_units="0" duration="" shrm="812      -068      -063      -801      " labor_units_shrm="0-0,3-0-15,3-0-122,5-1,7-0"/>
+			<ROUTE num="4" name="26 " num_operations="5-7-9-10-15-20" labor_units="0" duration="" shrm="812      -142      -801      " labor_units_shrm="0-0,25-0-3-0,25-0"/>
+			<ROUTE num="5" name="07 "/>
+			<ROUTE num="6" name="14 "/>
+			<ROUTE num="7" name="07 "/>
+			<ROUTE num="8" name="14 "/>
+			<ROUTE num="9" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000315000063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-57" qty="4" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000315100063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-58" qty="8" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000315200063" id_parent="100000425100063" name="Пластина прижимная" do="91.2711" plot="91.0871.01.055-59" qty="4" route_full="5-8-8Г-7">
+		<MATERIAL id="100003696000001" name="ЛЕНТА 1.8*30-М-НТ-О-12Х18Н10Т-3-Д ГОСТ 4986-79" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="05 "/>
+			<ROUTE num="2" name="08 "/>
+			<ROUTE num="3" name="08Г"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000316200063" id_parent="100000425100063" name="Труба центральная" do="91.2711" plot="91.1085.01.002" qty="1" route_full="2-16-7">
+		<MATERIAL id="100003918500001" name="ТРУБА Г 325*18 /20 ТУ 14-3Р-55-2001" weight="978,5"/>
+		<ROUTES>
+			<ROUTE num="1" name="02 "/>
+			<ROUTE num="2" name="16 "/>
+			<ROUTE num="3" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000317000063" id_parent="100000425100063" name="Накладка" do="91.2711" plot="91.1085.01.009" qty="2" route_full="25-11Х-25-7">
+		<MATERIAL id="100003193300001" name="ЛИСТ Б-ПН-О-5 ГОСТ 19903-74/СТ3СП5-СВ ГОСТ 14637-89" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="11Х"/>
+			<ROUTE num="3" name="25 "/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000317100063" id_parent="100000425100063" name="Труба теплообменная" do="91.2711" plot="91.1085.01.010" qty="74" route_full="30-7">
+		<MATERIAL id="100003907600001" name="ТРУБА АХ 16Х1.4 /08Х14МФ ТУ 1361-023-..-200" weight="172801,914"/>
+		<ROUTES>
+			<ROUTE num="1" name="30 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000317200063" id_parent="100000425100063" name="Труба теплообменная" do="91.2711" plot="91.1085.01.010-01" qty="76" route_full="30-7">
+		<MATERIAL id="100003907600001" name="ТРУБА АХ 16Х1.4 /08Х14МФ ТУ 1361-023-..-200" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="30 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000317300063" id_parent="100000425100063" name="Труба теплообменная" do="91.2711" plot="91.1085.01.011" qty="78" route_full="30-7">
+		<MATERIAL id="100003907600001" name="ТРУБА АХ 16Х1.4 /08Х14МФ ТУ 1361-023-..-200" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="30 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000317400063" id_parent="100000425100063" name="Труба теплообменная" do="91.2711" plot="91.1085.01.011-01" qty="88" route_full="30-7">
+		<MATERIAL id="100003907600001" name="ТРУБА АХ 16Х1.4 /08Х14МФ ТУ 1361-023-..-200" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="30 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000316400063" id_parent="100000425100063" name="Труба каркасная" do="91.2711" plot="91.1085.01.004" qty="1" route_full="2к-14-16-7">
+		<MATERIAL id="100003959500001" name="ТРУБА Г 159*6 /20 ТУ 14-3Р-55-2001" weight="1120,81"/>
+		<ROUTES>
+			<ROUTE num="1" name="02К"/>
+			<ROUTE num="2" name="14 "/>
+			<ROUTE num="3" name="16 "/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000316500063" id_parent="100000425100063" name="Труба каркасная" do="91.2711" plot="91.1085.01.004-01" qty="4" route_full="2к-14-16-7">
+		<MATERIAL id="100003959500001" name="ТРУБА Г 159*6 /20 ТУ 14-3Р-55-2001" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="02К"/>
+			<ROUTE num="2" name="14 "/>
+			<ROUTE num="3" name="16 "/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000316800063" id_parent="100000425100063" name="Накладка" do="91.2711" plot="91.1085.01.007" qty="2" route_full="25-25Г-25-7">
+		<MATERIAL id="100001021300001" name="ЛИСТ ПН-О-25 ГОСТ 19903-74/СТ3СП5-СВ ГОСТ 14637-89" weight="29,5"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="25Г"/>
+			<ROUTE num="3" name="25 "/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000317500063" id_parent="100000425100063" name="Труба теплообменная" do="91.2711" plot="91.1085.01.011-02" qty="88" route_full="30-7">
+		<MATERIAL id="100003907600001" name="ТРУБА АХ 16Х1.4 /08Х14МФ ТУ 1361-023-..-200" weight="178556,4"/>
+		<ROUTES>
+			<ROUTE num="1" name="30 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000317900063" id_parent="100000425100063" name="Труба теплообменная" do="91.2711" plot="91.1085.01.011-06" qty="100" route_full="30-7">
+		<MATERIAL id="100003907600001" name="ТРУБА АХ 16Х1.4 /08Х14МФ ТУ 1361-023-..-200" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="30 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000318000063" id_parent="100000425100063" name="Труба теплообменная" do="91.2711" plot="91.1085.01.011-07" qty="99" route_full="30-7">
+		<MATERIAL id="100003907600001" name="ТРУБА АХ 16Х1.4 /08Х14МФ ТУ 1361-023-..-200" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="30 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000318100063" id_parent="100000425100063" name="Труба теплообменная" do="91.2711" plot="91.1085.01.011-08" qty="100" route_full="30-7">
+		<MATERIAL id="100003907600001" name="ТРУБА АХ 16Х1.4 /08Х14МФ ТУ 1361-023-..-200" weight="305960,7"/>
+		<ROUTES>
+			<ROUTE num="1" name="30 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000318200063" id_parent="100000425100063" name="Труба теплообменная" do="91.2711" plot="91.1085.01.011-09" qty="99" route_full="30-7">
+		<MATERIAL id="100003907600001" name="ТРУБА АХ 16Х1.4 /08Х14МФ ТУ 1361-023-..-200" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="30 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000318300063" id_parent="100000425100063" name="Труба теплообменная" do="91.2711" plot="91.1085.01.011-10" qty="98" route_full="30-7">
+		<MATERIAL id="100003907600001" name="ТРУБА АХ 16Х1.4 /08Х14МФ ТУ 1361-023-..-200" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="30 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000317600063" id_parent="100000425100063" name="Труба теплообменная" do="91.2711" plot="91.1085.01.011-03" qty="90" route_full="30-7">
+		<MATERIAL id="100003907600001" name="ТРУБА АХ 16Х1.4 /08Х14МФ ТУ 1361-023-..-200" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="30 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000317700063" id_parent="100000425100063" name="Труба теплообменная" do="91.2711" plot="91.1085.01.011-04" qty="92" route_full="30-7">
+		<MATERIAL id="100003907600001" name="ТРУБА АХ 16Х1.4 /08Х14МФ ТУ 1361-023-..-200" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="30 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000317800063" id_parent="100000425100063" name="Труба теплообменная" do="91.2711" plot="91.1085.01.011-05" qty="101" route_full="30-7">
+		<MATERIAL id="100003907600001" name="ТРУБА АХ 16Х1.4 /08Х14МФ ТУ 1361-023-..-200" weight="231499,575"/>
+		<ROUTES>
+			<ROUTE num="1" name="30 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000318400063" id_parent="100000425100063" name="Труба теплообменная" do="91.2711" plot="91.1085.01.011-11" qty="97" route_full="30-7">
+		<MATERIAL id="100003907600001" name="ТРУБА АХ 16Х1.4 /08Х14МФ ТУ 1361-023-..-200" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="30 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000318800063" id_parent="100000425100063" name="Труба теплообменная" do="91.2711" plot="91.1085.01.011-15" qty="95" route_full="30-7">
+		<MATERIAL id="100003907600001" name="ТРУБА АХ 16Х1.4 /08Х14МФ ТУ 1361-023-..-200" weight="216271,68"/>
+		<ROUTES>
+			<ROUTE num="1" name="30 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000318900063" id_parent="100000425100063" name="Труба теплообменная" do="91.2711" plot="91.1085.01.011-16" qty="94" route_full="30-7">
+		<MATERIAL id="100003907600001" name="ТРУБА АХ 16Х1.4 /08Х14МФ ТУ 1361-023-..-200" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="30 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000319000063" id_parent="100000425100063" name="Труба теплообменная" do="91.2711" plot="91.1085.01.011-17" qty="95" route_full="30-7">
+		<MATERIAL id="100003907600001" name="ТРУБА АХ 16Х1.4 /08Х14МФ ТУ 1361-023-..-200" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="30 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000319100063" id_parent="100000425100063" name="Труба теплообменная" do="91.2711" plot="91.1085.01.011-18" qty="94" route_full="30-7">
+		<MATERIAL id="100003907600001" name="ТРУБА АХ 16Х1.4 /08Х14МФ ТУ 1361-023-..-200" weight="213512,4272"/>
+		<ROUTES>
+			<ROUTE num="1" name="30 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000319200063" id_parent="100000425100063" name="Труба теплообменная" do="91.2711" plot="91.1085.01.011-19" qty="93" route_full="30-7">
+		<MATERIAL id="100003907600001" name="ТРУБА АХ 16Х1.4 /08Х14МФ ТУ 1361-023-..-200" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="30 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000318500063" id_parent="100000425100063" name="Труба теплообменная" do="91.2711" plot="91.1085.01.011-12" qty="98" route_full="30-7">
+		<MATERIAL id="100003907600001" name="ТРУБА АХ 16Х1.4 /08Х14МФ ТУ 1361-023-..-200" weight="225028,4134"/>
+		<ROUTES>
+			<ROUTE num="1" name="30 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000318600063" id_parent="100000425100063" name="Труба теплообменная" do="91.2711" plot="91.1085.01.011-13" qty="97" route_full="30-7">
+		<MATERIAL id="100003907600001" name="ТРУБА АХ 16Х1.4 /08Х14МФ ТУ 1361-023-..-200" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="30 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000318700063" id_parent="100000425100063" name="Труба теплообменная" do="91.2711" plot="91.1085.01.011-14" qty="96" route_full="30-7">
+		<MATERIAL id="100003907600001" name="ТРУБА АХ 16Х1.4 /08Х14МФ ТУ 1361-023-..-200" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="30 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000319300063" id_parent="100000425100063" name="Труба теплообменная" do="91.2711" plot="91.1085.01.011-20" qty="92" route_full="30-7">
+		<MATERIAL id="100003907600001" name="ТРУБА АХ 16Х1.4 /08Х14МФ ТУ 1361-023-..-200" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="30 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000319700063" id_parent="100000425100063" name="Труба теплообменная" do="91.2711" plot="91.1085.01.011-24" qty="88" route_full="30-7">
+		<MATERIAL id="100003907600001" name="ТРУБА АХ 16Х1.4 /08Х14МФ ТУ 1361-023-..-200" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="30 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000319800063" id_parent="100000425100063" name="Труба теплообменная" do="91.2711" plot="91.1085.01.011-25" qty="87" route_full="30-7">
+		<MATERIAL id="100003907600001" name="ТРУБА АХ 16Х1.4 /08Х14МФ ТУ 1361-023-..-200" weight="188361,2205"/>
+		<ROUTES>
+			<ROUTE num="1" name="30 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000319900063" id_parent="100000425100063" name="Труба теплообменная" do="91.2711" plot="91.1085.01.011-26" qty="86" route_full="30-7">
+		<MATERIAL id="100003907600001" name="ТРУБА АХ 16Х1.4 /08Х14МФ ТУ 1361-023-..-200" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="30 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000320000063" id_parent="100000425100063" name="Труба теплообменная" do="91.2711" plot="91.1085.01.011-27" qty="85" route_full="30-7">
+		<MATERIAL id="100003907600001" name="ТРУБА АХ 16Х1.4 /08Х14МФ ТУ 1361-023-..-200" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="30 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000320100063" id_parent="100000425100063" name="Труба теплообменная" do="91.2711" plot="91.1085.01.011-28" qty="84" route_full="30-7">
+		<MATERIAL id="100003907600001" name="ТРУБА АХ 16Х1.4 /08Х14МФ ТУ 1361-023-..-200" weight="169556,436"/>
+		<ROUTES>
+			<ROUTE num="1" name="30 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000319400063" id_parent="100000425100063" name="Труба теплообменная" do="91.2711" plot="91.1085.01.011-21" qty="91" route_full="30-7">
+		<MATERIAL id="100003907600001" name="ТРУБА АХ 16Х1.4 /08Х14МФ ТУ 1361-023-..-200" weight="269306,037"/>
+		<ROUTES>
+			<ROUTE num="1" name="30 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000319500063" id_parent="100000425100063" name="Труба теплообменная" do="91.2711" plot="91.1085.01.011-22" qty="90" route_full="30-7">
+		<MATERIAL id="100003907600001" name="ТРУБА АХ 16Х1.4 /08Х14МФ ТУ 1361-023-..-200" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="30 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000319600063" id_parent="100000425100063" name="Труба теплообменная" do="91.2711" plot="91.1085.01.011-23" qty="89" route_full="30-7">
+		<MATERIAL id="100003907600001" name="ТРУБА АХ 16Х1.4 /08Х14МФ ТУ 1361-023-..-200" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="30 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000320200063" id_parent="100000425100063" name="Труба теплообменная" do="91.2711" plot="91.1085.01.011-29" qty="83" route_full="30-7">
+		<MATERIAL id="100003907600001" name="ТРУБА АХ 16Х1.4 /08Х14МФ ТУ 1361-023-..-200" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="30 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000320600063" id_parent="100000425100063" name="Труба теплообменная" do="91.2711" plot="91.1085.01.011-33" qty="61" route_full="30-7">
+		<MATERIAL id="100003907600001" name="ТРУБА АХ 16Х1.4 /08Х14МФ ТУ 1361-023-..-200" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="30 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000320700063" id_parent="100000425100063" name="Труба теплообменная" do="91.2711" plot="91.1085.01.011-34" qty="60" route_full="30-7">
+		<MATERIAL id="100003907600001" name="ТРУБА АХ 16Х1.4 /08Х14МФ ТУ 1361-023-..-200" weight="127304,1"/>
+		<ROUTES>
+			<ROUTE num="1" name="30 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000320800063" id_parent="100000425100063" name="Труба теплообменная" do="91.2711" plot="91.1085.01.011-35" qty="61" route_full="30-7">
+		<MATERIAL id="100003907600001" name="ТРУБА АХ 16Х1.4 /08Х14МФ ТУ 1361-023-..-200" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="30 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000320900063" id_parent="100000425100063" name="Труба теплообменная" do="91.2711" plot="91.1085.01.011-36" qty="60" route_full="30-7">
+		<MATERIAL id="100003907600001" name="ТРУБА АХ 16Х1.4 /08Х14МФ ТУ 1361-023-..-200" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="30 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000363000063" id_parent="100000425100063" name="Труба теплообменная" do="91.2711" plot="91.1085.01.011-37" qty="61" route_full="30-7">
+		<MATERIAL id="100003907600001" name="ТРУБА АХ 16Х1.4 /08Х14МФ ТУ 1361-023-..-200" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="30 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000320300063" id_parent="100000425100063" name="Труба теплообменная" do="91.2711" plot="91.1085.01.011-30" qty="70" route_full="30-7">
+		<MATERIAL id="100003907600001" name="ТРУБА АХ 16Х1.4 /08Х14МФ ТУ 1361-023-..-200" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="30 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000320400063" id_parent="100000425100063" name="Труба теплообменная" do="91.2711" plot="91.1085.01.011-31" qty="65" route_full="30-7">
+		<MATERIAL id="100003907600001" name="ТРУБА АХ 16Х1.4 /08Х14МФ ТУ 1361-023-..-200" weight="105608,295"/>
+		<ROUTES>
+			<ROUTE num="1" name="30 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000320500063" id_parent="100000425100063" name="Труба теплообменная" do="91.2711" plot="91.1085.01.011-32" qty="62" route_full="30-7">
+		<MATERIAL id="100003907600001" name="ТРУБА АХ 16Х1.4 /08Х14МФ ТУ 1361-023-..-200" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="30 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000363100063" id_parent="100000425100063" name="Труба теплообменная" do="91.2711" plot="91.1085.01.011-38" qty="60" route_full="30-7">
+		<MATERIAL id="100003907600001" name="ТРУБА АХ 16Х1.4 /08Х14МФ ТУ 1361-023-..-200" weight="88571,79"/>
+		<ROUTES>
+			<ROUTE num="1" name="30 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000363500063" id_parent="100000425100063" name="Труба теплообменная" do="91.2711" plot="91.1085.01.011-42" qty="48" route_full="30-7">
+		<MATERIAL id="100003907600001" name="ТРУБА АХ 16Х1.4 /08Х14МФ ТУ 1361-023-..-200" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="30 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000363600063" id_parent="100000425100063" name="Труба теплообменная" do="91.2711" plot="91.1085.01.011-43" qty="46" route_full="30-7">
+		<MATERIAL id="100003907600001" name="ТРУБА АХ 16Х1.4 /08Х14МФ ТУ 1361-023-..-200" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="30 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000363700063" id_parent="100000425100063" name="Лист верхний" do="91.2711" plot="91.1085.01.012" qty="2" route_full="25-25Г-25-7">
+		<MATERIAL id="100001019400001" name="ЛИСТ Б-ПН-О-10 ГОСТ 19903-74/СТ3СП5-СВ ГОСТ 14637-89" weight="1060"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="25Г"/>
+			<ROUTE num="3" name="25 "/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000363800063" id_parent="100000425100063" name="Лист боковой" do="91.2711" plot="91.1085.01.013" qty="2" route_full="25-25Г-25-7">
+		<MATERIAL id="100001019400001" name="ЛИСТ Б-ПН-О-10 ГОСТ 19903-74/СТ3СП5-СВ ГОСТ 14637-89" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="25Г"/>
+			<ROUTE num="3" name="25 "/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000363900063" id_parent="100000425100063" name="Кожух" do="91.2711" plot="91.1085.01.014" qty="2" route_full="25-11Х-25-7">
+		<MATERIAL id="100003193300001" name="ЛИСТ Б-ПН-О-5 ГОСТ 19903-74/СТ3СП5-СВ ГОСТ 14637-89" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="11Х"/>
+			<ROUTE num="3" name="25 "/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000363200063" id_parent="100000425100063" name="Труба теплообменная" do="91.2711" plot="91.1085.01.011-39" qty="54" route_full="30-7">
+		<MATERIAL id="100003907600001" name="ТРУБА АХ 16Х1.4 /08Х14МФ ТУ 1361-023-..-200" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="30 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000363300063" id_parent="100000425100063" name="Труба теплообменная" do="91.2711" plot="91.1085.01.011-40" qty="52" route_full="30-7">
+		<MATERIAL id="100003907600001" name="ТРУБА АХ 16Х1.4 /08Х14МФ ТУ 1361-023-..-200" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="30 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000363400063" id_parent="100000425100063" name="Труба теплообменная" do="91.2711" plot="91.1085.01.011-41" qty="50" route_full="30-7">
+		<MATERIAL id="100003907600001" name="ТРУБА АХ 16Х1.4 /08Х14МФ ТУ 1361-023-..-200" weight="71693,1"/>
+		<ROUTES>
+			<ROUTE num="1" name="30 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000364000063" id_parent="100000425100063" name="Кожух" do="91.2711" plot="91.1085.01.015" qty="2" route_full="25-11Х-25-7">
+		<MATERIAL id="100003193300001" name="ЛИСТ Б-ПН-О-5 ГОСТ 19903-74/СТ3СП5-СВ ГОСТ 14637-89" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="11Х"/>
+			<ROUTE num="3" name="25 "/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000365300063" id_parent="100000425100063" name="Накладка" do="91.2711" plot="91.1085.01.019-01" qty="22" route_full="25-7">
+		<MATERIAL id="100003193300001" name="ЛИСТ Б-ПН-О-5 ГОСТ 19903-74/СТ3СП5-СВ ГОСТ 14637-89" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000365400063" id_parent="100000425100063" name="Накладка" do="91.2711" plot="91.1085.01.019-02" qty="4" route_full="25-7">
+		<MATERIAL id="100003193300001" name="ЛИСТ Б-ПН-О-5 ГОСТ 19903-74/СТ3СП5-СВ ГОСТ 14637-89" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000365900063" id_parent="100000425100063" name="Кожух" do="91.2711" plot="91.1085.01.020-04" qty="1" route_full="25-7">
+		<MATERIAL id="100003193300001" name="ЛИСТ Б-ПН-О-5 ГОСТ 19903-74/СТ3СП5-СВ ГОСТ 14637-89" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000366000063" id_parent="100000425100063" name="Уголок" do="91.2711" plot="91.1085.01.021" qty="2" route_full="25-7">
+		<MATERIAL id="100006929900001" name="УГОЛОК В-63*63*6 ГОСТ 8509-93/СТ3ПС5-СВ ГОСТ 535-2005" weight="25,74"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000366600063" id_parent="100000425100063" name="Кожух" do="91.2711" plot="91.1085.01.027" qty="1" route_full="25-11Х-25-26-25-7">
+		<MATERIAL id="100003193300001" name="ЛИСТ Б-ПН-О-5 ГОСТ 19903-74/СТ3СП5-СВ ГОСТ 14637-89" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="11Х"/>
+			<ROUTE num="3" name="25 "/>
+			<ROUTE num="4" name="26 "/>
+			<ROUTE num="5" name="25 "/>
+			<ROUTE num="6" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000364500063" id_parent="100000425100063" name="Лист" do="91.2711" plot="91.1085.01.017-02" qty="2" route_full="25-7">
+		<MATERIAL id="100003194000001" name="ЛИСТ Б-ПН-О-8 ГОСТ 19903-74/СТ3СП5-СВ ГОСТ 14637-89" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="25 " num_operations="10-15.1-15.2-25-40.1-40.2-50-55-60.1-60.2-140.1-140.2-145.1-145.2" labor_units="0.6" duration="0.6" shrm="801      -422      -422      -815      -441      -441      -311      -815      -422      -422      -361      -361      -413      -413      " labor_units_shrm="0,1-0,05-0,05-0,36-0,2-0,2-0,28-0,2-0,12-0,12-0,36-0,36-0,6-0,6"/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000180500026" id_parent="100000425100063" name="Лист" do="91.2711" plot="91.1085.01.017-05" qty="2" route_full="25-26-25-7">
+		<MATERIAL id="100003194000001" name="ЛИСТ Б-ПН-О-8 ГОСТ 19903-74/СТ3СП5-СВ ГОСТ 14637-89" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="25 " num_operations="10-15.1-15.2-25-40.1-40.2-50-55-60.1-60.2-61" labor_units="0" duration="" shrm="801      -422      -422      -815      -441      -441      -311      -815      -422      -422      " labor_units_shrm="0,08-0,04-0,04-0,28-0,12-0,12-0,2-0,2-0,02777777777777-0,02777777777777-0"/>
+			<ROUTE num="2" name="26 " num_operations="5-10-15-20-25-30" labor_units="0" duration="" shrm="812      -142      -801      " labor_units_shrm="0-0,08-0-0,78-0,04-0"/>
+			<ROUTE num="3" name="25 " num_operations="140.1-140.2-145.1-145.2" labor_units="0.6" duration="0.6" shrm="361      -361      -413      -413      " labor_units_shrm="0,36-0,36-0,6-0,6"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000365200063" id_parent="100000425100063" name="Накладка" do="91.2711" plot="91.1085.01.019" qty="5" route_full="25-7">
+		<MATERIAL id="100003193300001" name="ЛИСТ Б-ПН-О-5 ГОСТ 19903-74/СТ3СП5-СВ ГОСТ 14637-89" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000180600026" id_parent="100000425100063" name="Труба отвода" do="91.2711" plot="91.1650.01.001" qty="1" route_full="2к-14-16-7">
+		<MATERIAL id="100003959500001" name="ТРУБА Г 159*6 /20 ТУ 14-3Р-55-2001" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="02К"/>
+			<ROUTE num="2" name="14 " num_operations="15-15-25-25-35-35-70-70-115-115" labor_units="0.05" duration="0.05" shrm="812      -812      -815      -815      -221      -221      -042      -042      -815      -815      " labor_units_shrm="0,07-0,07-0,05-0,05-0,345-0,345-1,31-1,31-0,05-0,05"/>
+			<ROUTE num="3" name="16 "/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000181000026" id_parent="100000425100063" name="Кожух" do="91.2711" plot="91.1650.01.004-01" qty="18" route_full="25-7">
+		<MATERIAL id="100003193300001" name="ЛИСТ Б-ПН-О-5 ГОСТ 19903-74/СТ3СП5-СВ ГОСТ 14637-89" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="25 " num_operations="10-15.1-15.2-25-40.1-40.2-50-55-60.1-60.2-140.1-140.2-145.1-145.2" labor_units="81" duration="81" shrm="801      -422      -422      -815      -441      -441      -311      -815      -422      -422      -361      -361      -413      -413      " labor_units_shrm="0,1-0,05-0,05-9,72-3,89-3,89-48,6-16,2-4,535-4,535-32,4-32,4-81-81"/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000181100026" id_parent="100000425100063" name="Кожух" do="91.2711" plot="91.1650.01.004-02" qty="2" route_full="25-7">
+		<MATERIAL id="100003193300001" name="ЛИСТ Б-ПН-О-5 ГОСТ 19903-74/СТ3СП5-СВ ГОСТ 14637-89" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="25 " num_operations="10-15.1-15.2-25-40.1-40.2-50-55-60.1-60.2-140.1-140.2-145.1-145.2" labor_units="1" duration="1" shrm="801      -422      -422      -815      -441      -441      -311      -815      -422      -422      -361      -361      -413      -413      " labor_units_shrm="0,1-0,05-0,05-0,12-0,06-0,06-0,8-0,2-0,05611111111111-0,05611111111111-0,4-0,4-1-1"/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000181200026" id_parent="100000425100063" name="Кожух" do="91.2711" plot="91.1650.01.004-03" qty="2" route_full="25-7">
+		<MATERIAL id="100003193300001" name="ЛИСТ Б-ПН-О-5 ГОСТ 19903-74/СТ3СП5-СВ ГОСТ 14637-89" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="25 " num_operations="10-15.1-15.2-25-40.1-40.2-50-55-60.1-60.2-140.1-140.2-145.1-145.2" labor_units="1" duration="1" shrm="801      -422      -422      -815      -441      -441      -311      -815      -422      -422      -361      -361      -413      -413      " labor_units_shrm="0,1-0,05-0,05-0,12-0,06-0,06-0,8-0,2-0,05611111111111-0,05611111111111-0,4-0,4-1-1"/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000181300026" id_parent="100000425100063" name="Щит конденсатоотбойный" do="91.2711" plot="91.1650.01.005" qty="2" route_full="25-33-7">
+		<MATERIAL id="100003600800001" name="ЛИСТ Б-ПН-О-12 ГОСТ 19903-74/08Х18Н10Т-М3Б ГОСТ 7350-77" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="25 " num_operations="15-20.1-20.2-26-30-40-45-50-55.1-55.2" labor_units="0.04" duration="0.04" shrm="801      -422      -422      -815      -558      -801      -311      -815      -422      -422      " labor_units_shrm="0,1-0,05-0,05-0,05-1,6-0,12-0,6-0,2-0,04-0,04"/>
+			<ROUTE num="2" name="33 " num_operations="5-40-45-50-55-60" labor_units="0" duration="" shrm="168      -062      -801      " labor_units_shrm="0-2,7-0-14-1-0"/>
+			<ROUTE num="3" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000181400026" id_parent="100000425100063" name="Отбойник" do="91.2711" plot="91.1650.01.006" qty="1" route_full="25-7">
+		<MATERIAL id="100003600800001" name="ЛИСТ Б-ПН-О-12 ГОСТ 19903-74/08Х18Н10Т-М3Б ГОСТ 7350-77" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="25 " num_operations="10-15.1-15.2-26-30-45-50-55-60.1-60.2-140.1-140.2-145.1-145.2" labor_units="0.2" duration="0.2" shrm="801      -422      -422      -815      -558      -801      -311      -815      -422      -422      -361      -361      -413      -413      " labor_units_shrm="0,1-0,05-0,05-0,05-0,27-0,02-0,1-0,05-0,01388888888888-0,01388888888888-0,1-0,1-0,2-0,2"/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000180700026" id_parent="100000425100063" name="Труба каркасная" do="91.2711" plot="91.1650.01.002" qty="1" route_full="2к-14-16-7">
+		<MATERIAL id="100003959500001" name="ТРУБА Г 159*6 /20 ТУ 14-3Р-55-2001" weight="325,1"/>
+		<ROUTES>
+			<ROUTE num="1" name="02К"/>
+			<ROUTE num="2" name="14 " num_operations="15-15-25-25-35-35-70-70-115-115" labor_units="0.05" duration="0.05" shrm="812      -812      -815      -815      -221      -221      -042      -042      -815      -815      " labor_units_shrm="0,07-0,07-0,05-0,05-0,345-0,345-1,31-1,31-0,05-0,05"/>
+			<ROUTE num="3" name="16 "/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000180800026" id_parent="100000425100063" name="Труба каркасная" do="91.2711" plot="91.1650.01.003" qty="1" route_full="2к-14-16-7">
+		<MATERIAL id="100003959500001" name="ТРУБА Г 159*6 /20 ТУ 14-3Р-55-2001" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="02К"/>
+			<ROUTE num="2" name="14 " num_operations="15-15-25-25-35-35-70-70-115-115" labor_units="0.05" duration="0.05" shrm="812      -812      -815      -815      -221      -221      -042      -042      -815      -815      " labor_units_shrm="0,07-0,07-0,05-0,05-0,345-0,345-1,31-1,31-0,05-0,05"/>
+			<ROUTE num="3" name="16 "/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000180900026" id_parent="100000425100063" name="Кожух" do="91.2711" plot="91.1650.01.004" qty="4" route_full="25-7">
+		<MATERIAL id="100003193300001" name="ЛИСТ Б-ПН-О-5 ГОСТ 19903-74/СТ3СП5-СВ ГОСТ 14637-89" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="25 " num_operations="10-15.1-15.2-25-40.1-40.2-50-55-60.1-60.2-140.1-140.2-145.1-145.2" labor_units="4" duration="4" shrm="801      -422      -422      -815      -441      -441      -311      -815      -422      -422      -361      -361      -413      -413      " labor_units_shrm="0,1-0,05-0,05-0,48-0,24-0,24-3,2-0,8-0,22444444444444-0,22444444444444-1,6-1,6-4-4"/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000181500026" id_parent="100000425100063" name="Труба" do="91.2711" plot="91.1650.01.007" qty="1" route_full="26-7">
+		<MATERIAL id="100003918600001" name="ТРУБА Г 325*24 /20 ТУ 14-3Р-55-2001" weight="57,2"/>
+		<ROUTES>
+			<ROUTE num="1" name="26 " num_operations="5-25-30-35-40-65-70-110-115-120-125-130" labor_units="0" duration="" shrm="222      -811      -014      -812      -142      -801      " labor_units_shrm="0-0,5-0-0,035-0-2-0-1-0-2,3-0,2-0"/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000181900026" id_parent="100000425100063" name="Перегородка" do="91.2711" plot="91.1650.01.011" qty="1" route_full="25-7">
+		<MATERIAL id="100003194000001" name="ЛИСТ Б-ПН-О-8 ГОСТ 19903-74/СТ3СП5-СВ ГОСТ 14637-89" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="25 " num_operations="15-20.1-20.2-26-30-40-45-50-55.1-55.2" labor_units="0.04" duration="0.04" shrm="801      -422      -422      -815      -558      -801      -311      -815      -422      -422      " labor_units_shrm="0,1-0,05-0,05-0,05-0,26-0,02-0,1-0,05-0,01-0,04"/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000182000026" id_parent="100000425100063" name="Кожух" do="91.2711" plot="91.1650.01.012" qty="1" route_full="25-11Х-25-7">
+		<MATERIAL id="100003193300001" name="ЛИСТ Б-ПН-О-5 ГОСТ 19903-74/СТ3СП5-СВ ГОСТ 14637-89" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="25 " num_operations="10-15.1-15.2-25-40.1-40.2-41" labor_units="0" duration="" shrm="801      -422      -422      -815      -441      -441      " labor_units_shrm="0,1-0,05-0,05-0,03-0,015-0,015-0"/>
+			<ROUTE num="2" name="11Х"/>
+			<ROUTE num="3" name="25 " num_operations="45-50-55-60.1-60.2-140.1-140.2-145.1-145.2" labor_units="0.25" duration="0.25" shrm="801      -311      -815      -422      -422      -361      -361      -413      -413      " labor_units_shrm="0,02-0,2-0,05-0,01388888888888-0,01388888888888-0,1-0,1-0,25-0,25"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000182100026" id_parent="100000425100063" name="Пластина Лист Б-ПН-О-12 ГОСТ 19903-74 СТ3СП5-СВ ГОСТ 14637-89" do="91.2711" plot="91.1650.01.100" qty="1" route_full="25-7">
+		<MATERIAL id="100003194500001" name="ЛИСТ Б-ПН-О-12 ГОСТ 19903-74/СТ3СП5-СВ ГОСТ 14637-89" weight="20,5"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 " num_operations="15-20.1-20.2-35-40-45-50-55.1-55.2" labor_units="0.01" duration="0.01" shrm="801      -422      -422      -552      -801      -311      -815      -422      -422      " labor_units_shrm="0,1-0,05-0,05-0,35-0,02-0,1-0,05-0,01-0,01"/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000182200026" id_parent="100000425100063" name="Пластина Лист Б-ПН-О-5 ГОСТ 19903-74 СТ3СП5-СВ ГОСТ 14637-89" do="91.2711" plot="91.1650.01.101" qty="2" route_full="25-7">
+		<MATERIAL id="100003193300001" name="ЛИСТ Б-ПН-О-5 ГОСТ 19903-74/СТ3СП5-СВ ГОСТ 14637-89" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="25 " num_operations="10-15.1-15.2-25-35.1-35.2-40-45-50.1-50.2" labor_units="0.04" duration="0.04" shrm="801      -422      -422      -815      -441      -441      -311      -815      -422      -422      " labor_units_shrm="0,1-0,05-0,05-0,08-0,04777777777777-0,04777777777777-0,12-0,2-0,04-0,04"/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000182300026" id_parent="100000425100063" name="Планка Лист Б-ПН-О-3 ГОСТ 19903-74 08Х18Н10-М3Б ГОСТ 5582-75" do="91.2711" plot="91.1650.01.103" qty="12" route_full="25-7">
+		<MATERIAL id="100003615300001" name="ЛИСТ Б-ПН-О-3 ГОСТ 19903-74/08Х18Н10-М3Б ГОСТ 5582-75" weight="6,9996"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 " num_operations="10-15.1-15.2-25-35.1-35.2-40-45-50.1-50.2" labor_units="1.44" duration="1.44" shrm="801      -422      -422      -815      -441      -441      -311      -815      -422      -422      " labor_units_shrm="0,1-0,05-0,05-1,44-1,44-1,44-4,32-0,05-1,44-1,44"/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000181600026" id_parent="100000425100063" name="Щит конденсатоотбойный" do="91.2711" plot="91.1650.01.008" qty="1" route_full="25-7">
+		<MATERIAL id="100003600800001" name="ЛИСТ Б-ПН-О-12 ГОСТ 19903-74/08Х18Н10Т-М3Б ГОСТ 7350-77" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="25 " num_operations="10-15.1-15.2-26-30-45-50-55-60.1-60.2-140.1-140.2" labor_units="0.1" duration="0.1" shrm="801      -422      -422      -815      -558      -801      -311      -815      -422      -422      -361      -361      " labor_units_shrm="0,1-0,05-0,05-0,05-0,1-0,01-0,05-0,05-0,01388888888888-0,01388888888888-0,1-0,1"/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000181700026" id_parent="100000425100063" name="Щит конденсатоотбойный" do="91.2711" plot="91.1650.01.009" qty="1" route_full="25-7">
+		<MATERIAL id="100003600800001" name="ЛИСТ Б-ПН-О-12 ГОСТ 19903-74/08Х18Н10Т-М3Б ГОСТ 7350-77" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="25 " num_operations="10-15.1-15.2-26-30-45-50-55-60.1-60.2-140.1-140.2" labor_units="0.1" duration="0.1" shrm="801      -422      -422      -815      -558      -801      -311      -815      -422      -422      -361      -361      " labor_units_shrm="0,1-0,05-0,05-0,05-0,1-0,01-0,05-0,05-0,01388888888888-0,01388888888888-0,1-0,1"/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000181800026" id_parent="100000425100063" name="Отбойник" do="91.2711" plot="91.1650.01.010" qty="1" route_full="25-7">
+		<MATERIAL id="100003600800001" name="ЛИСТ Б-ПН-О-12 ГОСТ 19903-74/08Х18Н10Т-М3Б ГОСТ 7350-77" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="25 " num_operations="10-15.1-15.2-26-30-45-50-55-60.1-60.2-140.1-140.2-145.1-145.2" labor_units="0.15" duration="0.15" shrm="801      -422      -422      -815      -558      -801      -311      -815      -422      -422      -361      -361      -413      -413      " labor_units_shrm="0,1-0,05-0,05-0,05-0,15-0,01-0,08-0,05-0,01388888888888-0,01388888888888-0,1-0,1-0,15-0,15"/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="-100000210000026" id_parent="100000425100063" name="Камера водяная в сборе" do="91.2711" plot="91.2711 Ч.2" qty="1" route_full="3-33-8Т-8П-7Т-7-ОМ-26-35-25-14-11М-ОСК">
+		<ROUTES>
+			<ROUTE num="1" name="03 "/>
+			<ROUTE num="2" name="33 "/>
+			<ROUTE num="3" name="08Т"/>
+			<ROUTE num="4" name="08П"/>
+			<ROUTE num="5" name="07Т"/>
+			<ROUTE num="6" name="07 "/>
+			<ROUTE num="7" name="26 "/>
+			<ROUTE num="8" name="35 "/>
+			<ROUTE num="9" name="25 "/>
+			<ROUTE num="10" name="14 "/>
+			<ROUTE num="11" name="11М"/>
+			<ROUTE num="12" name="ОСК"/>
+		</ROUTES>
+	</PRODUCT>
+	
+	<PRODUCT structure="00020" id="100000210000026" id_parent="-100000210000026" name="Камера водяная в сборе" do="91.2711" plot="91.2710.01-01СБ" qty="1" route_full="7-3-7-3-7-3-7-8Т-8П-7-33-7-7Т-3-7-7Т-33-7">
+		<ROUTES>
+			<ROUTE num="1" name="07 "/>
+			<ROUTE num="2" name="03 "/>
+			<ROUTE num="3" name="07 "/>
+			<ROUTE num="4" name="03 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00040" id="100000210000026" id_parent="-100000210000026" name="Камера водяная в сборе" do="91.2711" plot="91.2710.01-01СБ" qty="1" route_full="7-3-7-3-7-3-7-8Т-8П-7-33-7-7Т-3-7-7Т-33-7">
+		<ROUTES>
+			<ROUTE num="5" name="07 "/>
+			<ROUTE num="6" name="03 "/>
+			<ROUTE num="7" name="07 "/>
+			<ROUTE num="8" name="08Т"/>
+			<ROUTE num="9" name="08П"/>
+			<ROUTE num="10" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00050" id="100000210000026" id_parent="-100000210000026" name="Камера водяная в сборе" do="91.2711" plot="91.2710.01-01СБ" qty="1" route_full="7-3-7-3-7-3-7-8Т-8П-7-33-7-7Т-3-7-7Т-33-7">
+		<ROUTES>
+			<ROUTE num="11" name="33 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00070" id="100000210000026" id_parent="-100000210000026" name="Камера водяная в сборе" do="91.2711" plot="91.2710.01-01СБ" qty="1" route_full="7-3-7-3-7-3-7-8Т-8П-7-33-7-7Т-3-7-7Т-33-7">
+		<ROUTES>
+			<ROUTE num="12" name="07 "/>
+			<ROUTE num="13" name="07Т"/>
+			<ROUTE num="14" name="03 "/>
+			<ROUTE num="15" name="07 "/>
+			<ROUTE num="16" name="07Т"/>
+			<ROUTE num="17" name="33 "/>
+			<ROUTE num="18" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	
+	<PRODUCT structure="00060" id="100000324100063" id_parent="100000210000026" name="Бобышка" do="91.2711" plot="91.0871.01.01.008" qty="1" route_full="25-26-7">
+		<MATERIAL id="100003435100001" name="ЛИСТ ПН-О-80 ГОСТ 19903-74/20-М1-ТО-ДК2-ГС ГОСТ 1577-93" weight="85"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="26 "/>
+			<ROUTE num="3" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00030" id="100000324400063" id_parent="100000210000026" name="Ребро" do="91.2711" plot="91.0871.01.01.011-01" qty="2" route_full="25-26-7">
+		<MATERIAL id="100003438400001" name="ЛИСТ ПН-О-36 ГОСТ 19903-74/20-М1-КИ-ТО-ДК2-ГС ГОСТ 1577-93" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="26 "/>
+			<ROUTE num="3" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00060" id="100000324200063" id_parent="100000210000026" name="Бобышка" do="91.2711" plot="91.0871.01.01.009" qty="7" route_full="25-26-7">
+		<MATERIAL id="100001262600001" name="ЛИСТ ПН-О-50 ГОСТ 19903-74/20-М1-КИ-ТО-ДК2-ГС ГОСТ 1577-93" weight="113,0003"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="26 "/>
+			<ROUTE num="3" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00030" id="100000324300063" id_parent="100000210000026" name="Ребро" do="91.2711" plot="91.0871.01.01.011" qty="1" route_full="25-26-7">
+		<MATERIAL id="100003438400001" name="ЛИСТ ПН-О-36 ГОСТ 19903-74/20-М1-КИ-ТО-ДК2-ГС ГОСТ 1577-93" weight="195"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="26 "/>
+			<ROUTE num="3" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00030" id="100000324500063" id_parent="100000210000026" name="Ребро" do="91.2711" plot="91.0871.01.01.012" qty="1" route_full="25-26-25-26-7">
+		<MATERIAL id="100001261900001" name="ЛИСТ ПН-О-25 ГОСТ 19903-74/20-М1-КИ-ТО-ДК2-ГС ГОСТ 1577-93" weight="223"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="26 "/>
+			<ROUTE num="3" name="25 "/>
+			<ROUTE num="4" name="26 "/>
+			<ROUTE num="5" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00060" id="100000324600063" id_parent="100000210000026" name="Обечайка" do="91.2711" plot="91.1085.01.01.001" qty="1" route_full="25-8Т-8П-25-26-7">
+		<MATERIAL id="100003287500001" name="ЛИСТ 22К-45-КП215-ГР.III-270С,ТКО&lt;=40С,УЗК ТУ 302.02.092-90" weight="3330"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="08Т"/>
+			<ROUTE num="3" name="08П"/>
+			<ROUTE num="4" name="25 "/>
+			<ROUTE num="5" name="26 "/>
+			<ROUTE num="6" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00010" id="100000324700063" id_parent="100000210000026" name="Обечайка" do="91.2711" plot="91.1085.01.01.001-01" qty="1" route_full="25-8Т-8П-25-26-3-7">
+		<MATERIAL id="100003287500001" name="ЛИСТ 22К-45-КП215-ГР.III-270С,ТКО&lt;=40С,УЗК ТУ 302.02.092-90" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="08Т"/>
+			<ROUTE num="3" name="08П"/>
+			<ROUTE num="4" name="25 "/>
+			<ROUTE num="5" name="26 "/>
+			<ROUTE num="6" name="03 "/>
+			<ROUTE num="7" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00060" id="100000325000063" id_parent="100000210000026" name="Бобышка" do="91.2711" plot="91.1085.01.01.004" qty="1" route_full="25-26-7">
+		<MATERIAL id="100001262600001" name="ЛИСТ ПН-О-50 ГОСТ 19903-74/20-М1-КИ-ТО-ДК2-ГС ГОСТ 1577-93" weight="14"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="26 "/>
+			<ROUTE num="3" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000210600026" id_parent="100000210000026" name="Прочие детали и материалы " do="91.2711" plot="" qty="1" route_full=""/>
+	<PRODUCT structure="" id="100000210700026" id_parent="100000210600026" name="Материалы для гидроиспытаний" do="91.2711" plot="" qty="1" route_full=""/>
+	<PRODUCT structure="" id="100000211000026" id_parent="100000210600026" name="Материалы для упаковки" do="91.2711" plot="" qty="1" route_full=""/>
+	<PRODUCT structure="" id="100000211100026" id_parent="100000210600026" name="Материалы для технологических целей" do="91.2711" plot="" qty="1" route_full=""/>
+	<PRODUCT structure="" id="100000325600063" id_parent="100000211100026" name="Кольцо подкладное" do="91.2711" plot="91.0401.01.01.017" qty="2" route_full="25-26-7">
+		<MATERIAL id="100003194500001" name="ЛИСТ Б-ПН-О-12 ГОСТ 19903-74/СТ3СП5-СВ ГОСТ 14637-89" weight="142,8"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="26 "/>
+			<ROUTE num="3" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100001103400024" id_parent="100000211100026" name="Технологическая планка 300х150" do="91.2711" plot="91.2710.01.091" qty="12" route_full="25-7">
+		<MATERIAL id="100003202000001" name="ЛИСТ ПН-О-30 ГОСТ 19903-74/СТ3ГПС5-СВ ГОСТ 14637-89" weight="152,4"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 " num_operations="15-20.1-20.2-35-40-45-50-55.1-55.2" labor_units="5.76" duration="5.76" shrm="801      -422      -422      -552      -801      -311      -815      -422      -422      " labor_units_shrm="0,07-0,05694444444444-0,05694444444444-17,56666666666666-4,32-7,63333333333333-7,2-5,76-5,76"/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100001103500024" id_parent="100000211100026" name="Бирка 63х63" do="91.2711" plot="91.2710.01.092" qty="10" route_full="25-7">
+		<MATERIAL id="100003481600001" name="ЛИСТ БТ-ПН-О-1 ГОСТ 19904-90/08КП-II-Г ГОСТ 24244-80" weight="0,34"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 " num_operations="10-25-35.1-35.2-40-45" labor_units="0.05" duration="0.05" shrm="801      -815      -441      -441      -311      -815      " labor_units_shrm="0,05-1-1-1-2-0,05"/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000030600079" id_parent="100000211100026" name="Кольцо технологическое" do="91.2711" plot="91.2300.01.01.101" qty="2" route_full="25-26-7">
+		<MATERIAL id="100003183400001" name="ЛИСТ Б-ПН-О-8 ГОСТ 19903-74/СТ3ПС5-СВ ГОСТ 14637-89" weight="227,5"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="26 "/>
+			<ROUTE num="3" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000211200026" id_parent="100000210600026" name="Вспомогательные материалы" do="91.2711" plot="" qty="1" route_full=""/>
+	<PRODUCT structure="" id="100000211300026" id_parent="100000210600026" name="Материалы для запчастей" do="91.2711" plot="" qty="1" route_full=""/>
+	<PRODUCT structure="" id="100000210800026" id_parent="100000210600026" name="Материалы для контрольных проб и образцов" do="91.2711" plot="" qty="1" route_full=""/>
+	<PRODUCT structure="" id="100000210900026" id_parent="100000210600026" name="Материалы для использования на монтаже" do="91.2711" plot="" qty="1" route_full=""/>
+	<PRODUCT structure="" id="100000211400026" id_parent="100000210600026" name="Материалы, не входящие в поставку ЗИО" do="91.2711" plot="" qty="1" route_full=""/>
+	<PRODUCT structure="00010" id="100000324800063" id_parent="100000210000026" name="Обечайка" do="91.2711" plot="91.1085.01.01.002" qty="1" route_full="ОМ-26-3-26-3-26-3-8Т-8П-3-26-3-26-3-7">
+		<ROUTES>
+			<ROUTE num="1" name="26 "/>
+			<ROUTE num="2" name="03 "/>
+			<ROUTE num="3" name="26 "/>
+			<ROUTE num="4" name="03 "/>
+			<ROUTE num="5" name="26 "/>
+			<ROUTE num="6" name="03 "/>
+			<ROUTE num="7" name="08Т"/>
+			<ROUTE num="8" name="08П"/>
+			<ROUTE num="9" name="03 "/>
+			<ROUTE num="10" name="26 "/>
+			<ROUTE num="11" name="03 "/>
+			<ROUTE num="12" name="26 "/>
+			<ROUTE num="13" name="03 "/>
+			<ROUTE num="14" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00010" id="100000324900063" id_parent="100000210000026" name="Доска трубная" do="91.2711" plot="91.1085.01.01.003" qty="1" route_full="ОМ-26-3-26-3-26-3-8Т-8П-3-26-3-33-3-26-3-7">
+		<ROUTES>
+			<ROUTE num="1" name="26 "/>
+			<ROUTE num="2" name="03 "/>
+			<ROUTE num="3" name="26 "/>
+			<ROUTE num="4" name="03 "/>
+			<ROUTE num="5" name="26 "/>
+			<ROUTE num="6" name="03 "/>
+			<ROUTE num="7" name="08Т"/>
+			<ROUTE num="8" name="08П"/>
+			<ROUTE num="9" name="03 "/>
+			<ROUTE num="10" name="26 "/>
+			<ROUTE num="11" name="03 "/>
+			<ROUTE num="12" name="33 "/>
+			<ROUTE num="13" name="03 "/>
+			<ROUTE num="14" name="26 "/>
+			<ROUTE num="15" name="03 "/>
+			<ROUTE num="16" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00060" id="100000169100026" id_parent="100000210000026" name="Патрубок" do="91.2711" plot="91.0872.01.01.007" qty="1" route_full="ОМ-26-7">
+		<ROUTES>
+			<ROUTE num="1" name="26 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00030" id="100000324000063" id_parent="100000210000026" name="Патрубок" do="91.2711" plot="91.0401.01.01.006" qty="2" route_full="ОМ-26-7">
+		<ROUTES>
+			<ROUTE num="1" name="26 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00030" id="100000155000079" id_parent="100000210000026" name="Фланец" do="91.2711" plot="91.2525.01.01.004" qty="1" route_full="ОМ-26-14-26-11М-7">
+		<ROUTES>
+			<ROUTE num="1" name="26 "/>
+			<ROUTE num="2" name="14 "/>
+			<ROUTE num="3" name="26 "/>
+			<ROUTE num="4" name="11М"/>
+			<ROUTE num="5" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000301000063" id_parent="100000425100063" name="Желоб" do="91.2711" plot="91.0871.01.02СБ" qty="20" route_full="7">
+		<ROUTES>
+			<ROUTE num="1" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000360000063" id_parent="100000301000063" name="Перегородка" do="91.2711" plot="91.0871.01.02.002" qty="20" route_full="25-11Х-25-7">
+		<MATERIAL id="100003193300001" name="ЛИСТ Б-ПН-О-5 ГОСТ 19903-74/СТ3СП5-СВ ГОСТ 14637-89" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="11Х"/>
+			<ROUTE num="3" name="25 "/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000359800063" id_parent="100000301000063" name="Лоток" do="91.2711" plot="91.0871.01.02.001" qty="20" route_full="25-11Х-25-5Ш-26-7">
+		<MATERIAL id="100003193300001" name="ЛИСТ Б-ПН-О-5 ГОСТ 19903-74/СТ3СП5-СВ ГОСТ 14637-89" weight="47100"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="11Х"/>
+			<ROUTE num="3" name="25 "/>
+			<ROUTE num="4" name="05Ш"/>
+			<ROUTE num="5" name="26 "/>
+			<ROUTE num="6" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000301100063" id_parent="100000425100063" name="Перегородка в сборе" do="91.2711" plot="91.0871.01.03-01СБ" qty="1" route_full="7-5Ш-7">
+		<ROUTES>
+			<ROUTE num="1" name="07 "/>
+			<ROUTE num="2" name="05Ш"/>
+			<ROUTE num="3" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000360900063" id_parent="100000301100063" name="Прокладка" do="91.2711" plot="91.0871.01.03.009" qty="1" route_full="ОСК-7">
+		<MATERIAL id="100002696700001" name="ПАРОНИТ ПОН-Б 2 ГОСТ 481-80" weight="3"/>
+		<ROUTES>
+			<ROUTE num="1" name="ОСК"/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000360400063" id_parent="100000301100063" name="Заглушка" do="91.2711" plot="91.0871.01.03.004" qty="1" route_full="25-26-7">
+		<MATERIAL id="100001262000001" name="ЛИСТ ПН-О-28 ГОСТ 19903-74/20-М1-КИ-ТО-ДК2-ГС ГОСТ 1577-93" weight="108"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="26 "/>
+			<ROUTE num="3" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000360500063" id_parent="100000301100063" name="Серьга" do="91.2711" plot="91.0871.01.03.005" qty="2" route_full="25-25Г-25-26-7">
+		<MATERIAL id="100003194000001" name="ЛИСТ Б-ПН-О-8 ГОСТ 19903-74/СТ3СП5-СВ ГОСТ 14637-89" weight="474"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="25Г"/>
+			<ROUTE num="3" name="25 "/>
+			<ROUTE num="4" name="26 "/>
+			<ROUTE num="5" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000360600063" id_parent="100000301100063" name="Скоба" do="91.2711" plot="91.0871.01.03.006" qty="2" route_full="25-25Г-25-26-7">
+		<MATERIAL id="100003194000001" name="ЛИСТ Б-ПН-О-8 ГОСТ 19903-74/СТ3СП5-СВ ГОСТ 14637-89" weight=""/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="25Г"/>
+			<ROUTE num="3" name="25 "/>
+			<ROUTE num="4" name="26 "/>
+			<ROUTE num="5" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000360700063" id_parent="100000301100063" name="Ось" do="91.2711" plot="91.0871.01.03.007" qty="1" route_full="26-8Т-26-7">
+		<MATERIAL id="100000073100029" name="КРУГ В1-II-16 ГОСТ 2590-2006/20-2ГП-М1-ГС-ТО ГОСТ 1050-88" weight="0,3998"/>
+		<ROUTES>
+			<ROUTE num="1" name="26 "/>
+			<ROUTE num="2" name="08Т"/>
+			<ROUTE num="3" name="26 "/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000360800063" id_parent="100000301100063" name="Упор" do="91.2711" plot="91.0871.01.03.008" qty="1" route_full="26-8Т-26-7">
+		<MATERIAL id="100000605100029" name="КРУГ В1-II-14 ГОСТ 2590-2006/20-2ГП-М1-ГС-ТО ГОСТ 1050-88" weight="0,242"/>
+		<ROUTES>
+			<ROUTE num="1" name="26 "/>
+			<ROUTE num="2" name="08Т"/>
+			<ROUTE num="3" name="26 "/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000361000063" id_parent="100000301100063" name="Ручка" do="91.2711" plot="91.0871.05.002" qty="2" route_full="8-8Т-8П-7">
+		<MATERIAL id="100000073000029" name="КРУГ В1-II-12 ГОСТ 2590-2006/20-2ГП-М1-ГС-ТО ГОСТ 1050-88" weight="0,712"/>
+		<ROUTES>
+			<ROUTE num="1" name="08 "/>
+			<ROUTE num="2" name="08Т"/>
+			<ROUTE num="3" name="08П"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000360300063" id_parent="100000301100063" name="Обечайка" do="91.2711" plot="91.0871.01.03.003" qty="1" route_full="25-26-25-7">
+		<MATERIAL id="100003437900001" name="ЛИСТ ПН-О-16 ГОСТ 19903-74/20-М1-КИ-ТО-ДК2-ГС ГОСТ 1577-93" weight="42,3"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="26 "/>
+			<ROUTE num="3" name="25 "/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000360100063" id_parent="100000301100063" name="Перегородка" do="91.2711" plot="91.0871.01.03.001-01" qty="1" route_full="25-7">
+		<MATERIAL id="100003438400001" name="ЛИСТ ПН-О-36 ГОСТ 19903-74/20-М1-КИ-ТО-ДК2-ГС ГОСТ 1577-93" weight="1072"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000360200063" id_parent="100000301100063" name="Фланец" do="91.2711" plot="91.0871.01.03.002" qty="1" route_full="25-26-7">
+		<MATERIAL id="100003438300001" name="ЛИСТ ПН-О-32 ГОСТ 19903-74/20-М1-КИ-ТО-ДК2-ГС ГОСТ 1577-93" weight="127"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 "/>
+			<ROUTE num="2" name="26 "/>
+			<ROUTE num="3" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000027300080" id_parent="100000301100063" name="ШПЛИНТ 4Х50 ГОСТ397-79" do="91.2711" plot="" qty="2" route_full="ОСК-7">
+		<ROUTES>
+			<ROUTE num="1" name="ОСК"/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000361100063" id_parent="100000301100063" name="ГАЙКАМ20-7Н.5.IV ГОСТ9064-75" do="91.2711" plot="" qty="32" route_full="33-8Т-33-7">
+		<MATERIAL id="100000125400029" name="КРУГ В1-III-36 ГОСТ 2590-2006/08Х18Н10Т-А-Т ГОСТ 5949-75" weight="8,0736"/>
+		<ROUTES>
+			<ROUTE num="1" name="33 "/>
+			<ROUTE num="2" name="08Т"/>
+			<ROUTE num="3" name="33 "/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000361200063" id_parent="100000301100063" name="ШПИЛЬКА М20-8gx100 3.IV ГОСТ 9066-75" do="91.2711" plot="" qty="16" route_full="33-8Т-33-7">
+		<MATERIAL id="100000127400029" name="КРУГ В1-II-24 ГОСТ 2590-2006/ХН35ВТ-А ТУ 14-1-272-72" weight="6,9008"/>
+		<ROUTES>
+			<ROUTE num="1" name="33 "/>
+			<ROUTE num="2" name="08Т"/>
+			<ROUTE num="3" name="33 "/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="" id="100000361400063" id_parent="100000301100063" name="ШАЙБА16 ГОСТ 11371-78" do="91.2711" plot="" qty="2" route_full="ОСК-7">
+		<MATERIAL id="100000710600029" name="ШАЙБА 16.01 ГОСТ 11371-78" weight="0,025"/>
+		<ROUTES>
+			<ROUTE num="1" name="ОСК"/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00080" id="100000302300063" id_parent="100000425100063" name="Упор" do="91.2711" plot="91.1085.01.030" qty="4" route_full="2К-26-7">
+		<MATERIAL id="100003916500001" name="ТРУБА Г 245*34 /20 ТУ 14-3Р-55-2001" weight="40,6"/>
+		<ROUTES>
+			<ROUTE num="1" name="02К"/>
+			<ROUTE num="2" name="26 "/>
+			<ROUTE num="3" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00190" id="100000337100063" id_parent="100000425000063" name="Бобышка" do="91.2711" plot="91.1085.001" qty="6" route_full="25-26-7">
+		<MATERIAL id="100003601800001" name="ЛИСТ ПН-О-36 ГОСТ 19903-74/08Х18Н10Т-М3Б ГОСТ 7350-77" weight="14,0202"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 " num_operations="15-20.1-20.2-30-40-45-50-55.1-55.2" labor_units="1.44" duration="1.44" shrm="801      -422      -422      -558      -801      -311      -815      -422      -422      " labor_units_shrm="0,03-0,08-0,08-3,6-1,08-2,88-1,8-1,44-1,44"/>
+			<ROUTE num="2" name="26 " num_operations="5-10-15-20-25-30-35-40-45-50-55" labor_units="0" duration="" shrm="812      -142      -801      -012      -811      " labor_units_shrm="0-0-7,2-0-43,58-1,8-0-54,3-0-1,26-0"/>
+			<ROUTE num="3" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00190" id="100000337300063" id_parent="100000425000063" name="Штуцер" do="91.2711" plot="91.0871.018" qty="2" route_full="26-8Т-26-7">
+		<MATERIAL id="100000074400029" name="КРУГ В1-III-56 ГОСТ 2590-2006/20-2ГП-М1-ГС-ТО ГОСТ 1050-88" weight="6,2"/>
+		<ROUTES>
+			<ROUTE num="1" name="26 "/>
+			<ROUTE num="2" name="08Т"/>
+			<ROUTE num="3" name="26 "/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00190" id="100000336800063" id_parent="100000425000063" name="БОЛТ М48" do="91.2711" plot="91.0871.005" qty="4" route_full="26-8Т-26-7">
+		<MATERIAL id="100000092600029" name="КРУГ В1-III-90 ГОСТ 2590-2006/40Х-2-Т ГОСТ 4543-71" weight="79,9"/>
+		<ROUTES>
+			<ROUTE num="1" name="26 " num_operations="5-20-25-30-35-37" labor_units="0" duration="" shrm="222      -811      " labor_units_shrm="0-0,84777777777777-0-0,32-0-0"/>
+			<ROUTE num="2" name="08Т"/>
+			<ROUTE num="3" name="26 " num_operations="38-95-100-125-130-135-190-195" labor_units="0" duration="" shrm="012      -142      -801      -811      " labor_units_shrm="0-19,4-0-2,5-0,16-0-0,56-0"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00190" id="100000337600063" id_parent="100000425000063" name="Кольцо" do="91.2711" plot="91.0871.020" qty="3" route_full="25-26-7">
+		<MATERIAL id="100003193300001" name="ЛИСТ Б-ПН-О-5 ГОСТ 19903-74/СТ3СП5-СВ ГОСТ 14637-89" weight="1,4001"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 " num_operations="15-20.1-20.2-35-40-45-50-55.1-55.2" labor_units="0.01833333" duration="0.01833333" shrm="801      -422      -422      -552      -801      -311      -815      -422      -422      " labor_units_shrm="0,015-0,04694444444444-0,04694444444444-0,9-0,045-0,36-0,05-0,01833333333333-0,01833333333333"/>
+			<ROUTE num="2" name="26 " num_operations="5-40-45-50" labor_units="0.15" duration="0.15" shrm="012      -811      " labor_units_shrm="0-0,9-0-0,15"/>
+			<ROUTE num="3" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00190" id="100000337800063" id_parent="100000425000063" name="Кольцо" do="91.2711" plot="91.0871.020-02" qty="4" route_full="25-26-7">
+		<MATERIAL id="100003193300001" name="ЛИСТ Б-ПН-О-5 ГОСТ 19903-74/СТ3СП5-СВ ГОСТ 14637-89" weight="2,6"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 " num_operations="15-20.1-20.2-35-40-45-50-55.1-55.2" labor_units="0.04777778" duration="0.04777778" shrm="801      -422      -422      -552      -801      -311      -815      -422      -422      " labor_units_shrm="0,015-0,04694444444444-0,04694444444444-1,6-0,09555555555555-0,8-0,05-0,04777777777777-0,04777777777777"/>
+			<ROUTE num="2" name="26 " num_operations="5-40-45-50" labor_units="0.8" duration="0.8" shrm="012      -811      " labor_units_shrm="0-1,76-0-0,8"/>
+			<ROUTE num="3" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00190" id="100000337900063" id_parent="100000425000063" name="Пробка" do="91.2711" plot="91.0871.021" qty="4" route_full="26-8Т-26-7">
+		<MATERIAL id="100000075000029" name="КРУГ В1-III-90 ГОСТ 2590-2006/20-2ГП-М1-ГС-ТО ГОСТ 1050-88" weight="20,82"/>
+		<ROUTES>
+			<ROUTE num="1" name="26 " num_operations="5-20-25-30-35-37" labor_units="0" duration="" shrm="222      -811      " labor_units_shrm="0-0,84777777777777-0-0,32-0-0"/>
+			<ROUTE num="2" name="08Т"/>
+			<ROUTE num="3" name="26 " num_operations="40-45-50-55-60-65-85-95-100-105-110-115-120" labor_units="0" duration="" shrm="012      -811      -012      -142      -801      -811      " labor_units_shrm="0-3,2-0-0,32-0-0-11,2-0-2,02-0,16-0-0,56-0"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00190" id="100000337000063" id_parent="100000425000063" name="Кольцо подкладное" do="91.2711" plot="91.0871.007" qty="1" route_full="25-26-7">
+		<MATERIAL id="100003437600001" name="ЛИСТ Б-ПН-О-10 ГОСТ 19903-74/20-М1-КИ-ТО-ДК2-ГС ГОСТ 1577-93" weight="44"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 " num_operations="10-15.1-15.2-26-30-45-50-55-60.1-60.2-70-80.1-80.2-85-90-100-110-120-125-140.1-140.2-145.1-145.2-150.1-150.2-155-160-170-180-190-195-210.1-210.2-220" labor_units="0.2" duration="0.2" shrm="801      -422      -422      -815      -552      -801      -311      -815      -422      -422      -111      -804      -804      -530      -311      -530      -311      -861      -311      -361      -361      -413      -413      -804      -804      -530      -311      -530      -311      -861      -311      -413      -413      -311      " labor_units_shrm="0,18-0,09-0,09-0,05-4,8-0,2-1,8-0,2-0,12-0,12-3,4-0,1-0,1-0,3-0,27-1-0,5-0,07-0,1-0,17-0,17-0,45-0,45-0,1-0,1-0,3-0,27-1-0,5-0,07-0,1-0,52-0,52-0,2"/>
+			<ROUTE num="2" name="26 " num_operations="5-35-40" labor_units="0" duration="" shrm="032      " labor_units_shrm="0-2-0"/>
+			<ROUTE num="3" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00190" id="100000337400063" id_parent="100000425000063" name="Штуцер" do="91.2711" plot="91.0871.018-01" qty="1" route_full="26-8Т-26-7">
+		<MATERIAL id="100000074400029" name="КРУГ В1-III-56 ГОСТ 2590-2006/20-2ГП-М1-ГС-ТО ГОСТ 1050-88" weight="4,1"/>
+		<ROUTES>
+			<ROUTE num="1" name="26 " num_operations="5-15-20-25-40-41" labor_units="0" duration="" shrm="222      -811      " labor_units_shrm="0-0,025-0-0,02-0-0"/>
+			<ROUTE num="2" name="08Т"/>
+			<ROUTE num="3" name="26 " num_operations="45-50-55-60-70-75-90-95" labor_units="0" duration="" shrm="012      -811      -012      " labor_units_shrm="0-0,15-0-0,035-0-0-0,85-0"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00190" id="100000337500063" id_parent="100000425000063" name="Штуцер" do="91.2711" plot="91.0871.019" qty="3" route_full="26-8Т-26-7">
+		<MATERIAL id="100000074700029" name="КРУГ В1-III-70 ГОСТ 2590-2006/20-2ГП-М1-ГС-ТО ГОСТ 1050-88" weight="19,1001"/>
+		<ROUTES>
+			<ROUTE num="1" name="26 " num_operations="5-15-20-25-40-41" labor_units="0" duration="" shrm="222      -811      " labor_units_shrm="0-0,34166666666666-0-0,18-0-0"/>
+			<ROUTE num="2" name="08Т"/>
+			<ROUTE num="3" name="26 " num_operations="45-50-55-60-70-75-90-95" labor_units="0" duration="" shrm="012      -811      -012      " labor_units_shrm="0-1,8-0-0,315-0-0-8,1-0"/>
+			<ROUTE num="4" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00190" id="100000338600063" id_parent="100000425000063" name="Чехол" do="91.2711" plot="91.1085.002" qty="6" route_full="26-7">
+		<MATERIAL id="100000125400029" name="КРУГ В1-III-36 ГОСТ 2590-2006/08Х18Н10Т-А-Т ГОСТ 5949-75" weight="3,6"/>
+		<ROUTES>
+			<ROUTE num="1" name="26 " num_operations="5-15-20-25-80-85-100-105" labor_units="0" duration="" shrm="222      -012      -811      " labor_units_shrm="0-0-1,29666666666666-0-65,1-0-0,3-0"/>
+			<ROUTE num="2" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00190" id="100000338400063" id_parent="100000425000063" name="Кольцо" do="91.2711" plot="91.1650.001" qty="1" route_full="25-26-7">
+		<MATERIAL id="100003193300001" name="ЛИСТ Б-ПН-О-5 ГОСТ 19903-74/СТ3СП5-СВ ГОСТ 14637-89" weight="1,71"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 " num_operations="15-20.1-20.2-35-40-45-50-55.1-55.2" labor_units="0.00388889" duration="0.00388889" shrm="801      -422      -422      -552      -801      -311      -815      -422      -422      " labor_units_shrm="0,015-0,04694444444444-0,04694444444444-0,2-0,02-0,15-0,05-0,00388888888888-0,00388888888888"/>
+			<ROUTE num="2" name="26 " num_operations="5-10-15" labor_units="0" duration="" shrm="012      " labor_units_shrm="0-0,2-0"/>
+			<ROUTE num="3" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+	<PRODUCT structure="00190" id="100000178400026" id_parent="100000425000063" name="Кольцо" do="91.2711" plot="91.1650.001-01" qty="2" route_full="25-26-7">
+		<MATERIAL id="100003193300001" name="ЛИСТ Б-ПН-О-5 ГОСТ 19903-74/СТ3СП5-СВ ГОСТ 14637-89" weight="4,9"/>
+		<ROUTES>
+			<ROUTE num="1" name="25 " num_operations="15-20.1-20.2-35-40-45-50-55.1-55.2" labor_units="0.02" duration="0.02" shrm="801      -422      -422      -552      -801      -311      -815      -422      -422      " labor_units_shrm="0,015-0,04694444444444-0,04694444444444-0,8-0,08-0,6-0,05-0,02-0,02"/>
+			<ROUTE num="2" name="26 " num_operations="5-10-15" labor_units="0" duration="" shrm="012      " labor_units_shrm="0-0,92-0"/>
+			<ROUTE num="3" name="07 "/>
+		</ROUTES>
+	</PRODUCT>
+</PRODUCTS>
+
+

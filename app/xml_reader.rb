@@ -17,7 +17,7 @@ require_relative 'active_record/task_code.rb'
 include REXML
 
 
-xmlfile = File.new( "../input/91.2711.xml" ) 
+xmlfile = File.new( "../input/91.2711-dev.xml" ) 
 xmldoc = Document.new( xmlfile )
 
 # Now get the root element
