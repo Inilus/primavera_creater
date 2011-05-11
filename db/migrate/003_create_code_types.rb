@@ -1,9 +1,10 @@
 class CreateCodeTypes < ActiveRecord::Migration
   
   def self.up
-    create_table :code_types do |table|
-      table.column :type_id, :integer    
-      table.column :name, :string
+    create_table :code_types do |t|
+      t.integer    :id_prim
+      t.string     :name
+      t.timestamps
     end
   end
  

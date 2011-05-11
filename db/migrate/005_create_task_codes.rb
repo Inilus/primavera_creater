@@ -1,9 +1,10 @@
 class CreateTaskCodes < ActiveRecord::Migration
   
   def self.up
-    create_table :task_codes do |table|
-      table.column :task_id, :integer
-      table.column :code_id, :integer    
+    create_table :task_codes do |t|
+      t.integer     :task_id
+      t.integer     :code_id
+      t.timestamps
     end
   end
  

@@ -1,11 +1,12 @@
 class CreateCodes < ActiveRecord::Migration
   
   def self.up
-    create_table :codes do |table|
-      table.column :code_id, :integer
-      table.column :code_type_id, :integer    
-      table.column :short_name, :string
-      table.column :name, :string
+    create_table :codes do |t| 
+      t.integer    :code_type_id
+      t.integer    :id_prim
+      t.string     :short_name
+      t.string     :name
+      t.timestamps
     end
   end
  

@@ -1,13 +1,14 @@
 class CreateProjects < ActiveRecord::Migration
 
   def self.up
-    create_table :projects do |table|
-      table.column :project_id, :integer
-      table.column :wbs_id, :integer
-      table.column :short_name, :string
-      table.column :name, :string
-      table.column :start_date, :string
-      table.column :type, :string
+    create_table :projects do |t|
+      t.integer    :id_project_prim
+      t.integer    :id_wbs_prim
+      t.string     :type
+      t.string     :short_name
+      t.string     :name
+      t.string     :start_date
+      t.timestamps
     end
   end
  
