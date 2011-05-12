@@ -1,5 +1,3 @@
-#!/usr/bin/env ruby
-#
 # force_encoding: utf-8
 #
 # File: xml_reader.rb
