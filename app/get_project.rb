@@ -1,6 +1,6 @@
 # force_encoding: utf-8
 #
-# File: xml_reader.rb
+# File: get_project.rb
 
 require 'nokogiri'    # http://nokogiri.org/
 require 'open-uri'
