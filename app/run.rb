@@ -6,6 +6,7 @@
 
 require 'rubygems'
 require 'yaml'        # http://santoro.tk/mirror/ruby-core/classes/YAML.html
+require 'progressbar' # http://0xcc.net/ruby-progressbar/index.html.en
 
 
 require_relative 'environment.rb'
@@ -17,6 +18,7 @@ require_relative 'active_record/code.rb'
 require_relative 'active_record/task_code.rb'
 
 require_relative 'get_project.rb'
+#require_relative 'create_project.rb'
 
 class Runner
 
@@ -27,14 +29,18 @@ class Runner
   		
   		exit( 1 )
 		end		
-		@project = GetProject.new( ARGV[0].to_s, ARGV[1].to_s, load_config, ( ( ARGV[2] == "-upd" ) ? true : false ) )
+		@config = load_config
+		
+		@project = GetProject.new( ARGV[0].to_s, ARGV[1].to_s, @config, ( ( ARGV[2] == "-upd" ) ? true : false ) )
 		
   end
 
   def run
     puts "Start..."
 
-#    p @project.inspect
+    p @project.inspect
+
+#    CreateProject.new( @project, @config )
     
     puts "Finish: Ok!"
   end

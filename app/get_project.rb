@@ -4,7 +4,6 @@
 
 require 'nokogiri'    # http://nokogiri.org/
 require 'open-uri'
-require 'progressbar' # http://0xcc.net/ruby-progressbar/index.html.en
 
 class GetProject
 
@@ -70,7 +69,7 @@ class GetProject
         
         material = product.xpath( "MATERIAL" )
         unless material.empty?  
-          codes[:material] = CodeType.find_or_create_by_name( "Material" ).codes.find_or_create_by_short_name( material.attribute( "id" ).value, material.attribute( "name" ).value )
+          codes[:material] = CodeType.find_or_create_by_name( "Material" ).codes.find_or_create_by_short_name_and_name( material.attribute( "id" ).value, material.attribute( "name" ).value )
           
           basic_task.material_qty = material.attribute( "qty" ).value unless material.attribute( "qty" ).nil?
           basic_task.material_weight = material.attribute( "weight" ).value.gsub( ",", "." ) unless material.attribute( "weight" ).nil?    

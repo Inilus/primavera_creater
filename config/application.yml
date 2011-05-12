@@ -2,6 +2,7 @@
   :dataserver: 	Primavera
   :username: 		privuser
   :password: 		privuser
+  :database:    TempPMDB
 :code:
   :wbs: 				"000000"
   :task: 				"X00000"
