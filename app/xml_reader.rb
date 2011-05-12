@@ -27,7 +27,7 @@ config = YAML.load_file( "config/application.yml" )
 
 @project.start_date = 0
 @project.type = @xmldoc.xpath( "//PRODUCTS" ).attribute("type").value
-@xmldoc.xpath( "//PRODUCTS/PRODUCT" ).each do |product|
+@xmldoc.xpath( "//PRODUCTS/PRODUCT" ).each_with_index do |product, index|
   if @project.name.nil? and 
       ( product.attribute( "id_parent" ).value.to_i == -1 )
     @project.name       = product.attribute( "name" ).value
@@ -54,9 +54,12 @@ config = YAML.load_file( "config/application.yml" )
     basic_task.material_qty = material.attribute( "qty" ).value unless material.attribute( "qty" ).nil?
     basic_task.material_weight = material.attribute( "weight" ).value.gsub( ",", "." ) unless material.attribute( "weight" ).nil?    
   end
-     
-  product.xpath("ROUTES/ROUTE").each_with_index do |route, index|
-    task = @project.tasks.create
+    
+  tasks = @project.tasks
+  
+  product.xpath("ROUTES/ROUTE").each_with_index do |route, index|        
+    task = tasks.create
+    tasks = task.tasks
     
     task.short_name       = @code_task.next!
     task.name             = basic_task.name    
@@ -76,18 +79,14 @@ config = YAML.load_file( "config/application.yml" )
     
     task.codes << CodeType.find_or_create_by_name( "Step route" ).codes.find_or_create_by_short_name( route.attribute( "num" ).value, route.attribute( "num" ).value )
     task.codes << CodeType.find_or_create_by_name( "Route" ).codes.find_or_create_by_short_name( route.attribute( "name" ).value, route.attribute( "name" ).value )
-    task.codes << CodeType.find_or_create_by_name( "SHRM" ).codes.find_or_create_by_short_name( route.attribute( "shrm" ).value, route.attribute( "shrm" ).value )
+    task.codes << CodeType.find_or_create_by_name( "SHRM" ).codes.find_or_create_by_short_name( ( not route.attribute( "shrm" ).nil? ) ? route.attribute( "shrm" ).value : nil, ( not route.attribute( "shrm" ).nil? ) ? route.attribute( "shrm" ).value : nil )
     
     task.save
     
-#    p "\n"
-#    p task.inspect
-#    p "\n"
-    
-#    break
+#    break if index == 1
   end
     
-  break
+  break if index == 1
 end
 
 @project.save
