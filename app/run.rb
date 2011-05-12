@@ -4,7 +4,7 @@
 #
 # File: run.rb
 
-require_relative 'xml_reader.rb'
+require_relative 'get_project.rb'
 
 class Runner
 
@@ -16,7 +16,7 @@ class Runner
   		
   		exit( 1 )
 		end		
-		@project = XmlReader.new( ARGV[0].to_s, ARGV[1].to_s, load_config, ( ( ARGV[2] == "-upd" ) ? true : false ) )
+		@project = GetProject.new( ARGV[0].to_s, ARGV[1].to_s, load_config, ( ( ARGV[2] == "-upd" ) ? true : false ) )
 		
   end
 

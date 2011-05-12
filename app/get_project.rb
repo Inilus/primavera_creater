@@ -16,7 +16,7 @@ require_relative 'active_record/code.rb'
 require_relative 'active_record/task_code.rb'
 
 
-class XmlReader
+class GetProject
 
   def initialize ( project_short_name, xml_file_name, config, update=false )       
     @project = Project.find_by_short_name( project_short_name )
