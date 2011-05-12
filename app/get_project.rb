@@ -115,7 +115,7 @@ class GetProject
         ## ProgressBar
 				pbar.inc
 				
-        break if index == 1
+#        break if index == 1
       end
 
       ## ProgressBar
