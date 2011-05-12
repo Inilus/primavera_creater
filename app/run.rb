@@ -7,6 +7,7 @@
 require 'rubygems'
 require 'yaml'        # http://santoro.tk/mirror/ruby-core/classes/YAML.html
 
+
 require_relative 'environment.rb'
 
 require_relative 'active_record/project.rb'
@@ -20,7 +21,6 @@ require_relative 'get_project.rb'
 class Runner
 
   def initialize
-    p ARGV.inspect
   	if ARGV.empty? or ARGV[0].nil? or ARGV[1].nil?
   		puts "Incorrect code name project! For example '91.2710'"           if ARGV[0].nil?  		  		
   		puts "Incorrect path or file name! For example 'input/91.2710.xml'" if ARGV[1].nil? 

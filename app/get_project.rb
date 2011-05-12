@@ -4,7 +4,7 @@
 
 require 'nokogiri'    # http://nokogiri.org/
 require 'open-uri'
-
+require 'progressbar' # http://0xcc.net/ruby-progressbar/index.html.en
 
 class GetProject
 
@@ -37,7 +37,9 @@ class GetProject
   private
   
     def create_project
-    
+      ## ProgressBar
+		  pbar = ProgressBar.new( "Prepare data", @xmldoc.xpath( "//PRODUCTS/PRODUCT" ).size )		  
+      
       @xmldoc.xpath( "//PRODUCTS/PRODUCT" ).each_with_index do |product, index|
        
         basic_task = Task.new
@@ -105,9 +107,14 @@ class GetProject
           
         end
           
+        ## ProgressBar
+				pbar.inc
+				
         break #if index == 1
       end
 
+      ## ProgressBar
+			pbar.finish
     end
 
 end

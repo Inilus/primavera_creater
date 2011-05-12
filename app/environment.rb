@@ -6,8 +6,9 @@ require 'logger'
 # Загружаем файл настройки соединения с БД
 dbconfig = YAML::load( File.open( 'config/database.yml' ) )
  
-# Ошибки работы с БД направим в стандартный поток (консоль)
-ActiveRecord::Base.logger = Logger.new(STDERR) # Simple logging utility. logger.rb -- standart lib
+# Ошибки работы с БД
+#ActiveRecord::Base.logger = Logger.new(STDERR)
+ActiveRecord::Base.logger = Logger.new("log/active_record.log")
  
 # Соединяемся с БД
 ActiveRecord::Base.establish_connection(dbconfig)
