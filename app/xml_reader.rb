@@ -32,14 +32,11 @@ config = YAML.load_file( "config/application.yml" )
 @xmldoc.xpath( "//PRODUCTS/PRODUCT" ).each_with_index do |product, index|
  
   basic_task = Task.new
-  basic_task.project_id       = @project.id
   basic_task.name             = product.attribute( "name" ).value
   basic_task.id_1c            = product.attribute( "id" ).value
   basic_task.parent_id_1c     = product.attribute( "id_parent" ).value  
-  basic_task.material_qty     = 0
-  basic_task.material_weight  = 0
    
-  if basic_task.parent_id_1c.value.to_i == -1
+  if basic_task.parent_id_1c.to_i == -1
     @tasks = @project.tasks
     if @project.name.nil?
       @project.name       = product.attribute( "name" ).value
@@ -50,6 +47,10 @@ config = YAML.load_file( "config/application.yml" )
     @tasks = @project.tasks.find_last_by_id_1c( basic_task.parent_id_1c ).tasks
   end
     
+  basic_task.project_id       = @project.id
+  basic_task.material_qty     = 0
+  basic_task.material_weight  = 0
+  
   codes = Hash.new
   codes[:structure] = CodeType.find_or_create_by_name( "Structure" ).codes.find_or_create_by_short_name( product.attribute( "structure" ).value  )
   codes[:product] = CodeType.find_or_create_by_name( "Product" ).codes.find_or_create_by_short_name( basic_task.id_1c, basic_task.name )
@@ -95,7 +96,7 @@ config = YAML.load_file( "config/application.yml" )
     
   end
     
-  break if index == 2
+#  break if index == 2
 end
 
 
