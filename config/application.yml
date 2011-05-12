@@ -1,0 +1,8 @@
+:db:
+  :dataserver: 	Primavera
+  :username: 		privuser
+  :password: 		privuser
+:code:
+  :wbs: 				"000000"
+  :task: 				"X00000"
+
