@@ -18,17 +18,22 @@ require_relative 'active_record/task_code.rb'
 
 class XmlReader
 
-  def initialize ( project_short_name, xml_file_name, config )
-    @xmldoc = Nokogiri::XML( File.open( xml_file_name ) )
-    
-    @code_task = config[:code][:task]
-    
+  def initialize ( project_short_name, xml_file_name, config, update=false )       
     @project = Project.find_by_short_name( project_short_name )
     
-    if @project.nil?
+    if @project.nil? or update
+      @xmldoc = Nokogiri::XML( File.open( xml_file_name ) )
+    
+      @code_task = config[:code][:task]
+      
+      # If update project, then remove old variant
+      if update
+        Project.delete( @project )
+      end
+    
       @project = Project.create
       @project.start_date = 0
-      @project.type = @xmldoc.xpath( "//PRODUCTS" ).attribute("type").value
+      @project.project_type = @xmldoc.xpath( "//PRODUCTS" ).attribute("type").value
       @project.save
       
       @tasks = nil

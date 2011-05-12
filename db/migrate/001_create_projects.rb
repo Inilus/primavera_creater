@@ -4,7 +4,7 @@ class CreateProjects < ActiveRecord::Migration
     create_table :projects do |t|
       t.integer    :id_project_prim
       t.integer    :id_wbs_prim
-      t.string     :type
+      t.string     :project_type
       t.string     :short_name
       t.string     :name
       t.string     :start_date
