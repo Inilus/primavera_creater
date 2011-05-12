@@ -6,7 +6,7 @@ class Task < ActiveRecord::Base
     has_many :tasks, :class_name => "Task", :foreign_key => "parent_id"
     belongs_to :parent, :class_name => "Task"
     
-    has_many :task_codes
+    has_many :task_codes, :dependent => :delete_all
     has_many :codes, :through => :task_codes
   
 end

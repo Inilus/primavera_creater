@@ -115,7 +115,7 @@ class XmlReader
           
         end
           
-        break if index == 1
+        break #if index == 1
       end
 
     end

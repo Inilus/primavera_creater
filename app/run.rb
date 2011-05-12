@@ -23,7 +23,7 @@ class Runner
   def run
     puts "Start..."
 
-    p @project.inspect
+#    p @project.inspect
     
     puts "Finish: Ok!"
   end
