@@ -65,16 +65,18 @@ config = YAML.load_file( "config/application.yml" )
     task.material_qty     = basic_task.material_qty
     task.material_weight  = basic_task.material_weight
 
-    task.duration         = ( not route.attribute("duration").nil? ) ? route.attribute("duration").value : 0
-    task.labor_units      = ( not route.attribute("labor_units").nil? ) ? route.attribute("labor_units").value : 0
-    
-    
+    task.duration         = ( not route.attribute( "duration" ).nil? ) ? route.attribute( "duration" ).value : 0
+    task.labor_units      = ( not route.attribute( "labor_units" ).nil? ) ? route.attribute( "labor_units" ).value : 0
     
     task.codes << codes[:structure]  unless codes[:structure].nil?
     task.codes << codes[:product]    unless codes[:product].nil?
     task.codes << codes[:do]         unless codes[:do].nil?
     task.codes << codes[:plot]       unless codes[:plot].nil?
     task.codes << codes[:material]   unless codes[:material].nil?
+    
+    task.codes << CodeType.find_or_create_by_name( "Step route" ).codes.find_or_create_by_short_name( route.attribute( "num" ).value, route.attribute( "num" ).value )
+    task.codes << CodeType.find_or_create_by_name( "Route" ).codes.find_or_create_by_short_name( route.attribute( "name" ).value, route.attribute( "name" ).value )
+    task.codes << CodeType.find_or_create_by_name( "SHRM" ).codes.find_or_create_by_short_name( route.attribute( "shrm" ).value, route.attribute( "shrm" ).value )
     
     task.save
     
