@@ -4,6 +4,17 @@
 #
 # File: run.rb
 
+require 'rubygems'
+require 'yaml'        # http://santoro.tk/mirror/ruby-core/classes/YAML.html
+
+require_relative 'environment.rb'
+
+require_relative 'active_record/project.rb'
+require_relative 'active_record/task.rb'
+require_relative 'active_record/code_type.rb'
+require_relative 'active_record/code.rb'
+require_relative 'active_record/task_code.rb'
+
 require_relative 'get_project.rb'
 
 class Runner

@@ -2,18 +2,8 @@
 #
 # File: xml_reader.rb
 
-require 'rubygems'
 require 'nokogiri'    # http://nokogiri.org/
 require 'open-uri'
-require 'yaml'        # http://santoro.tk/mirror/ruby-core/classes/YAML.html
-
-require_relative 'environment.rb'
-
-require_relative 'active_record/project.rb'
-require_relative 'active_record/task.rb'
-require_relative 'active_record/code_type.rb'
-require_relative 'active_record/code.rb'
-require_relative 'active_record/task_code.rb'
 
 
 class GetProject
