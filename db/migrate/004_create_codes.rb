@@ -2,7 +2,7 @@ class CreateCodes < ActiveRecord::Migration
   
   def self.up
     create_table :codes do |t| 
-      t.integer    :code_type_id
+      t.references :code_type
       t.integer    :id_prim
       t.string     :short_name
       t.string     :name

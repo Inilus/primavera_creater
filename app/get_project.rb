@@ -9,7 +9,6 @@ class GetProject
 
   def initialize ( project_short_name, xml_file_name, config, update=false )       
     @project = Project.find_by_short_name( project_short_name )
-    
     if @project.nil? or update
       @xmldoc = Nokogiri::XML( File.open( xml_file_name ) )
     
@@ -18,6 +17,7 @@ class GetProject
       # If update project, then remove old variant
       if update
         Project.delete( @project )
+        @project.tasks.delete
       end
     
       @project = Project.create
@@ -28,10 +28,12 @@ class GetProject
       @tasks = nil
       
       create_project    
-    end
-    
-    return @project
+    end        
   end
+  
+  def get_project
+    @project
+  end  
 
   private
   
@@ -63,9 +65,10 @@ class GetProject
         
         codes = Hash.new
         codes[:structure] = CodeType.find_or_create_by_name( "Structure" ).codes.find_or_create_by_short_name( product.attribute( "structure" ).value  )
-        codes[:product] = CodeType.find_or_create_by_name( "Product" ).codes.find_or_create_by_short_name( basic_task.id_1c, basic_task.name )
-        codes[:do] = CodeType.find_or_create_by_name( "DO" ).codes.find_or_create_by_short_name( product.attribute( "do" ).value, basic_task.name )
-        codes[:plot] = CodeType.find_or_create_by_name( "Plot" ).codes.find_or_create_by_short_name( product.attribute( "plot" ).value, basic_task.name )
+        codes[:product] = CodeType.find_or_create_by_name( "Product" ).codes.find_or_create_by_short_name_and_name( basic_task.id_1c, basic_task.name )
+        codes[:do] = CodeType.find_or_create_by_name( "DO" ).codes.find_or_create_by_short_name_and_name( product.attribute( "do" ).value, basic_task.name )
+        codes[:plot] = CodeType.find_or_create_by_name( "Plot" ).codes.find_or_create_by_short_name_and_name( product.attribute( "plot" ).value, basic_task.name )
+        codes[:route_full] = CodeType.find_or_create_by_name( "Route full" ).codes.find_or_create_by_short_name( product.attribute( "route_full" ).value )
         
         material = product.xpath( "MATERIAL" )
         unless material.empty?  
@@ -77,7 +80,7 @@ class GetProject
           
         tasks = @tasks
         
-        product.xpath("ROUTES/ROUTE").each_with_index do |route, index|        
+        product.xpath("ROUTES/ROUTE").each do |route|
           task = tasks.create
           tasks = task.tasks
           
@@ -91,12 +94,15 @@ class GetProject
 
           task.duration         = ( not route.attribute( "duration" ).nil? ) ? route.attribute( "duration" ).value : 0
           task.labor_units      = ( not route.attribute( "labor_units" ).nil? ) ? route.attribute( "labor_units" ).value : 0
+          task.num_operations   = ( not route.attribute( "num_operations" ).nil? ) ? route.attribute( "num_operations" ).value : "none"
+#          task.labor_units_shrm   = ( not route.attribute( "labor_units_shrm" ).nil? ) ? route.attribute( "labor_units_shrm" ).value : 0
           
           task.codes << codes[:structure]  unless codes[:structure].nil?
           task.codes << codes[:product]    unless codes[:product].nil?
           task.codes << codes[:do]         unless codes[:do].nil?
           task.codes << codes[:plot]       unless codes[:plot].nil?
           task.codes << codes[:material]   unless codes[:material].nil?
+          task.codes << codes[:route_full] unless codes[:route_full].nil?
           
           task.codes << CodeType.find_or_create_by_name( "Step route" ).codes.find_or_create_by_short_name( route.attribute( "num" ).value, route.attribute( "num" ).value )
           task.codes << CodeType.find_or_create_by_name( "Route" ).codes.find_or_create_by_short_name( route.attribute( "name" ).value, route.attribute( "name" ).value )
@@ -109,11 +115,13 @@ class GetProject
         ## ProgressBar
 				pbar.inc
 				
-        break #if index == 1
+        break if index == 1
       end
 
       ## ProgressBar
 			pbar.finish
+			
+			@project.save
     end
 
 end

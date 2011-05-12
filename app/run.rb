@@ -18,7 +18,7 @@ require_relative 'active_record/code.rb'
 require_relative 'active_record/task_code.rb'
 
 require_relative 'get_project.rb'
-#require_relative 'create_project.rb'
+require_relative 'create_project.rb'
 
 class Runner
 
@@ -31,16 +31,14 @@ class Runner
 		end		
 		@config = load_config
 		
-		@project = GetProject.new( ARGV[0].to_s, ARGV[1].to_s, @config, ( ( ARGV[2] == "-upd" ) ? true : false ) )
+		@project = GetProject.new( ARGV[0].to_s, ARGV[1].to_s, @config, ( ( ARGV[2] == "-upd" ) ? true : false ) ).get_project
 		
   end
 
   def run
-    puts "Start..."
+#    puts "Start..."
 
-    p @project.inspect
-
-#    CreateProject.new( @project, @config )
+    CreateProject.new( @config ).save_data( @project )
     
     puts "Finish: Ok!"
   end
