@@ -8,4 +8,5 @@ class Task < ActiveRecord::Base
     
     has_many :task_codes
     has_many :codes, :through => :task_codes
+  
 end

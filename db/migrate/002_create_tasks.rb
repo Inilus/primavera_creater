@@ -2,10 +2,11 @@ class CreateTasks < ActiveRecord::Migration
   
   def self.up
     create_table :tasks do |t|
+      t.integer    :project_id
       t.integer    :parent_id
+      t.integer    :id_prim
       t.integer    :id_1c
       t.integer    :parent_id_1c
-      t.integer    :id_prim
       t.string     :short_name
       t.string     :name
       t.float      :duration      

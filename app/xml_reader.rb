@@ -27,14 +27,23 @@ config = YAML.load_file( "config/application.yml" )
 
 @project.start_date = 0
 @project.type = @xmldoc.xpath( "//PRODUCTS" ).attribute("type").value
+@tasks = nil
+
 @xmldoc.xpath( "//PRODUCTS/PRODUCT" ).each_with_index do |product, index|
+ 
   if @project.name.nil? and 
       ( product.attribute( "id_parent" ).value.to_i == -1 )
     @project.name       = product.attribute( "name" ).value
-    @project.short_name = product.attribute( "do" ).value
+    @project.short_name = product.attribute( "do" ).value    
+    @project.save
+    
+    @tasks = @project.tasks
+  else
+    @tasks = @project.tasks.find_last_by_id_1c( product.attribute( "id_parent" ).value ).tasks
   end
 
   basic_task = Task.new
+  basic_task.project_id       = @project.id
   basic_task.name             = product.attribute( "name" ).value
   basic_task.id_1c            = product.attribute( "id" ).value
   basic_task.parent_id_1c     = product.attribute( "id_parent" ).value  
@@ -55,12 +64,13 @@ config = YAML.load_file( "config/application.yml" )
     basic_task.material_weight = material.attribute( "weight" ).value.gsub( ",", "." ) unless material.attribute( "weight" ).nil?    
   end
     
-  tasks = @project.tasks
+  tasks = @tasks
   
   product.xpath("ROUTES/ROUTE").each_with_index do |route, index|        
     task = tasks.create
     tasks = task.tasks
     
+    task.project_id       = basic_task.project_id
     task.short_name       = @code_task.next!
     task.name             = basic_task.name    
     task.id_1c            = basic_task.id_1c
@@ -83,12 +93,11 @@ config = YAML.load_file( "config/application.yml" )
     
     task.save
     
-#    break if index == 1
   end
     
-  break if index == 1
+  break if index == 2
 end
 
-@project.save
+
 
 #p @project.inspect
