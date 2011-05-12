@@ -56,7 +56,9 @@ class GetProject
               @project.save      
             end   
           else
-            @tasks = @project.tasks.find_last_by_id_1c( basic_task.parent_id_1c ).tasks
+            tmp = @project.tasks.find_last_by_id_1c( basic_task.parent_id_1c )
+            p tmp.inspect
+            @tasks = ( not tmp.nil? ) ? tmp.tasks : @project.tasks
           end
             
           basic_task.project_id       = @project.id
