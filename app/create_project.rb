@@ -8,7 +8,7 @@ class CreateProject
   
   def initialize( config )
     @client = TinyTds::Client.new( :username => config[:db][:username], :password => config[:db][:password], :dataserver => config[:db][:dataserver], :database => config[:db][:database] )
-        
+    @name_code_structure = "Structure" 
 	end
   
   def save_data( project )
@@ -38,28 +38,7 @@ class CreateProject
 		def create_project
 			# Select last id project & id wbs
 			@project.id_project_prim = @client.execute( createSqlQuery( :select_id_new_project ) ).each( :symbolize_keys => true )[0][:key_seq_num]
-			@project.id_wbs_prim = @client.execute( createSqlQuery( :select_id_new_projwbs ) ).each( :symbolize_keys => true )[0][:key_seq_num]
-
-###############################################################						
-#			code_tmp = @client.execute( createSqlQuery( :select_id_and_short_name_actv_code, { :id_task_code_type => code_type.id_prim, :value => code.short_name } ) ).each( :symbolize_keys => true )[0]
-#			## If code does't find, create code
-#			unless code_tmp.nil?
-#			  code.id_prim = code_tmp[:actv_code_id] 
-#		  else
-#		    ## Select id last task code
-#				code.id_prim = @client.execute( createSqlQuery( :select_id_new_actv_code ) ).each( :symbolize_keys => true )[0][:key_seq_num]
-#				code.short_name = "none" if ( code.short_name.nil? or code.short_name.empty? )
-#        code.name = code.short_name if ( code.name.nil? or code.name.empty? )
-#        code.save 
-
-#				@client.execute( createSqlQuery( :insert_new_actv_code, { :code_type_id => code_type.id_prim, :code => code } ) ).do
-
-#			  
-#			  @client.execute( createSqlQuery( :insert_new_relationship_actv_code_with_task, { :id_task => task.id_prim, :id_code_type => code_type.id_prim, :code => code } ) ).do   
-#		  end
-#			@project.id_project_type_prim = code.id_prim
-###############################################################			
-			
+			@project.id_wbs_prim = @client.execute( createSqlQuery( :select_id_new_projwbs ) ).each( :symbolize_keys => true )[0][:key_seq_num]									
 			@project.save
 
 			@client.execute( createSqlQuery( :insert_new_project_and_projwbs ) )
@@ -68,7 +47,10 @@ class CreateProject
 		  code_types = CodeType.all
 		  code_types.each do |code_type|
 		    find_or_create_by_code_name( code_type )
-		  end		  
+		  end	
+		  
+		  @project.id_project_type_prim = @client.execute( createSqlQuery( :select_id_and_short_name_actv_code, { :id_prim_task_code_type => CodeType.find_by_name( @name_code_structure ).id_prim, :value => @project.project_type } ) ).each( :symbolize_keys => true )[0][:actv_code_id]							
+			@project.save		  	  
 		end
 		
 		def find_or_create_by_code_name( code_type, type="AS_Global" )
@@ -83,7 +65,7 @@ class CreateProject
 		
     def create_task( task )
     
-			## Select last id task
+			## Select id_prim for task
 			task.id_prim = @client.execute( createSqlQuery( :select_id_new_task ) ).each( :symbolize_keys => true )[0][:key_seq_num]
 			task.duration         = 24 if ( ( task.duration.nil? ) or ( task.duration == 0 ) ) 
 		  task.material_qty     = 0  if ( task.material_qty.nil? )
@@ -96,8 +78,7 @@ class CreateProject
 			## Create global task code 
 		  CodeType.all.each do |code_type|
 		    find_or_create_task_code( task, code_type )
-		  end	
-		  	  
+		  end			  	  
 
 			## Create user fields		
 			## QTY ( ID=603 )
@@ -107,10 +88,9 @@ class CreateProject
 					
 			## Labor unit (ID=706)
 			@client.execute( createSqlQuery( :insert_new_udf_number, { :udf_id => 706, :task_id => task.id_prim, :value => task.labor_units } ) ).do
-################################# 			
+			
 			## Num operations (ID=708)
 			@client.execute( createSqlQuery( :insert_new_udf_text, { :udf_id => 708, :task_id => task.id_prim, :value => task.num_operations } ) ).do
-################################# 
 
 			## Create relationship
 			## If not root level
@@ -119,24 +99,25 @@ class CreateProject
 			end
 		end
 		
-# TODO: Add caching task code.
 		def find_or_create_task_code( task, code_type )
-      ## Find in cache
-#		  ( id_task, task_code_type, value, long_value="", cached=true )
-#			if cached and ( task_code_type.include?( :lost ) and task_code_type[:lost].include?(:value) and	task_code_type[:lost][:value] == value )
-#				lost = task_code_type[:lost]
-#			else
-#			  lost = Hash.new
-#				lost[:value] = value
-#				if task_code_type.include?( :num_lost )
-#					lost[:num_lost] += 1
-#				else
-#					lost[:num_lost] = 0
-#				end
+      # TODO: Add caching task code.
+##      ## Find in cache
+##		  ( id_task, task_code_type, value, long_value="", cached=true )
+##			if cached and ( task_code_type.include?( :lost ) and task_code_type[:lost].include?(:value) and	task_code_type[:lost][:value] == value )
+##				lost = task_code_type[:lost]
+##			else
+##			  lost = Hash.new
+##				lost[:value] = value
+##				if task_code_type.include?( :num_lost )
+##					lost[:num_lost] += 1
+##				else
+##					lost[:num_lost] = 0
+##				end
    
       code = task.codes.find_by_code_type_id( code_type.id )
-      unless code.nil?
-				code_tmp = @client.execute( createSqlQuery( :select_id_and_short_name_actv_code, { :id_task_code_type => code_type.id_prim, :value => code.short_name } ) ).each( :symbolize_keys => true )[0]
+      unless code.nil?        
+				code_tmp = ( code_type.name == @name_code_structure ) ? @client.execute( createSqlQuery( :select_id_and_short_name_actv_code, { :id_prim_task_code_type => code_type.id_prim, :value => code.short_name, :id_prim_parent_task_code => @project.id_project_type_prim } ) ).each( :symbolize_keys => true )[0] : @client.execute( createSqlQuery( :select_id_and_short_name_actv_code, { :id_prim_task_code_type => code_type.id_prim, :value => code.short_name } ) ).each( :symbolize_keys => true )[0]																
+				
 				## If code does't find, create code
 				unless code_tmp.nil?
 				  code.id_prim = code_tmp[:actv_code_id] 
@@ -152,8 +133,7 @@ class CreateProject
 			  
 			  @client.execute( createSqlQuery( :insert_new_relationship_actv_code_with_task, { :id_task => task.id_prim, :id_code_type => code_type.id_prim, :code => code } ) ).do   
 		  end 
-		end
-		
+		end		
   
     def createSqlQuery( name_query, params={} )
 		  case name_query
@@ -225,9 +205,9 @@ VALUES ( @id_relationship, #{ params[:task].parent.id_prim }, #{ params[:task].i
 
 		    ## def create_task_code
 		    when :select_id_and_short_name_actv_code
-		    	## Required: params{ :id_task_code_type, :value }
-# TODO Add autodetect id parent code		    	
-		    	return "SELECT TOP 1 actv_code_id, short_name, actv_code_name FROM [dbo].[ACTVCODE] WHERE [actv_code_type_id]=#{ params[:id_task_code_type] } AND [short_name]='#{ params[:value] }' AND [parent_actv_code_id]=4776 ; "
+		    	## Required: params{ :id_prim_task_code_type, :value, [ :id_prim_parent_task_code ] }  
+          return "SELECT TOP 1 actv_code_id, short_name, actv_code_name FROM [dbo].[ACTVCODE] WHERE [actv_code_type_id]=#{ params[:id_prim_task_code_type] } AND [short_name]='#{ params[:value] }' #{ "AND [parent_actv_code_id]=#{ params[:id_prim_parent_task_code] }" if params.include?( :id_prim_parent_task_code ) }; "		    			    		    	
+#		    	:id_prim_parent_task_code => @project.id_project_type_prim
 		    when :select_id_new_actv_code
 		    	## Required: params{ }
 		    	return "SELECT TOP 1 key_seq_num FROM [dbo].[NEXTKEY] WHERE key_name='actvcode_actv_code_id'; "
