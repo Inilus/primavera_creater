@@ -82,7 +82,7 @@ class GetProject
             
           tasks = @tasks
           
-          product.xpath("ROUTES/ROUTE").each do |route|
+          product.xpath("ROUTES/ROUTE").reverse.each do |route|
             task = tasks.create
             tasks = task.tasks
             
@@ -97,7 +97,8 @@ class GetProject
             task.duration         = ( not route.attribute( "duration" ).nil? ) ? route.attribute( "duration" ).value : 0
             task.labor_units      = ( not route.attribute( "labor_units" ).nil? ) ? route.attribute( "labor_units" ).value : 0
             task.num_operations   = ( not route.attribute( "num_operations" ).nil? ) ? route.attribute( "num_operations" ).value : "none"
-  #          task.labor_units_shrm   = ( not route.attribute( "labor_units_shrm" ).nil? ) ? route.attribute( "labor_units_shrm" ).value : 0
+# TODO replace labor_units_shrm to labor_units_nums
+            task.labor_units_nums   = ( not route.attribute( "labor_units_shrm" ).nil? ) ? route.attribute( "labor_units_shrm" ).value : "none"
             
             task.codes << codes[:structure]  unless codes[:structure].nil?
             task.codes << codes[:product]    unless codes[:product].nil?
