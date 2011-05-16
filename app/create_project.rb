@@ -81,22 +81,32 @@ class CreateProject
 		  end			  	  
 
 			## Create user fields		
-			## QTY ( ID=603 )
-			@client.execute( createSqlQuery( :insert_new_udf_text, { :udf_id => 603, :task_id => task.id_prim, :value => task.material_qty } ) ).do
-			## Weight (ID=604)
-			@client.execute( createSqlQuery( :insert_new_udf_number, { :udf_id => 604, :task_id => task.id_prim, :value => task.material_weight } ) ).do		
+			## QTY
+			@client.execute( createSqlQuery( :insert_new_udf_text, { :udf_id => find_udf_by_type_label( "Количество" ), :task_id => task.id_prim, :value => task.material_qty } ) ).do
+			## Weight
+			@client.execute( createSqlQuery( :insert_new_udf_number, { :udf_id => find_udf_by_type_label( "Масса" ), :task_id => task.id_prim, :value => task.material_weight } ) ).do		
 					
-			## Labor unit (ID=706)
-			@client.execute( createSqlQuery( :insert_new_udf_number, { :udf_id => 706, :task_id => task.id_prim, :value => task.labor_units } ) ).do
+			## Labor unit
+			@client.execute( createSqlQuery( :insert_new_udf_number, { :udf_id => find_udf_by_type_label( "Трудоёмкость по ТП" ), :task_id => task.id_prim, :value => task.labor_units } ) ).do
 			
-			## Num operations (ID=708)
-			@client.execute( createSqlQuery( :insert_new_udf_text, { :udf_id => 708, :task_id => task.id_prim, :value => task.num_operations } ) ).do
+			## Num operations
+			@client.execute( createSqlQuery( :insert_new_udf_text, { :udf_id => find_udf_by_type_label( "Номера операций" ), :task_id => task.id_prim, :value => task.num_operations } ) ).do
 
 			## Create relationship
 			## If not root level
 			unless task.parent.nil?
 				@client.execute( createSqlQuery( :insert_relationship, { :task => task } ) ).do
 			end
+		end
+		
+		def find_udf_by_type_label( type_label, table_name="TASK" )
+		  udf_type_id = @client.execute( createSqlQuery( :select_id_udf_type, { :table_name => table_name, :type_label => type_label } ) ).each( :symbolize_keys => true )[0][:udf_type_id]
+		  if udf_type_id.nil?
+		    puts "Don't find UDF TYPE with label: #{ type_label }!"
+		    exit( 1 )
+		  end
+		  		  
+		  return udf_type_id
 		end
 		
 		def find_or_create_task_code( task, code_type )
@@ -222,7 +232,16 @@ VALUES ( @id_code, #{ params[:code_type_id] }, 100, '#{ params[:code].short_name
 		    	## Required: params{ :id_task, id_code_type, :code }
 		    	return  "INSERT INTO [dbo].[TASKACTV]
 ([task_id], [actv_code_type_id], [actv_code_id], [proj_id])
-VALUES (#{ params[:id_task] }, #{ params[:id_code_type] }, #{ params[:code].id_prim }, #{ @project.id_project_prim })"          
+VALUES (#{ params[:id_task] }, #{ params[:id_code_type] }, #{ params[:code].id_prim }, #{ @project.id_project_prim })"
+        
+        ## def find_or_create_udf_by_type_label
+        when :select_id_udf_type
+          ## Required: params{ :table_name, :type_label }
+          return "SELECT TOP 1 [udf_type_id] 
+          FROM [dbo].[UDFTYPE] 
+          WHERE [table_name]=#{ params[:table_name] } AND [udf_type_label]=#{ params[:type_label] } AND [delete_date] IS NULL; "
+        
+          
 		    else
 		    	return nil
 		  end
