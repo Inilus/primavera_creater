@@ -57,7 +57,6 @@ class GetProject
             end   
           else
             tmp = @project.tasks.find_last_by_id_1c( basic_task.parent_id_1c )
-#            p tmp.inspect
             @tasks = ( not tmp.nil? ) ? tmp.tasks : @project.tasks
           end
             
@@ -107,7 +106,9 @@ class GetProject
             task.codes << codes[:material]   unless codes[:material].nil?
             task.codes << codes[:route_full] unless codes[:route_full].nil?
             
-            task.codes << CodeType.find_or_create_by_name( "Step route" ).codes.find_or_create_by_short_name( route.attribute( "num" ).value, route.attribute( "num" ).value )
+            num = route.attribute( "num" ).value.to_i
+            num = "0#{ num }" if ( num < 10 )
+            task.codes << CodeType.find_or_create_by_name( "Step route" ).codes.find_or_create_by_short_name( num.to_s, num.to_s )
             task.codes << CodeType.find_or_create_by_name( "Route" ).codes.find_or_create_by_short_name( route.attribute( "name" ).value, route.attribute( "name" ).value )
             task.codes << CodeType.find_or_create_by_name( "SHRM" ).codes.find_or_create_by_short_name( ( not route.attribute( "shrm" ).nil? ) ? route.attribute( "shrm" ).value : nil, ( not route.attribute( "shrm" ).nil? ) ? route.attribute( "shrm" ).value : nil )
             
