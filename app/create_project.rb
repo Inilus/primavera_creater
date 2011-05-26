@@ -332,8 +332,8 @@ class CreateProject
                 'DT_FixedRate', 'RV_OK', 'TK_NotStart',
                 '#{ params[:task].short_name }',
                 '#{ params[:task].name.slice( 0, 300 ) }',
-                #{ params[:task].duration.ceil },
-                #{ params[:task].duration.ceil }, null, null, 'CS_ALAP',
+                #{ params[:task].duration },
+                #{ params[:task].duration }, null, null, 'CS_ALAP',
                 @GUID_task ); )
         when :insert_new_udf_number
           ## Required: params{ :udf_id, :task_id, :value }

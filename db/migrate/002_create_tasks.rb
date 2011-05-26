@@ -9,7 +9,7 @@ class CreateTasks < ActiveRecord::Migration
       t.integer    :parent_id_1c
       t.string     :short_name
       t.string     :name
-      t.float      :duration,         :default => 0
+      t.integer    :duration,         :default => 0
       t.integer    :qty,              :default => 0
       t.string     :num_operations,   :default => "none"
       t.string     :labor_units_nums, :default => "none"

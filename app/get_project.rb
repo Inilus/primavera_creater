@@ -121,7 +121,7 @@ class GetProject
               task.material_weight  = basic_task.material_weight
 
               task.duration         = ( not route.attribute( "duration" ).nil? ) ?
-                                            route.attribute( "duration" ).value.gsub( ",", "." ) : 0
+                                            route.attribute( "duration" ).value.gsub( ",", "." ).ceil : 0
               task.labor_units      = ( not route.attribute( "labor_units" ).nil? ) ?
                                             route.attribute( "labor_units" ).value.gsub( ",", "." ) : 0
 #              task.num_operations   = ( not route.attribute( "num_operations" ).nil? ) ?
