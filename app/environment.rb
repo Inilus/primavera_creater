@@ -5,11 +5,13 @@ require 'logger'
 
 # Загружаем файл настройки соединения с БД
 dbconfig = YAML::load( File.open( File.expand_path( "../../config/database.yml", __FILE__ ) ) )
-dbconfig["database"] = File.expand_path( "../../#{ dbconfig["database"] }", __FILE__ )
+#dbconfig["database"] = File.expand_path( "../../#{ dbconfig["database"] }", __FILE__ )
+
+# Соединяемся с БД
+ActiveRecord::Base.establish_connection( dbconfig )
 
 # Ошибки работы с БД
 ActiveRecord::Base.logger = Logger.new( File.expand_path( "../../log/active_record.log", __FILE__ ) )
 
-# Соединяемся с БД
-ActiveRecord::Base.establish_connection( dbconfig )
+ActiveRecord::Migrator.up( File.expand_path( "../../db/migrate", __FILE__ ) )
 
