@@ -92,8 +92,8 @@ class CreateProject
           execute( createSqlQuery( :select_id_new_task ) ).
           each( :symbolize_keys => true )[0][:key_seq_num]
 
-      # Default duration = 24h
-      task.duration         = 24 if task.duration == 0
+#      # Default duration = 24h
+#      task.duration         = 24 if task.duration == 0
       task.material_weight  = 0  if ( task.material_weight.nil? )
       task.save
 
@@ -110,7 +110,7 @@ class CreateProject
             :insert_new_udf_text,
             { :udf_id => find_udf_by_type_label( "Количество" ),
               :task_id => task.id_prim,
-              :value => task.material_qty } ) ).do
+              :value => task.qty } ) ).do
       ## Weight
       @client.execute( createSqlQuery(
             :insert_new_udf_number,
@@ -189,7 +189,7 @@ class CreateProject
               code_tmp = @client.
                   execute( createSqlQuery( :select_id_and_short_name_actv_code,
                     { :id_prim_task_code_type => code_type.id_prim,
-                      :value => code.short_name,
+                      :value => str,
                       :id_prim_parent_task_code => parent_code_id } ) ).
                   each( :symbolize_keys => true )[0]
               parent_code_id = code_tmp[:actv_code_id]
@@ -242,61 +242,170 @@ class CreateProject
         ## def create_type_task_code
         when :select_id_and_name_actv_type_code
           ## Required: params{ :name, :type }
-          return "SELECT TOP 1 actv_code_type_id, actv_code_type FROM [dbo].[ACTVTYPE] WHERE [actv_code_type]='#{ params[:name] }' AND [actv_code_type_scope]='#{ params[:type] }';"
+          return %(
+            SELECT TOP 1 actv_code_type_id, actv_code_type
+            FROM [dbo].[ACTVTYPE]
+            WHERE [actv_code_type]='#{ params[:name] }'
+              AND [actv_code_type_scope]='#{ params[:type] }'; )
         when :select_id_new_actv_type_code
           ## Required: params{ }
-          return "SELECT TOP 1 key_seq_num FROM [dbo].[NEXTKEY] WHERE key_name='actvtype_actv_code_type_id';"
+          return %(
+            SELECT TOP 1 key_seq_num
+            FROM [dbo].[NEXTKEY]
+            WHERE key_name='actvtype_actv_code_type_id'; )
         when :insert_new_actv_type_code
           ## Required: params{ :name, :type }
-          return "DECLARE @id_type_code int, @pseq_num int; EXEC  [dbo].[pc_get_next_key] @pkey_name = 'actvtype_actv_code_type_id', @pseq_num = @pseq_num OUTPUT; set @id_type_code = @pseq_num; INSERT INTO [dbo].[ACTVTYPE] ([actv_code_type_id], [actv_short_len], [seq_num], [actv_code_type], [actv_code_type_scope], [super_flag]) VALUES ( @id_type_code, 60, 0, '#{ params[:name] }', '#{ params[:type] }', 'N' ); "
+          return %(
+            DECLARE @id_type_code int, @pseq_num int;
+            EXEC  [dbo].[pc_get_next_key] @pkey_name = 'actvtype_actv_code_type_id', @pseq_num = @pseq_num OUTPUT;
+            set @id_type_code = @pseq_num;
+            INSERT INTO [dbo].[ACTVTYPE]
+              ( [actv_code_type_id], [actv_short_len], [seq_num],
+                [actv_code_type], [actv_code_type_scope], [super_flag] )
+            VALUES ( @id_type_code, 60, 0, '#{ params[:name] }', '#{ params[:type] }', 'N' ); )
 
         ## def create_project
         when :select_id_new_project
           ## Required: params{ }
-          return "SELECT TOP 1 key_seq_num FROM NEXTKEY WHERE key_name='project_proj_id'; "
+          return %(
+            SELECT TOP 1 key_seq_num
+            FROM NEXTKEY
+            WHERE key_name='project_proj_id'; )
         when :select_id_new_projwbs
           ## Required: params{ }
-          return "SELECT TOP 1 key_seq_num FROM [dbo].[NEXTKEY] WHERE key_name='projwbs_wbs_id'; "
+          return %(
+            SELECT TOP 1 key_seq_num
+            FROM [dbo].[NEXTKEY]
+            WHERE key_name='projwbs_wbs_id'; )
         when :insert_new_project_and_projwbs
           ## Required: params{ }
-          return "DECLARE @id_project int, @id_projwbs int, @pseq_num int, @GUID_project varchar(22), @GUID_projwbs varchar(22), @EncGUID varchar(22); EXEC  [dbo].[pc_get_next_key] @pkey_name = 'project_proj_id', @pseq_num = @pseq_num OUTPUT; set @id_project = @pseq_num; EXEC  [dbo].[pc_get_next_key] @pkey_name = 'projwbs_wbs_id', @pseq_num = @pseq_num OUTPUT; set @id_projwbs = @pseq_num; EXEC  [dbo].[get_guid] @EncGUID = @EncGUID OUTPUT; set @GUID_project = @EncGUID; EXEC  [dbo].[get_guid] @EncGUID = @EncGUID OUTPUT; set @GUID_projwbs = @EncGUID; INSERT INTO [dbo].[PROJECT] ([proj_id], [fy_start_month_num], [allow_complete_flag], [project_flag], [name_sep_char], [proj_short_name], [clndr_id], [plan_start_date], [guid]) VALUES ( @id_project, 1, 'Y', 'Y', '.', '#{ @project.short_name }', 1408, 0, @GUID_project );  INSERT INTO [dbo].[PROJWBS] ([wbs_id], [proj_id], [obs_id], [seq_num], [est_wt], [proj_node_flag], [status_code], [wbs_short_name], [wbs_name], [parent_wbs_id], [ev_user_pct], [ev_etc_user_value], [ev_compute_type], [ev_etc_compute_type], [guid]) VALUES (@id_projwbs, @id_project, 565, 100, 1.00, 'Y', 'WS_Open', '#{ @project.short_name }', '#{ @project.name }', 3667, 6, 0.88, 'EV_Cmp_pct', 'EE_Rem_hr', @GUID_projwbs); "
+          return %(
+            DECLARE @id_project int, @id_projwbs int, @pseq_num int,
+              @GUID_project varchar(22), @GUID_projwbs varchar(22),
+              @EncGUID varchar(22);
+            EXEC  [dbo].[pc_get_next_key] @pkey_name = 'project_proj_id', @pseq_num = @pseq_num OUTPUT;
+            set @id_project = @pseq_num;
+            EXEC  [dbo].[pc_get_next_key] @pkey_name = 'projwbs_wbs_id', @pseq_num = @pseq_num OUTPUT;
+            set @id_projwbs = @pseq_num;
+            EXEC  [dbo].[get_guid] @EncGUID = @EncGUID OUTPUT;
+            set @GUID_project = @EncGUID;
+            EXEC  [dbo].[get_guid] @EncGUID = @EncGUID OUTPUT;
+            set @GUID_projwbs = @EncGUID;
+            INSERT INTO [dbo].[PROJECT]
+              ( [proj_id], [fy_start_month_num], [allow_complete_flag],
+                [project_flag], [name_sep_char], [proj_short_name], [clndr_id],
+                [plan_start_date], [guid] )
+              VALUES ( @id_project, 1, 'Y', 'Y', '.', '#{ @project.short_name }',
+                1408, 0, @GUID_project );
+            INSERT INTO [dbo].[PROJWBS]
+              ( [wbs_id], [proj_id], [obs_id], [seq_num], [est_wt],
+                [proj_node_flag], [status_code], [wbs_short_name], [wbs_name],
+                [parent_wbs_id], [ev_user_pct], [ev_etc_user_value],
+                [ev_compute_type], [ev_etc_compute_type], [guid] )
+              VALUES ( @id_projwbs, @id_project, 565, 100, 1.00, 'Y', 'WS_Open',
+                '#{ @project.short_name }', '#{ @project.name }', 3667, 6, 0.88,
+                'EV_Cmp_pct', 'EE_Rem_hr', @GUID_projwbs ); )
 
         ## def create_task
         when :select_id_new_task
           ## Required: params{ }
-          return "SELECT TOP 1 key_seq_num FROM [dbo].[NEXTKEY] WHERE key_name='task_task_id';"
+          return %(
+            SELECT TOP 1 key_seq_num
+            FROM [dbo].[NEXTKEY]
+            WHERE key_name='task_task_id'; )
         when :insert_new_task
           ## Required: params{ :task }
-          return "DECLARE @id_task int, @pseq_num int, @GUID_task varchar(22), @EncGUID varchar(22); EXEC [dbo].[pc_get_next_key] @pkey_name = 'task_task_id', @pseq_num = @pseq_num OUTPUT; set @id_task = @pseq_num; EXEC [dbo].[get_guid] @EncGUID = @EncGUID OUTPUT; set @GUID_task = @EncGUID; INSERT INTO [dbo].[TASK] ( [task_id], [proj_id], [wbs_id], [clndr_id], [est_wt], [complete_pct_type], [task_type], [duration_type], [review_type], [status_code], [task_code], [task_name], [remain_drtn_hr_cnt], [target_drtn_hr_cnt], [late_start_date], [late_end_date], [cstr_type], [guid]) VALUES (@id_task, #{ @project.id_project_prim }, #{ @project.id_wbs_prim }, 639, 1.0, 'CP_Drtn', 'TT_Task', 'DT_FixedRate', 'RV_OK', 'TK_NotStart', '#{ params[:task].short_name }', '#{ params[:task].name.slice( 0, 300 ) }', #{ params[:task].duration }, #{ params[:task].duration }, null, null, 'CS_ALAP', @GUID_task); "
+          return %(
+            DECLARE @id_task int, @pseq_num int, @GUID_task varchar(22), @EncGUID varchar(22);
+            EXEC [dbo].[pc_get_next_key] @pkey_name = 'task_task_id', @pseq_num = @pseq_num OUTPUT;
+            set @id_task = @pseq_num;
+            EXEC [dbo].[get_guid] @EncGUID = @EncGUID OUTPUT;
+            set @GUID_task = @EncGUID;
+            INSERT INTO [dbo].[TASK]
+              ( [task_id], [proj_id], [wbs_id], [clndr_id], [est_wt],
+                [complete_pct_type], [task_type], [duration_type], [review_type],
+                [status_code], [task_code], [task_name], [remain_drtn_hr_cnt],
+                [target_drtn_hr_cnt], [late_start_date], [late_end_date],
+                [cstr_type], [guid] )
+              VALUES ( @id_task, #{ @project.id_project_prim },
+                #{ @project.id_wbs_prim }, 639, 1.0, 'CP_Drtn', 'TT_Task',
+                'DT_FixedRate', 'RV_OK', 'TK_NotStart',
+                '#{ params[:task].short_name }',
+                '#{ params[:task].name.slice( 0, 300 ) }',
+                #{ params[:task].duration.ceil },
+                #{ params[:task].duration.ceil }, null, null, 'CS_ALAP',
+                @GUID_task ); )
         when :insert_new_udf_number
           ## Required: params{ :udf_id, :task_id, :value }
-          return "INSERT INTO [dbo].[UDFVALUE] ([udf_type_id], [fk_id], [proj_id], [udf_number])  VALUES ( #{ params[:udf_id] }, #{ params[:task_id] }, #{ @project.id_project_prim }, #{ params[:value] } ); "
+          return %(
+            INSERT INTO [dbo].[UDFVALUE]
+              ( [udf_type_id], [fk_id], [proj_id], [udf_number] )
+              VALUES ( #{ params[:udf_id] }, #{ params[:task_id] },
+                #{ @project.id_project_prim }, #{ params[:value] } ); )
         when :insert_new_udf_text
           ## Required: params{ :udf_id, :task_id, :value }
-          return "INSERT INTO [dbo].[UDFVALUE] ([udf_type_id], [fk_id], [proj_id], [udf_text])  VALUES ( #{ params[:udf_id] }, #{ params[:task_id] }, #{ @project.id_project_prim }, '#{ params[:value] }'); "
+          return %(
+            INSERT INTO [dbo].[UDFVALUE]
+              ( [udf_type_id], [fk_id], [proj_id], [udf_text] )
+              VALUES ( #{ params[:udf_id] }, #{ params[:task_id] },
+                #{ @project.id_project_prim }, '#{ params[:value] }' ); )
         when :insert_relationship
           ## Required: params{ :task }
-          return "DECLARE @id_relationship int, @pseq_num int;  EXEC [dbo].[pc_get_next_key] @pkey_name = 'taskpred_task_pred_id', @pseq_num = @pseq_num OUTPUT;  set @id_relationship = @pseq_num;  INSERT INTO [dbo].[TASKPRED] ( [task_pred_id], [task_id], [pred_task_id], [proj_id], [pred_proj_id], [pred_type] )  VALUES ( @id_relationship, #{ params[:task].parent.id_prim }, #{ params[:task].id_prim }, #{ @project.id_project_prim }, #{ @project.id_project_prim }, 'PR_FS' ); "
+          return %(
+            DECLARE @id_relationship int, @pseq_num int;
+            EXEC [dbo].[pc_get_next_key] @pkey_name = 'taskpred_task_pred_id', @pseq_num = @pseq_num OUTPUT;
+            set @id_relationship = @pseq_num;
+            INSERT INTO [dbo].[TASKPRED]
+              ( [task_pred_id], [task_id], [pred_task_id], [proj_id],
+                [pred_proj_id], [pred_type] )
+              VALUES ( @id_relationship, #{ params[:task].parent.id_prim },
+                #{ params[:task].id_prim }, #{ @project.id_project_prim },
+                #{ @project.id_project_prim }, 'PR_FS' ); )
 
         ## def create_task_code
         when :select_id_and_short_name_actv_code
           ## Required: params{ :id_prim_task_code_type, :value, [ :id_prim_parent_task_code ] }
-          return "SELECT TOP 1 actv_code_id, short_name, actv_code_name FROM [dbo].[ACTVCODE] WHERE [actv_code_type_id]=#{ params[:id_prim_task_code_type] } AND [short_name]='#{ params[:value] }' #{ "AND [parent_actv_code_id]=#{ params[:id_prim_parent_task_code] }" if params.include?( :id_prim_parent_task_code ) }; "
-#          :id_prim_parent_task_code => @project.id_project_type_prim
+          return %(
+            SELECT TOP 1 actv_code_id, short_name, actv_code_name
+            FROM [dbo].[ACTVCODE]
+            WHERE [actv_code_type_id]=#{ params[:id_prim_task_code_type] }
+              AND [short_name]='#{ params[:value] }'
+              #{ "AND [parent_actv_code_id]=#{ params[:id_prim_parent_task_code] }" if params.include?( :id_prim_parent_task_code ) }; )
         when :select_id_new_actv_code
           ## Required: params{ }
-          return "SELECT TOP 1 key_seq_num FROM [dbo].[NEXTKEY] WHERE key_name='actvcode_actv_code_id'; "
+          return %(
+            SELECT TOP 1 key_seq_num
+            FROM [dbo].[NEXTKEY]
+            WHERE key_name='actvcode_actv_code_id'; )
         when :insert_new_actv_code
           ## Required: params{ :code_type_id, :code }
-          return "DECLARE @id_code int, @pseq_num int; EXEC [dbo].[pc_get_next_key] @pkey_name = 'actvcode_actv_code_id', @pseq_num = @pseq_num OUTPUT;  set @id_code = @pseq_num;  INSERT INTO [dbo].[ACTVCODE] ( [actv_code_id], [actv_code_type_id], [seq_num], [short_name], [actv_code_name] )  VALUES ( @id_code, #{ params[:code_type_id] }, 100, '#{ params[:code].short_name.slice( 0, 60 ) }', '#{ params[:code].name }' ); "
+          return %(
+            DECLARE @id_code int, @pseq_num int;
+            EXEC [dbo].[pc_get_next_key] @pkey_name = 'actvcode_actv_code_id', @pseq_num = @pseq_num OUTPUT;
+            set @id_code = @pseq_num;
+            INSERT INTO [dbo].[ACTVCODE]
+              ( [actv_code_id], [actv_code_type_id], [seq_num], [short_name],
+                [actv_code_name] )
+              VALUES ( @id_code, #{ params[:code_type_id] }, 100,
+                '#{ params[:code].short_name.slice( 0, 60 ) }',
+                '#{ params[:code].name }' ); )
         when :insert_new_relationship_actv_code_with_task
           ## Required: params{ :id_task, id_code_type, :code }
-          return  "INSERT INTO [dbo].[TASKACTV]  ([task_id], [actv_code_type_id], [actv_code_id], [proj_id])  VALUES (#{ params[:id_task] }, #{ params[:id_code_type] }, #{ params[:code].id_prim }, #{ @project.id_project_prim }); "
+          return %(
+            INSERT INTO [dbo].[TASKACTV]
+              ( [task_id], [actv_code_type_id], [actv_code_id], [proj_id] )
+              VALUES ( #{ params[:id_task] }, #{ params[:id_code_type] },
+                #{ params[:code].id_prim }, #{ @project.id_project_prim } ); )
 
         ## def find_or_create_udf_by_type_label
         when :select_id_udf_type
           ## Required: params{ :table_name, :type_label }
-          return "SELECT TOP 1 [udf_type_id]  FROM [dbo].[UDFTYPE]  WHERE [table_name]='#{ params[:table_name] }' AND [udf_type_label]='#{ params[:type_label] }' AND [delete_date] IS NULL; "
+          return %(
+            SELECT TOP 1 [udf_type_id]
+            FROM [dbo].[UDFTYPE]
+            WHERE [table_name]='#{ params[:table_name] }'
+              AND [udf_type_label]='#{ params[:type_label] }'
+              AND [delete_date] IS NULL; )
 
         else
           return nil

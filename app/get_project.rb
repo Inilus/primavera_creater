@@ -108,7 +108,7 @@ class GetProject
 
           product.xpath("ROUTES/ROUTE").reverse.each do |route|
             if ["1", "2", "3", "4", "5", "7", "8", "11", "12", "14", "16", "25", "26", "30", "33", "35", "143", "168"]
-                  .include? route.attribute( "code" )
+                  .include? route.attribute( "code" ).value
               task = tasks.create
               tasks = task.tasks
 
