@@ -5,26 +5,13 @@
 require 'nokogiri'    # http://nokogiri.org/
 require 'open-uri'
 
-
-###################################################
-# -- TODO При чтении xml не сохраняется Количество!
-# TODO Если точка маршрута содержит не интересующий цех, то пропускать.
-###################################################
-
 class GetProject
 
-  def initialize ( project_short_name, xml_file_name, config, update=false )
-#    @project = Project.find_by_short_name( project_short_name )
+  def initialize ( xml_file_name, config )
     if @project.nil? or update
       @xmldoc = Nokogiri::XML( File.open( xml_file_name ) )
 
       @code_task = config[:code][:task]
-
-      # If update project, then remove old variant
-#      if update
-#        Project.delete( @project )
-#        @project.tasks.delete
-#      end
 
       @project = Project.create
       @project.start_date = 0
@@ -121,7 +108,7 @@ class GetProject
               task.material_weight  = basic_task.material_weight
 
               task.duration         = ( not route.attribute( "duration" ).nil? ) ?
-                                            route.attribute( "duration" ).value.gsub( ",", "." ).ceil : 0
+                                            route.attribute( "duration" ).value.gsub( ",", "." ).to_f.ceil : 0
               task.labor_units      = ( not route.attribute( "labor_units" ).nil? ) ?
                                             route.attribute( "labor_units" ).value.gsub( ",", "." ) : 0
 #              task.num_operations   = ( not route.attribute( "num_operations" ).nil? ) ?
@@ -156,12 +143,19 @@ class GetProject
                   find_or_create_by_short_name( name, name )
 
               ## SHRM
-              shrm = ( not route.attribute( "shrm" ).nil? ) ?
-                  route.attribute( "shrm" ).value : nil
-              task.codes << CodeType.
-                  find_or_create_by_name( "SHRM" ).
-                  codes.
-                  find_or_create_by_short_name( shrm, shrm )
+#              shrm = ( not route.attribute( "shrm" ).nil? ) ?
+#                  route.attribute( "shrm" ).value : nil
+#              task.codes << CodeType.
+#                  find_or_create_by_name( "SHRM" ).
+#                  codes.
+#                  find_or_create_by_short_name( shrm, shrm )
+
+              ## Num operations
+              route.xpath("OPERATIONS/OPERATION").each do |operation|
+                task.num_operations += "-" unless task.num_operations.empty?
+                task.num_operations += operation.attribute( "num" ).value
+              end
+              task.num_operations = "none" if task.num_operations.empty?
 
               task.save
             end
