@@ -108,9 +108,13 @@ class GetProject
               task.material_weight  = basic_task.material_weight
 
               task.duration         = ( not route.attribute( "duration" ).nil? ) ?
-                                            route.attribute( "duration" ).value.gsub( ",", "." ).to_f.ceil : 0
+                                            route.attribute( "duration" ).value.
+                                              gsub( ",", "." ).
+                                              gsub( " ", "" ).to_f.ceil : 0
               task.labor_units      = ( not route.attribute( "labor_units" ).nil? ) ?
-                                            route.attribute( "labor_units" ).value.gsub( ",", "." ) : 0
+                                            route.attribute( "labor_units" ).value.
+                                              gsub( ",", "." ).
+                                              gsub( " ", "" ) : 0
 #              task.num_operations   = ( not route.attribute( "num_operations" ).nil? ) ?
 #                                            route.attribute( "num_operations" ).value : "none"
 ## TODO replace labor_units_shrm to labor_units_nums
@@ -164,7 +168,7 @@ class GetProject
           ## ProgressBar
 				  pbar.inc
 #################################
-#          break if index == 3
+#          break if index == 30
 #################################
         end
       end
